@@ -1,0 +1,236 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="creditsComp" name="制作组及花絮" ip="226.187.99.3" security="0" icon="chip" allowsDefaultBootModule="false" type="4">
+  
+  <dlink target="academic" />
+  <dlink target="deathRow" />
+  <dlink target="ispComp" />
+  <dlink target="medical" />
+  <dlink target="jmail" />
+  
+  <SongChangerDaemon />
+  <ports>21, 22, 25, 80, 1433, 104, 3724</ports>
+  
+  <file path="bin" name="SSHcrack.exe">#SSH_CRACK#</file>
+  <file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
+  <file path="bin" name="SMTPOverflow.exe">#SMTP_CRACK#</file>
+  <file path="bin" name="WebServerWorm.exe">#WEB_CRACK#</file>
+  <file path="bin" name="SQL_MemCorrupt.exe">#SQL_CRACK#</file>
+  <file path="bin" name="KBTPortTest.exe">#MEDICAL_PROGRAM#</file>
+  <file path="bin" name="SecurityTracer.exe">#SECURITYTRACER_PROGRAM#</file>
+
+  <file path="sys" name="x-server.sys">#MINT_THEME#</file>
+  <file path="home" name="Credits.txt" >
+  --HACKNET--
+  
+  
+^A Game By
+%MATT TROBBIANI
+
+
+^Logos, Assistant Writing, Testing
+Sarah Riggall
+
+
+^Appearance Mockup
+Jeremy Mitchell
+
+^Additional Writing
+Stephen "Hellerphant" Heller
+
+^-Music-
+
+^The Otherworld Agency
+Fabian Malabello 
+$Founder Managing Director
+
+Thanks Rumblefish Inc.
+- Cinematrik
+"The Quickening" by Cinematrik (RFID15710)
+"Revolve (R Mix)" by Cinematrik (RFID15810)
+
+- Rico Puestel
+Roja Drifts By (Timo Jahns Strings Remix)
+PSTL001
+(C) 2014 Ponsactrilau
+
+- Tonspender
+"Broken Boy" - examples EP
+"Irritations" - examples EP
+
+- Chris Larkin
+Ending speech recording and backing
+Hacknet Credits track
+
+ROLLER MOBSTER
+(Franck Hueso)
+Performed by
+- Carpenter Brut
+(p) No Quarter
+Under permission by Warner Chappell Music France
+
+- Ryan Burge
+Recursion
+Phase of the moon
+
+- Remi Gallego (AKA The Algorithm)
+Panic Track
+Malware Injection
+
+- Matt Mclean
+Feeding Ear | Out run the wolves
+
+- Sean Gillespie
+TETRAMETH
+
+Special thanks to Inspiration from
+www.ccmixter.org
+
+
+^-Backgrounds-
+"Been Away Too Long" - White Theme
+"Journey" - Green Theme
+Both by Angelus-Hellion
+angelus-hellion.deviantart.com
+
+
+^-SFX-
+Dark Drone 008
+mckinneysound - http://www.freesfx.co.uk
+Hospital ECG
+https://www.sounddogs.com/sound-effects-library/2175.htm
+https://www.sounddogs.com
+Doom Shock + TraceKill
+Inspiration From
+http://www.kyutwo.com
+Audiojungle.com
+Drones and Transitions
+
+^-Porting and FNA-
+Ethan "flibitijibibo" Lee
+
+^-Testing and Thanks-
+Elle Dunbar
+Chris Johnson
+Tristan "tijit" Trabilsie
+Jamie Williamson
+Alex Mackay
+Noblekale
+Sam Crisp
+Dylan Sale
+Richard Taylor
+Ben Kislby
+Matt LeKrupa
+Brad Wesson
+Jamie Pillianaros
+Giselle Rosman
+Bec Pelvay
+Ben Carter
+Stephen Trobbiani
+Gib Trobbiani
+Laura Trobbiani
+Ben Trobbiani
+Aidan "Aidy" Coxon
+
+^-International Testers-
+Quinton Porter
+Radek Golan
+Player Fero
+Jacob Johnson
+Daniel Lieberwirth
+BirdCute
+Andreas Lenhardt
+
+^-Port Testers-
+Ladislav Vydra  -  Richard Baalman  -  Willem-Jan Zijderveld
+Lukasz Klatka  -  Lucia Fabiola Martinez Fajardo  -  Michael Tanzer
+Ambidotus Insignis  -  Barrett Eckhart  -  Heide Queen
+Willem-Jan Zijderveld  -  Daniel Sapelli  -  Kacper Tonia
+Sean Mackedie  -  TECHNO vids  -  Derek Power
+Alexander Ford
+
+
+^- Published by : Surprise Attack Games -
+
+Chris Wright
+$Managing Director, Surprise Attack Games
+
+Stephen Heller
+$Product Manager And Community Manager, Surprise Attack Games
+
+Lex Suurland
+$Business Development Manager, Surprise Attack Games
+
+Fiona Murray
+$Finance Manager, Surprise Attack Games
+
+James Kozanecki
+$PR, Surprise Attack Games
+
+Travis Plane
+$Director, Surprise Attack Games
+
+Aaron Bertinetti
+$Director, Surprise Attack Games
+</file>
+
+<file path="home" name="Congratulations.txt" >
+恭喜通关! 
+最初, 我花了两天时间制作了这个游戏的初版给我的朋友玩. 你可以去我的Youtube频道("TheOrann")观看我当时的制作过程. 
+初版的反响很好, 所以我继续花了大约三年来开发这款游戏, 也就是你刚刚通关的这款. 我希望你能喜欢它! 
+如果你喜欢这款游戏(或者不喜欢), 告诉我! 我喜欢听你们的建议. 我的邮箱地址是"matt@hacknet-os.com", 我的推特账号@Orann. 
+再次表示感谢, 祝贺你顺利通关! 
+-Matt Trobbiani
+
+  </file>
+  
+  
+  <file path="home" name="Hidden_Stuff.txt" >
+实际上, 在游戏内有一些隐藏的功能, 这些功能是在开发当初额外设计的或者是无用剩下的, 和游戏的主要玩法并没有直接关系. 额外功能如下: 
+
+ -- 打开光驱 -- 
+使用指令"openCDTray"可以打开你目前连入电脑的光驱. 如果你连接到本地, 该指令将会打开你自己电脑的物理光驱. 当你在进行多人游戏模式的时候, 如果你连入了其他玩家的电脑, 你也可以用这个指令来打开他的光驱! 
+使用指令"closeCDTray"可以关上光驱. 
+
+ -- Fork Bomb -- 
+我为这个游戏编写了一个"病毒", 名叫ForkBomb. 大多数情况下用于多人模式中, 当你连接到某个节点时, 使用命令"exe forkbomb"可以运行它. 一旦运行, 它能够瘫痪目标节点30秒! 
+在多人模式中, 如果你在自己或对手的电脑上运行该程序, 它会快速占用该玩家的内存, 一旦内存占满, 该玩家的机器会立即重启(在游戏里重启). 不过只要你速度足够快, 你可以通过识别该病毒程序的PID, 并使用kill指令来迅速关闭该进程. 
+
+ -- SecurityTracker.exe -- 
+这就是你在第一个任务中删掉的文件. SecurityTracker.exe是一个工作exe文件, 如果你运行它, 你的ip会被立刻跟踪! 本计算机的/bin文件夹中有一份该文件的备份, 你可以下载一份来试试看. 记得运行后一定要尽快kill掉该进程! 
+
+ -- 名字随机生成 -- 
+在Hacknet中, 电脑和公司的名字是在一个列表里随机组合生成的. 每次你玩的时候名字都不一样! 
+Entropy服务器里的任务是由程序生成的, 每次玩都不一样. 
+
+ -- 内部一致性 -- 
+游戏里的服务器(比如邮件服务器)中的账号和邮件是由内部一致的服务器生成的! 
+试试入侵你一直都在使用的邮箱(Jmail.com)然后搜查一下! 看看你是否可以破译电子邮件的存储格式并弄清我的语法分析器的工作原理. (提示: "@*[AMPERSAND]^#%@)_!_)*#^@![AMPERSAND]*)(#^[AMPERSAND]"). 
+
+ -- 更多!  -- 
+所有的电脑都有一个文件系统, 虽然这个系统不是很复杂, 但常常会出现一些彩蛋. 试试找找看吧! 
+
+  </file>
+  
+  <file path="home" name="SecretPath.txt" >
+本游戏有一个隐藏的秘密支线, 你将会挖掘出第三个组织. 如果你想开启这条支线, 玩二周目的时候试试更狠, 更粗暴一些. 仔细寻找线索吧 -- 比如事情是如何发生的, 黑客是从哪里入侵你的. 
+如果你实在不知道如何开启这条支线的话, 给你个提示 -- 所有的黑客都可以被追踪并调查. (汉化组提示: 去试试激怒Naix这个小碧池吧)
+  </file>
+  
+  <file path="home" name="Thanks_Again.txt" >
+
+    再次感谢! 
+    再重复一遍, 如果你喜欢(或不喜欢)这个游戏, 可以给我发邮件到: "matt@hacknet-os.com". 
+    我保证我一定会看的! 
+    如果你想开二周目的话, 这是一份小彩蛋, 你可以在这个服务器里直接获取你所需的开启端口的工具: "1337.1337.1337.1337". 
+    再次感谢! 
+    -Matt Trobbiani
+  </file>
+  
+  <file path="home" name="Wallpapers.txt" >
+游戏里绿色和白色的主题背景是由天才设计师Angelus-Hellion创作的. 
+你可以在他的主页获取这两款高分辨率的壁纸: 
+http://angelus-hellion.deviantart.com
+
+  </file>
+  
+</Computer>

@@ -1,0 +1,25 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="generatedWebVandal00">
+  <goals>
+    <goal type="FileChange" target="#COMP#" file="#FILE#" path="#PATH#" keyword="liars" />
+  </goals>
+  <missionEnd val="5">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="#CLIENT# :  揭开真相">
+一位慷慨的顾客要求我们对竞争对手已公开发布的图片进行打假, 使其更接近于事实. 
+  </posting>
+  <email>
+    <sender>#CLIENT#</sender>
+    <subject>揭开事实真相</subject>
+    <body>
+各位黑客你们好, 
+我们希望揭露#TARGET#的真相,  -  - 他们已经通过一个欺骗性质的广告诱导公众来赶超我们公司. 
+我们希望这件事情的真相能通过他们的官方网站泄露出来, 当他们的官网首页把自己称作是骗子之时, 你的任务就完成了. 
+谢谢
+-#CLIENT#
+    </body>
+    <attachments>
+      <link comp="#COMP#" />
+    </attachments>
+  </email>
+</mission>

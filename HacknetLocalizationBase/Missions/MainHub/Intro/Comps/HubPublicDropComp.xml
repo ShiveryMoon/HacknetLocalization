@@ -1,0 +1,11 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="hubPubDrop" name="CSEC 公共共享服务器" security="3">
+  
+  <positionNear target="mainHub" position="3" total="6" />
+  <proxy time="0" />
+  <file path="Drop" name="REQUEST.zip">#BINARY##BINARY#</file>
+  <file path="Drop" name="CT2.zip">#BINARY##BINARY#</file>
+  
+  <uploadServerDaemon name="CSEC Public File Drop" folder="Drop" needsAuth="false"/>
+  
+</Computer>

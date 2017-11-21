@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="bit_recovery">
+  <goals>
+    <goal type="getString" target="156.151.59.35"/>
+  </goals>
+  <nextMission>BitPath/BitAdv_Intro03.xml</nextMission>
+  <branchMissions>
+    <branch>BitPath/BitAdv_Intro07.xml</branch>
+    <branch>BitPath/BitAdv_Intro05.xml</branch>
+    <branch>BitPath/BitAdv_Intro03.xml</branch>
+  </branchMissions>
+  <posting title="[V]- 继续调查">
+                  
+这邮件是单独发给#PLAYERNAME#的, 
+你开始另外一项任务了? 当你准备好回去接着工作时, 请回复这封邮件. 
+-V
+  </posting>
+  <email>
+    <sender> V </sender>
+    <subject>Bit -- 回到岗位</subject>
+    <body>
+准备好回来接着干活了吗? 
+从你撒手的地方接着干吧, 我仍然处于调查阶段. 
+-V
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

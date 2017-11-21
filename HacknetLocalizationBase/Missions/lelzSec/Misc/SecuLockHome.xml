@@ -1,0 +1,44 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="SecuLockHome" name="Stormrider" ip="199.89.130.68" security="2" icon="laptop" >
+
+  <portsForCrack val="2" />
+  <proxy time="1.2" />
+  <trace time="-1" />
+  <adminPass pass="ithoughtyouweremakingtea" />
+
+  <positionNear target="secuLockDrive" position="4" total="5" />
+
+  <dlink target="secuLockDrive" />
+  
+  <file path="home" name="DriveSync.txt">设备同步已激活: 
+  
+SecuLock安全存储设备(@69.172.201.208)
+
+eOS 设备 ("Mica's ePhone 4S")
+
+USB大容量存储设备("razrblade"): 未找到
+
+无人机RX994已坠落("蜻蜓")
+
+  </file>
+
+  <file path="bin" name="WebServerWorm.exe">#WEB_CRACK#</file>
+  
+  <eosDevice name="Mica's ePhone 4S" icon="ePhone2">
+    <note>secu lock 测试服务器
+ithoughtyouweremakingtea
+</note>
+    <note>礼物
+玻璃茶壶
+一束茉莉花芽茶
+一些黑的, 白的, 绿的, 不同于其他的茶? 
+
+    --
+  
+一个带有恒温设定的茶壶
+昂贵的蜂蜜还是方糖? 
+</note>
+    <mail username="micasa@jmail.com" pass="ithoughtyouweremakingtea" />
+  </eosDevice>
+  
+</Computer>

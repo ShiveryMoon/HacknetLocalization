@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="lelzSec1">
+  <goals>
+    <goal type="getAdmin" target="nortronMainframe"/>
+  </goals>
+  <nextMission>lelzSec/MessageBoardIntro.xml</nextMission>
+  <email>
+    <sender>Naix</sender>
+    <subject>节目效果爆炸</subject>
+    <body>
+啊哈哈哈, 牛逼! 简直是艺术品. 
+OK, 干得很好, 出乎我意料. 现在来点儿真正的挑战怎么样? 
+有没有信心黑进Nortron的主服务器? 我本来以为他们的主服务器也很水, 但作为一家信息安全公司, 他们的防火墙还确实有点结实. 
+用传统的方法入侵他们的服务器将会极其艰难, 所以, 祝你好运吧. 
+你觉得你能成功? 我不管你用什么办法, 如果你能获取到管理员权限, 那我就真的服你. 
+成功之后找我, 我有事要跟你说. 
+-Naix
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

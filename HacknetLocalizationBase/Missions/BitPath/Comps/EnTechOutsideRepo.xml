@@ -1,0 +1,36 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="EnTechOutsiderRepo" name="EnTech 外部承包商中继服务器" security="5" ip="156.151.59.35">
+  
+  <adminPass pass="ax889msjA" />
+
+  <ports>80, 22, 1433, 25, 21</ports>
+  <portsForCrack val="9999999" />
+  <trace time="500" />
+
+  <positionNear target="EnTechMainframe" position="1" total="6" />
+
+  <encryptedFile path="Contractors/Bit" name="heart.dec" ip="23.236.62.147" extension=".txt" header="Bitwise / last words" pass="divingsparrow">
+我很放心地在这里写下诸多机密, 因为只有我最信赖的人, 才会知道本文档的密码 -- 如果你正在读这篇文本, 说明你就是我期待着的那个人. 
+谢谢你为了我一直走到现在. 我想, 我可能要把最重的担子交付给你了. 虽然貌似我最近一直都在往你肩上扔担子. 
+说正事 -- 既然事情已经发展到这一步, 那么, 就已经是我计划中最坏的情况了. 你一定已经访问过EnTech的服务器, 也已经感受到EnSec是多么强大, 简直是坚不可摧, 一旦该产品上市, 我没法想象还有多少自由能掌握在我们自己手中. 
+当然了, 如果情况仅仅是这样...  也许也没什么, 从各方面来看, 我还是很敬佩他们能努力为信息安全方面做贡献, 即便他们让我丢了黑客的饭碗. 
+
+然而事实并不是这样. 
+问题就出在Hacknet项目上. EnSec固然能够给客户提供高强度的安全防护(即便客户需要为此付出自己的控制权和使用权), 这很好. 然而, 若子之矛唯一无法攻的是子之盾, 这就出问题了. 
+Hacknet系统是一款无与伦比的程序, 它拥有完美的用户体验, 充满了无尽的乐趣和挑战. 然而我之前并不知道, 让Hacknet系统变得如此强大的人, 是我. 
+我曾经为EnTech开发过一款软件叫"Porthack", 在它身上我倾注了的大量知识和技巧 -- 它强大到能够打开世上任何一扇门. 
+之前我很好奇为什么Hacknet拥有如此强大的功能, 于是入侵了他们的中央主机, 才把这一切弄明白 - 也许EnTech在初期制作Hacknet系统的时候就已经使用了我的整个Porthack程序...  
+接下来发生了什么, 你也都看到了. Entech完善了Hacknet, 并不知用什么手段将Hacknet散布到世界各地, 所到之处一片混乱, 而我们唯一能够阻止这疯狂的信息安全垄断的机会正在悄然流逝. 
+现在, EnTech的EnSec垄断了信息安全业, 他们自家的Hacknet摧毁了世上所有其他安全软件, 而我们手头拥有的力量寥寥无几. 但是, 如果我们现在不阻止它, 恐怕我们以后就再也没有机会了. 
+一些其他的信息, 你可以去CEO的邮箱看看. 
+
+用户名: rc@entech.com
+密码: "byC89kMMe"
+求你了, 不能失败啊
+-Bit
+0
+</encryptedFile>
+
+  <file path="Contractors/teja" name=".gitkeep">#本文件刻意留空以确保本文件夹在所有内容都被移除后仍然在Git中激活</file>
+  
+</Computer>

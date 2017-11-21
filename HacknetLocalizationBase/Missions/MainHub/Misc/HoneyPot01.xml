@@ -1,0 +1,13 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="honeypot01" name="CCC 黑客小队 文件转储" security="3">
+
+  <ports>80, 22, 1433</ports>
+  <trace time="2.5" />
+  <admin type="fast" />
+  <proxy time="-1" />
+  
+  <account username="admin" password="honeypot" />
+
+  <file path="sys" name="Honey_x-server.sys">#YELLOW_THEME#</file>
+  
+</Computer>

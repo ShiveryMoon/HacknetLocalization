@@ -1,0 +1,26 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubIntro3" activeCheck="true">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <email>
+    <sender>CSEC Admin</sender>
+    <subject>来自CSEC的邀请  -  恭喜</subject>
+    <body>
+#PLAYERNAME#,
+做的不错! 其实, 我以前也去他们的主服务器附近调查过一番, 但是并没找到配料表. 
+你确实用实力给自己赢得了进入CSEC的机会. 
+在此我正式欢迎你加入CSEC组织. 这里的大伙都有共同的兴趣爱好并聚集在了一起, 至少在某种程度上是这样的. 所以, 如果你感觉刚刚的测试不难的话, 请把这里当做你的家吧. 
+我已经向中心服务器里添加了你的账户信息, 在那里你可以接受新的任务, 下载新的工具, 也可以把它当做你的新基地. 
+我会和你保持联系的. 快去给自己挑选一些新的程序吧, 这是给你的欢迎礼物. 
+-Vap0r
+CSEC 管理员
+    </body>
+    <attachments>
+      <link comp="mainHub" />
+      <account comp="mainHub" user="#PLAYERNAME#" pass="reptile" />
+      <link comp="mainHubAssets" />
+      <account comp="mainHubAssets" user="admin" pass="csec-5xg3D11" />
+    </attachments>
+  </email>
+</mission>

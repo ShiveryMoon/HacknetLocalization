@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="bit02_Phase8_WIN" activeCheck="true">
+  <goals>
+    <goal type="delay" time="15"/>
+  </goals>
+  <nextMission>BitPath/BitAdv_ZFinale01.xml</nextMission>
+  <email>
+    <sender> V </sender>
+    <subject>Bit -- 终章</subject>
+    <body>一切都已经结束了. 
+
+如果让我把这当做是复仇, 我还是不甘心. 我们仅仅是帮Bit完成了他的心愿, 而要想救他已经太迟太迟了. 不过, 这样也让我稍稍有些欣慰吧. 
+呵呵, 然而除了因遭受巨大损失而发狂的某些人以外, 并没有人会在意到我们做了什么. 没人会感激我们, 无论产生的后果有多严重. 真正默默奉献的人永远是被世人所忽视的, 这种事情我已经快看淡了. 
+也许世间万物都是这个道理吧. 
+
+谢谢你付出了这么多. 
+
+由于我一直戴着匿名的面纱, 我刚才只能帮你这么些了(看起来把这层面纱摘掉对我来说还是个麻烦事), 我们一会回CSEC再见吧. 
+这个世道永远是混乱不堪的. 有机会的话, 我一定会想个办法报答你. 
+
+谢谢你, 真的谢谢. 
+-V
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

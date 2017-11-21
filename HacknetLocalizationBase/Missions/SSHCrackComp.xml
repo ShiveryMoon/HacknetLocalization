@@ -1,0 +1,138 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="portcrack01" name="毒蛇 - 作战基地" security="0" type="4">
+
+  <dlink target="viperScanEarlyGame" />
+  
+  <file path="bin" name="SSHcrack.exe">#SSH_CRACK#</file>
+  <file path="home" name="Youtubers.txt" >
+需要关注的Youtube主播: 
+
+captainspinifex
+rockleesmile
+northernlion
+officialcalemgames
+jonathancrowgamer
+
+  </file>
+  <file path="home" name="Notes.txt" >
+    我终于成功从Gollum告诉我的那个服务器上把haxxor程序下载下来了 - 太不容易了! 
+
+    先研究研究怎么使用它, 我已经迫不及待的想试一试了. 
+  </file>
+  <file path="home" name="asdf.txt" >
+    入组测试? 
+    199.59.149.230
+    代理服务器
+    
+    ..
+    
+    也许我需要一样东西来过载它? 
+    我要好好研究研究了. 也许有某个程序可以帮我破解它? 得再要点经费了... .
+  </file>
+  <file path="home" name="EmailDraft.txt" >
+    爸爸, 
+    很抱歉之前没有及时给你回信 - 我在学校真的很忙 - 今年非常难熬, 不过我想我熬过来了. 
+    我这次找你其实是想问你要点钱 - 我们学校今年有个新项目, 它叫 "FTPBounce.exe", 这个程序特别有用! 不过这个程序也很贵, 而且上次你给我的钱我也花完了... .IT这些项目软件都非常的贵. 
+    能不能再给我打2000$? 我真的很需要. 
+
+    谢谢! 
+    爱你的儿子, 
+    Tim
+  </file>
+  
+  <file path="home/work" name="jasperlog.txt" >
+[viper] 说好的激活码呢? 
+[jasper] 说好的钱呢? 
+[viper] 钱马上就打给你
+[jasper] 我把激活码上传到共享服务器, 已经上传了一半了. 一旦上传完毕, 你就能得到完整的激活码.
+[viper] 好, 我去看看. 
+[viper] 太棒了, 上传成功. 
+[jasper] 现在可以给我打钱了吗? 
+[viper] 打过去了
+[jasper] 收到了. 谁能想到今年Call of Soldier这么受欢迎呢. 
+[viper] 这游戏今年确实挺火. 
+[jasper] 游戏玩家啊~
+  </file>
+  
+  <file path="home/work" name="TARGET.txt" >
+[viper] 我要退款. 
+[cs#1575] 对不起, 先生. 我们拒绝无理由退款. 
+[cs#1575] 我建议您在J-Bay上重新提交订单. 
+[viper] 我不想在你的狗屁网站上提交订单. 
+[viper] 我告诉你, 我本来要按查看, 结果不小心按到出价了. 
+[cs#1575] 我很抱歉, 先生, 但是意外按错按钮并不在我们的政策考虑范围之内. 
+[cs#1575] 所以你不得不接受这个事实, Penetrator 9000是你的了, 你可以通过我们的拍卖清单来挽回损失.
+[viper] 你惹到不该惹的人了. 你会后悔的. 
+[cs#1575] 谢谢你, 先生. 祝您拥有一个美好的夜晚. 
+  </file>
+  
+    <file path="home/work" name="ripped_prerelease.log" >
+[glaylor] 你他妈在搞什么
+[glaylor] 18个月开发时间
+[glaylor] 300万美金
+[glaylor] 结果你做出来一款在游戏里盯着手机屏幕看的手游
+[glaylor] ..................
+[glaylor] FUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU
+[hoops] 哇, 冷静下来, 兄弟, 人们会喜欢它的
+[hoops] 现在大家最常做的不就是盯着手机看吗
+[hoops] 比如, 你最近有没有去街上逛过? 
+[hoops] 人们无时无刻不在埋着头玩手机, 他们甚至自己都没察觉到. 
+[hoops] 所以我们可以模仿他们在做某件事的时候手机上会出现的对应内容, 这样他们在家都能感觉到自己在开车, 走路或其他的事情. 
+[hoops] 这想法简直是天才. 
+[glaylor] 我用屁股都能想到这些. 
+[glaylor] 游戏的名字要取好. 
+[glaylor] 封面要硬派. 
+[glaylor] 还得弄的够闪够亮, 小孩子就喜欢这套. 
+  </file>
+  
+  <file path="home/work" name="seb.txt" EduSafe="false">
+[viper] 约会如何? 
+[lilsebastian] 一场噩梦. 
+[viper] 为什么? 
+[lilsebastian] 我们在瞭望台赏夜景, 真是超级浪漫. 
+[lilsebastian] 然后我们开始闲聊. 
+[lilsebastian] 然后我们四处闲逛, 你懂的. 
+[lilsebastian] 再然后, 呃. 
+[viper] 什么? 
+[viper] 快说. 
+[lilsebastian] 呃, 有点快, 比我预想的还要快, 连衣服都没脱完就... .
+[viper]......
+[viper]......
+[viper] 哈哈哈
+[lilsebastian] 闭嘴! 
+[viper] 老兄, 天哪, 你可千万别跟别人说. 
+[viper] 你应该庆幸我们是铁哥们, 要不然这件事我可就说出去了. 
+[viper] 好了, 我该走了, 我还有好多代码要写. 
+[lisebastian] 好的, 明天学校见. 
+[viper] 好的, 别去的太早了. 
+  </file>
+  
+  <eosDevice name="Tim 的 ePhone 4S">
+    <note>端口号
+Web Browsers and web services: 80(有时候是8080? )
+SSH: 22 (####这个用于程序)
+FTP: 21
+SQL: 1433
+
+    </note>
+    <note>Entropy
+是个小型黑客组织吗? 
+不过这个组织似乎没什么名气? 
+不过我倒是听说他们惹毛过slashbot? 
+"找出并攻陷我们的测试服务器" - 怎么做? 
+留言板没有其他信息? 
+
+可能在某些地方被编入了索引? 在登记表和搜索上找到一些有用的信息? 
+    </note>
+    <note>daves
+	  
+H22 to Westfield st (stop 22)
+
+4:25 - 5:12
+
+4:55 e.30m
+
+    </note>
+  </eosDevice>
+  
+</Computer>

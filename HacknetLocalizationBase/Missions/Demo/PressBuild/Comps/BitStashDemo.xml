@@ -1,0 +1,10 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="bitStashDemo" name="Bitwise DropStash" security="5" type="4">
+
+  <file path="bin" name="SQL_MemCorrupt.exe">#SQL_CRACK#</file>
+  <file path="bin" name="SMTPOverflow.exe">#SMTP_CRACK#</file>
+  <file path="bin" name="Sequencer.exe">#SEQUENCER_EXE#</file>
+  
+  <account username="admin" password="traxxex12" />
+  
+</Computer>

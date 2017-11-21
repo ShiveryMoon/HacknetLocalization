@@ -1,0 +1,31 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="lelzSec0">
+  <goals>
+    <goal type="FileChange" target="nortronWebServer" file="index.html" path="web" keyword="dicks"/>
+  </goals>
+  <missionStart val="10">changeSong</missionStart>
+  <nextMission>lelzSec/NortronBreakIn.xml</nextMission>
+  <branchMissions>
+    <branch>Theme/ThemeHackEndMission.xml</branch>
+  </branchMissions>
+  <email>
+    <sender>Naix</sender>
+    <subject>gg wp</subject>
+    <body>
+好了好了, 算你吊行了吧, 咱们扯平了, 别再折腾我的东西了. 
+忘了删掉留在你电脑里的操作日志确实是个失误. 不过说真的, 我之前还真没把你放在眼里. 
+然而我现在对你有点刮目相看了. 你也知道, 这年头你在网上碰到的大部分都是一群没脑子的蠢货, 一言不合就知道开撕. 
+我这里有个活儿想交给你. 有个公司打着"网络安全"的旗号在卖产品, 但其实那货根本就是个骗子公司. Nortron, 你听说过没? 
+没错, 说真的, 就算往我电脑里塞病毒我也不要安装他们公司屎一样的软件. 那玩意就是个垃圾, 也就那些没脑子的白痴会买他们的产品. 
+我很久之前就想去整整他们的网站了 -- 很简单, 往他们的页面里加"dicks". 不管是标题还是什么, 就算你把他们网站的所有文字全改成"dicks"我都无所谓, 真的. 
+是不是开始感觉到当黑客很好玩? 不管你最初当黑客的初心是什么, 这个活儿绝对比你想干的要有意思的多, 没错吧? 
+-Naix
+P.S: 你也许还没见识过真正的安全系统吧, 我给你准备了一个婴儿初步黑客教学, 好好看看吧! 
+    </body>
+    <attachments>
+      <link comp="nortronWebServer" />
+      <link comp="netEduComp" />
+      <note title="任务内容">把标题里的一些字改成"DICKS". 你想改别的也无所谓, 只要看起来有节目效果. </note>
+    </attachments>
+  </email>
+</mission>

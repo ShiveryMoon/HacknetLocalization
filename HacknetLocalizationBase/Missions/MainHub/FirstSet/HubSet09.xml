@@ -1,0 +1,36 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet09">
+  <goals>
+    <goal type="HasFlag" target="E_Whit:DEAD" />
+  </goals>
+  <missionStart val="9" suppress="true">changeSong</missionStart>
+  <missionEnd val="1">junebugComplete</missionEnd>
+  <nextMission>BitPath/BitAdv_Intro.xml</nextMission>
+  <branchMissions>
+    <branch>MainHub/PacemakerSet/PacemakerSet_Deny_Branch.xml</branch>
+  </branchMissions>
+  <posting title="甲虫计划" reqs="dechead, decypher,csecRankingS2Pass">
+这是一项极其棘手的任务, 我们需要一位能为自己的行为负责的, 在外活动的, 资深的匿名黑客, 使用极端手段来帮助一位痛不欲生的人. 
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>甲虫计划</subject>
+    <body>
+你好黑客, 
+这次的任务很不寻常, 请谨慎对待. 我们需要实施一项安乐死. 
+不久前, 我们曾派了一些人手(为了不引起怀疑, 我们派了一些外部小组的人)去调查这件事, 事情的来龙去脉我们已经大致弄明白了: 这位住院的Elliot Whit先生正在病床上承受着极大的痛苦, 他想一死了之, 然而医院否决了他的选择. 
+他的家人曾尝试过一些办法, 但都以失败告终. 他们一直无计可施, 直到有人提出这个想法: 只要获得了适当权限, 病人使用的心脏起搏器是被允许远程操控的. 他们相信这个办法能够满足Elliot Whit先生的愿望. 
+鉴于这个任务的特殊性, 你可能不希望参与其中, 我们能理解. 回复"deny"(放弃), 你就可以放弃这项任务. 
+如果你决定接受这项任务, 那么你将面临大量的数据调查和测试来为操控起搏器做准备, 而这种事情在CSEC历史上是第一次. 
+我们建议你先调查目标的医疗记录, 识别出起搏器的芯片型号, 然后去找它的制造商. 
+-CSEC 管理员
+    </body>
+    <attachments>
+      <link comp="medical" />
+      <note title="任务细节">
+目标: Elliot Whit
+行动: 安乐死
+</note>
+    </attachments>
+  </email>
+</mission>

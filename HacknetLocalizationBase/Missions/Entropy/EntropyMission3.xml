@@ -1,0 +1,34 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="entropyMission03">
+  <goals>
+    <goal type="FileDeletion" target="corp0#IS" file="HacknetOS.rar" path="bin" />
+    <goal type="FileDeletion" target="corp0#IS" file="HacknetOS_Data.xnb" path="bin" />
+    <goal type="FileDeletion" target="corp0#IS" file="HacknetOS_Content.xnb" path="bin" />
+    <goal type="FileDeletion" target="corp0#MF" file="HacknetOS.rar" path="bin" />
+    <goal type="FileDeletion" target="corp0#MF" file="HacknetOS_Data.xnb" path="bin" />
+    <goal type="FileDeletion" target="corp0#MF" file="HacknetOS_Content.xnb" path="bin" />
+    <goal type="FileDeletion" target="corp0#BU" file="HacknetOS.rar_backup" path="bin" />
+    <goal type="FileDeletion" target="corp0#BU" file="HacknetOS_Data.xnb_backup" path="bin" />
+    <goal type="FileDeletion" target="corp0#BU" file="HacknetOS_Content.xnb_backup" path="bin" />
+  </goals>
+  <missionStart val="0">entropyEndMissionSetup</missionStart>
+  <nextMission>AlphaCreditsMission.xml</nextMission>
+  <email>
+    <sender>Entropy</sender>
+    <subject>最后一项任务</subject>
+    <body>
+#PLAYERNAME#, 
+这是组织交给你的最后一项任务了. 无论成功与否, 任务结束后我们都没法再保持联系了 -- 这太冒险了. 
+这项任务的目的是根除一个研究项目. 我们一直密切关注的公司基于最近消失的黑客"Bit"的研究, 正在开发一种名叫"HacknetOS"的新操作系统. 
+这对整个信息世界的安全是个巨大的威胁 -- 就算是最基础的用户, 只要通过一些基础训练, 就可以利用这个系统提供的工具来进行入侵. 
+我们必须彻底根除这个威胁. 
+我们整个组织会尽全力支持你, 我已经向Entropy资源服务器里添加了两个强大的(同时价格昂贵的)新工具, 你很有可能会在这项任务中用到它们, 我建议你尽快去下载下来. 
+该公司内部负责研究这个操作系统的服务器的IP地址, 我已经贴在附件里了. 他们无疑会将备份保存在各个位置, 你需要彻底的扫描他们的整个网络, 确保所有威胁被完全清除. 
+祝你好运, 不要让我们失望. 
+-Tex
+    </body>
+    <attachments>
+      <link comp="corp0#IS" />
+    </attachments>
+  </email>
+</mission>

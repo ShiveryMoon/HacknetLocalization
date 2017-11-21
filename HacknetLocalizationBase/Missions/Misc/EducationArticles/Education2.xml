@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="education02">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title=".exe文件和远程执行">
+在现代终端中, exe命令会在本地计算机调用相应的程序去执行目标文件. 
+
+实际上, 这个命令常被作为某种快捷方式. 原本在远程执行任何命令时都必须附加上链接的计算机的IP地址作为参数, 但使用exe命令可以避免这样的繁琐操作. 这也允许了多个程序在一个套接字上发送流量, 这也在操作系统级别上提高了网络效率. 
+当然, 许多exe文件本身没有网络功能, 在这种情况下, 该程序会忽略跨网络套接字并在本地执行该exe文件. 
+
+  </posting>
+  <email>
+    <sender>ERROR</sender>
+    <subject>ERROR</subject>
+    <body>
+如果你收到这封邮件, 说明发生了一项未知错误. 
+请加以注意! 
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,34 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="getString" target="1299"/>
+  </goals>
+  <nextMission>Entropy/StartingSet/Misc/XC_Replies/XC_OK_Reply.xml</nextMission>
+  <branchMissions>
+    <branch>Entropy/StartingSet/Misc/XC_Replies/XC_OK_Reply2.xml</branch>
+    <branch>Entropy/StartingSet/Misc/XC_Replies/XC_OK_Reply3.xml</branch>
+    <branch>Entropy/StartingSet/Misc/XC_Replies/XC_OK_Reply4_Penetrator.xml</branch>
+    <branch>Entropy/StartingSet/Misc/XC_Replies/XC_OK_Reply5.xml</branch>
+  </branchMissions>
+  <posting title="X-C 项目">
+这次任务有点奇怪 -- 一个富豪向我们寻求帮助, 他需要我们调查他的同事是否在工作时用笔记本电脑处理私事. 
+我们事先粗略地调查了一下他们的系统, 看起来他们好像痴迷于外星人 -- 他们是角色扮演戏团, 还是外星人阴谋论者? 
+ </posting>
+  <email>
+    <sender>X-C Proj. : Bradford</sender>
+    <subject>内部调查</subject>
+    <body>
+你好, 
+X-C工程项目需要你的帮助. 这件事完全是我们项目组内部的事情, 我想自己一个人来调查. 我们项目组的一个科研组组长最近办事效率比较低...  而她不应该这样的. 这件事我怀疑很久了. 
+我想向外界寻求帮助, 去她的笔记本电脑里调查是否有和工作无关的东西. 
+我们的服务器使用集中数据储存系统, 可以用ID码来镜像保存文件. 我希望你能调查一下这个系统, 找到你觉得值得调查的文件的ID码, 然后回复给我. 
+文件的ID码一般都标记在文件开头, 比如这样: X-C_PROJECT:ID#11111111,  而这里的"11111111"就是你要找的ID码. 
+附件里我已经贴上了她笔记本的ip地址. 
+祝你好运, 
+-C.O Bradford
+    </body>
+    <attachments>
+      <link comp="xcTablet" />
+    </attachments>
+  </email>
+</mission>

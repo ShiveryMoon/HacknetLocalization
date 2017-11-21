@@ -1,0 +1,24 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="bit02_Intro">
+  <goals>
+  </goals>
+  <missionStart>csecAddTraceKill</missionStart>
+  <nextMission>BitPath/BitAdv_Intro02.xml</nextMission>
+  <email>
+    <sender> V </sender>
+    <subject>Bit -- 初章</subject>
+    <body>嘿, 
+我知道这样做有点不太地道, 不过我在背后做了点手脚. 你将被选中去完成Bit曾经未完成的任务: 调查清楚那里究竟发生了什么. 
+我正在调查更多的线索. 如果你收到这封邮件, 就意味着你已经完成了所有CSEC指派给你的任务. 所以没别的问题了, 我们一起来吧. 
+说实在的, 在CSEC里任何一个人想动点手脚可不容易, 尤其是涉及到Bit这个任务的时候. 不过, 由于你进步非常快, 所以我很希望你能参与这项任务. 
+这次的任务非常需要合作. 你是不是很奇怪我为什么会这么自信地确定你想要参与这项任务? 那是因为我放了一样非常具有诱惑力的东西在CSEC资源服务器上. 
+你可以在这个路径下找到它: /bin/TK/TraceKill.dec
+用这个密码: dx122DX 对它解码
+搞到手以后给我回复. 和平常一样, 由于管理员们对于系统安全看得太重了, 所以我收到的回复都是匿名的. 不管怎么样, 当你准备好的时候就给我回复, 我会告诉你接下来要做什么. 
+
+    </body>
+    <attachments>
+      <link comp="mainHubAssets" />
+    </attachments>
+  </email>
+</mission>

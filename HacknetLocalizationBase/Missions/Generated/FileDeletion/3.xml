@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="GenMission">
+  <generationKeys File="#LC_CLIENT#_delivery.zip" Path="home"/>
+  <goals>
+    <goal type="FileDeletion" target="#COMP#" file="#FILE#" path="#PATH#" />
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="#CLIENT#的交易出了问题">
+最近有位客户购买了#CLIENT#公司的昂贵软件, 却拒绝付钱. 去删除不属于他的东西. 
+  </posting>
+  <email>
+    <sender>#CLIENT#</sender>
+    <subject>#CLIENT# - 偿还政策</subject>
+    <body>
+黑客你好, 
+最近有个客户公司从我公司#CLIENT#购买了一项极其昂贵的软件包, 然而看起来他们并没有打算付钱. 由于他们有法律方面的人才, 我们没办法用传统的法律手段来解决这个问题. 
+你的任务如下: 我们希望你能入侵他们的系统, 删除他们非法拥有的, 属于我们的东西. 我们交易软件的时候用统一的档案格式, 通常使用"#FILE#"标签. 
+谢谢你能帮我们处理这么棘手的问题. 
+-#CLIENT#
+    </body>
+    <attachments>
+      <link comp="#COMP#" />
+    </attachments>
+  </email>
+</mission>

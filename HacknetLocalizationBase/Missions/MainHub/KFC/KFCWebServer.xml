@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="kfcWebServer" name="www.cfc.com" security="2" type="4">
+
+  <ports>80,25</ports>
+  <trace time="0" />
+  <addWebServer name="CFC Homepage" url="Content/Web/Presets/KFC/KFCHomePage.html" />
+  <positionNear target="kfcMainframe" position="0" total="3" />
+  <link target="kfcMainframe" />
+
+  <file path="home" name="ServerStructure.txt">网络管理员注意: 本服务器只是一个网络前端! 
+所有的公司文件应当放置在更加安全的主机或内部服务器中. 
+本服务器保留了返回主机的链接, 用于升级或者维护. 不要修改本配置文件! </file>
+
+</Computer>

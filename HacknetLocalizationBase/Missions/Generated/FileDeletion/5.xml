@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="GenMission">
+  <goals>
+    <goal type="FileDeletion" target="#COMP#" file="#FILE#" path="#PATH#" />
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="#CLIENT# - 制止售卖信息">
+一位客户的敌对公司利用工作之便, 收集客户的信息并将其非法卖给广告公司以获取牟利. 
+阻止它. 
+  </posting>
+  <email>
+    <sender>#CLIENT#</sender>
+    <subject>#CLIENT# - 阻止非法收集</subject>
+    <body>
+黑客, 
+我公司最近注意到一家敌对公司, 他们通过收集用户信息(电子邮件, 姓名, 喜好等)卖给广告公司来获利, 用这种不公平且非法的手段来获取商业优势. 
+这明显是不可接受的. 不仅仅是出于隐私, 诚信以及公平使用原则问题, 他们同时还触犯了数据保护法规1998.
+我们希望你能够访问他们的服务器, 摧毁他们销售的用户详细资料文档. 我们将会另一方面诉诸法律手段(证据不是问题). 
+
+谢谢, 
+-#CLIENT#
+    </body>
+    <attachments>
+      <link comp="#COMP#" />
+    </attachments>
+  </email>
+</mission>

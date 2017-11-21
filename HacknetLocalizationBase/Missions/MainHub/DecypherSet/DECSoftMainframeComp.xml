@@ -1,0 +1,249 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="decSoftMainframe" name="DEC方案小组主页" ip="101.0.89.154" security="5">
+
+  <ports>21, 25, 22, 80, 1433</ports>
+  <portsForCrack val="5" />
+  <firewall level="-1"/>
+  <trace time="-1" />
+  <proxy time="0" />
+
+  <encryptedFile path="home" name="encrypt.dec" ip="101.0.89.154" header="Secured Source Code" extension=".cs" double="true">
+        private static string Encrypt(string data, ushort passcode)
+        {
+            StringBuilder ret = new StringBuilder();
+            for (int i = 0; i LESS_THAN data.Length; i++) {
+                int newVal = ((ushort)data[i] * 1822) + ushort.MaxValue / 2 + passcode;
+                ret.Append(newVal + " ");
+            }
+            return ret.ToString().Trim();
+        }
+  </encryptedFile>
+
+  <encryptedFile path="Staff/D.Leatrou" name="Personal_Notes.dec" ip="101.0.89.154" header="DOUBLE ENCRYPTION" extension=".txt" double="true" pass="dleatrou">
+我在想Kathy可能有什么事情瞒着我. 我不怪她, 因为有时候我也没给过她好脸色看(我想我应该多买点镜子来照照自己的脸). 
+对于这种极重要的问题我必须用专业的方式来解决. 我要在这个文本里记录下她曾经对我做出的性虐待. 
+这样我就有证据来证明, 错的人根本不是我. 
+-David Leatrou, CEO
+
+28/12/2013
+  </encryptedFile>
+  
+  <encryptedFile path="Staff/D.Leatrou" name="Lawsuit_Response.dec" ip="101.0.89.154" header="DOUBLE ENCRYPTION" extension=".txt" double="true" pass="dleatrou">
+Leatrou先生, 
+在看过贵公司的新政策后, 我跟我们的法律小组经过讨论后一致认为, 您所采用的"戴两个套套"的表达方式和我们的推荐使用方法完全不符(即, 我们的推荐使用数量是一, 而您却要使用两张), 所以希望您能对公司政策进行改写. 您没有合法的理由对我们进行公开诉讼, 虽然您的避孕套破损率好像惊人的高. 
+我们建议您以后按照我们的推荐方法来使用避孕套. 
+祝您和您的12个孩子生活愉快. 
+杜蕾斯客户服务及投诉中心
+  </encryptedFile>
+  
+  <file path="Staff/D.Leatrou" name="Staff_Memo.txt">
+大家好, 
+首先, 热烈祝贺我们新的加密套件开发成功! 这是一场伟大的胜利, 我希望大家能够像我一样感到自豪. 
+现在, DEC方案小组已经成为世界软件开发界的最耀眼的新星. 我觉得, 作为一个团队, 我们应当继续努力, 以更高的标准来要求自己. 
+因此, 我公司将执行几项新政策, 我希望你们能理解公司新政策的内涵, 并且严格遵守它, 以此来改进我们的工作流程, 提高我们的效率. 
+新政策将会在几天内开始执行. 到时候, 就期待兄弟们的表现了! 
+加油吧, 
+-David Leatrou, CEO
+</file>
+
+  <file path="Staff/D.Leatrou" name="New_Policies.txt">
+大家好, 
+这就是我前几天提到的新政策, 请仔细阅读! 
+   
+1) 敏感的公司资料(比如源代码, 机密备忘录等)存放时必须加密. 
+而且, 还有比我们自己的加密软件更好的吗? 在看过我们的成就后, 我相信你已经明白, 我们自家的加密套件是坚不可摧的. 
+我已经开始这么做了, 甚至有些文件我进行了双倍加密! 这就像戴两个套套, 就算破了一个, 也还是安全的嘛. 
+
+2) 你在加密文件的时候, 即便不设置密码也不要紧, 不过如果你觉得实在不放心, 就用你的员工ID作为密码. 
+比如, 我的重要文件密码是我自己的ID"dleatrou"! 
+
+3) 加密套件的各种版本一定要脱机存放! 在这种信息安全时代, 再小心也不为过! 
+
+享受你最后一个未加密的公司备忘录吧! 
+-David Leatrou, CEO
+  </file>
+  
+  <file path="Staff/D.Leatrou/Locked" name="RE:Decypher_Memo.txt">
+    行, 还好你早点告诉我了. 
+    我已经把你发来的程序转发给其他人了, 看看他们能不能从中找到办法修复这个漏洞. 
+    谢谢你, 干得漂亮. 
+
+    -David Leatrou, CEO
+
+    -----------------------------------------REPLY TO :
+    David,
+    我已经查过我们的加密承包商传回来的代码了, 它...  是可以破解的. 真的是可以破解的...  而且, 非常容易就能办到. 
+    为了展示给你看, 我自己编了个程序, 已经发给你了. 我估计一旦你试过以后, 你会吓得马上把它卸载掉. 
+    想运行它, 直接敲入这行命令就行: 
+    "Decypher [FILENAME HERE]"
+
+    如果你想使用密码, 直接把它加在文件名后面即可: 
+    "Decypher [FILENAME] [PASSWORD]"
+
+    ...  你应该明白, 这件事我只告诉了你一个人. 
+    -J
+  </file>
+  
+
+  <encryptedFile path="Staff/J.Scott" name="Decypher.dec" ip="101.0.89.154" header="DECYPHER - DO NOT SHARE" extension=".exe">#DECYPHER_PROGRAM#</encryptedFile>
+  
+  <encryptedFile path="Staff/J.Scott" name="Decypher_Memo.dec" ip="101.0.89.154" header="Corporate Memo" extension=".txt">
+    David,
+    我已经查过我们的加密承包商传回来的代码了, 它...  是可以破解的. 真的是可以破解的...  而且, 非常容易就能办到. 
+    为了展示给你看, 我自己编了个程序, 已经发给你了. 我估计一旦你试过以后, 你会吓得马上把它卸载掉. 
+    想运行它, 直接敲入这行命令就行: 
+    "Decypher [FILENAME HERE]"
+
+    如果你想使用密码, 直接把它加在文件名后面即可: 
+    "Decypher [FILENAME] [PASSWORD]"
+
+    ...  你应该明白, 这件事我只告诉了你一个人. 
+    -J
+  </encryptedFile>
+  
+  <encryptedFile path="Staff/J.Scott" name="RE:RE:Decypher_Memo.dec" ip="101.0.89.154" header="Corporate Memo" extension=".txt">
+    没问题. 
+    话说, 你无论发什么都非得在你的署名后面加个"CEO"吗, 啊? 
+    
+    -----------------------------------------REPLY TO :
+    行, 还好你早点告诉我了. 
+    我已经把你发来的程序转发给其他人了, 看看他们能不能从中找到办法修复这个漏洞. 
+    谢谢你, 干得漂亮. 
+
+    -David Leatrou, CEO
+
+    -----------------------------------------REPLY TO :
+    David,
+    我已经查过我们的加密承包商传回来的代码了, 它...  是可以破解的. 真的是可以破解的...  而且, 非常容易就能办到. 
+    为了展示给你看, 我自己编了个程序, 已经发给你了. 我估计一旦你试过以后, 你会吓得马上把它卸载掉. 
+    想运行它, 直接敲入这行命令就行: 
+    "Decypher [FILENAME HERE]"
+
+    如果你想使用密码, 直接把它加在文件名后面即可: 
+    "Decypher [FILENAME] [PASSWORD]"
+
+    ...  你应该明白, 这件事我只告诉了你一个人. 
+    -J
+  </encryptedFile>
+
+  <encryptedFile path="Staff/J.Scott" name="Encryption_Base2.dec" ip="101.0.89.154" header="Source Code" extension=".cs">
+    
+        /// summary
+        /// Returns an array containing
+        /// [0] Header Message
+        /// [1] IP Link
+        /// [2] Message Data
+        /// [3] File extension if provided, else null
+        /// summary
+        public static string[] DecryptString(string data, string pass = "")
+        {
+            string[] ret = new string[4];
+            ushort passcode = GetPassCodeFromString(pass);
+
+
+            string[] split = data.Split(Utils.robustNewlineDelim, StringSplitOptions.RemoveEmptyEntries);
+            if (split.Length LESS_THAN 2) throw new FormatException("Tried to decrypt an invalid valid DEC ENC file");
+            string[] headersSplit = split[0].Split(HeaderSplitDelimiters, StringSplitOptions.None);
+            if (headersSplit.Length LESS_THAN 4) throw new FormatException("Tried to decrypt an invalid valid DEC ENC file");
+
+            string headerMsg = Decrypt(headersSplit[1], passcode);
+            string ipLink = Decrypt(headersSplit[2], passcode);
+            string check = Decrypt(headersSplit[3], passcode);
+            string fileExtension = null;
+            if (headersSplit.Length > 4) fileExtension = Decrypt(headersSplit[4], passcode);
+            string message;
+            if (check == "ENCODED") {
+                //Password was correct!
+                message = Decrypt(split[1], passcode);
+            }
+            else {
+                //invalid password
+                headerMsg = null;
+                ipLink = null;
+                message = null;
+            }
+            ret[0] = headerMsg;
+            ret[1] = ipLink;
+            ret[2] = message;
+            ret[3] = fileExtension;
+            return ret;
+        }
+  </encryptedFile>
+
+  <encryptedFile path="Staff/J.Scott" name="Decypher_Test.dec" ip="101.0.89.154" header="Source Code" extension=".cs">
+    
+    private static string Decrypt(string data, ushort passcode)
+        {
+            StringBuilder ret = new StringBuilder();
+            string[] input = data.Split(Utils.spaceDelim, StringSplitOptions.RemoveEmptyEntries);
+            for (int i = 0; i LESS_THAN input.Length; i++) {
+                int currentChar = Convert.ToInt32(input[i]);
+                int halfmax = ushort.MaxValue / 2;
+                int newVal = currentChar - halfmax - passcode;
+                newVal = newVal / 1822;
+                ret.Append((char)newVal);
+            }
+            return ret.ToString().Trim();
+        }
+  </encryptedFile>
+
+  <file path="Staff/A.Carey" name="Decypher.exe">#DECYPHER_PROGRAM#</file>
+  <file path="Staff/A.Carey" name="Staff_Memo.txt">
+大家好, 
+首先, 热烈祝贺我们新的加密套件开发成功! 这是一场伟大的胜利, 我希望大家能够像我一样感到自豪. 
+现在, DEC方案小组已经成为世界软件开发界的最耀眼的新星. 我觉得, 作为一个团队, 我们应当继续努力, 以更高的标准来要求自己. 
+因此, 我公司将执行几项新政策, 我希望你们能理解公司新政策的内涵, 并且严格遵守它, 以此来改进我们的工作流程, 提高我们的效率. 
+新政策将会在几天内开始执行. 到时候, 就期待兄弟们的表现了! 
+加油吧, 
+-David Leatrou, CEO
+</file>
+
+  <file path="Staff/A.Carey" name="New_Policies.txt">
+大家好, 
+这就是我前几天提到的新政策, 请仔细阅读! 
+   
+1) 敏感的公司资料(比如源代码, 机密备忘录等)存放时必须加密. 
+而且, 还有比我们自己的加密软件更好的吗? 在看过我们的成就后, 我相信你已经明白, 我们自家的加密套件是坚不可摧的. 
+我已经开始这么做了, 甚至有些文件我进行了双倍加密! 这就像戴两个套套, 就算破了一个, 也还是安全的嘛. 
+
+2) 你在加密文件的时候, 即便不设置密码也不要紧, 不过如果你觉得实在不放心, 就用你的员工ID作为密码. 
+比如, 我的重要文件密码是我自己的ID"dleatrou"! 
+
+3) 加密套件的各种版本一定要脱机存放! 在这种信息安全时代, 再小心也不为过! 
+
+享受你最后一个未加密的公司备忘录吧! 
+-David Leatrou, CEO
+  </file>
+
+  <encryptedFile path="Staff/A.Carey" name="DECE_TestBuild_pdb.dec" ip="101.0.89.154" header="Source Code" extension=".pdb">#BINARY#</encryptedFile>
+  <encryptedFile path="Staff/A.Carey" name="DECE_TestBuild.dec" ip="101.0.89.154" header="Source Code" extension=".bin">#BINARY#</encryptedFile>
+
+  <encryptedFile path="Staff/K.Abrams" name="DECE_TestBuild_pdb.dec" ip="101.0.89.154" header="Source Code" extension=".pdb">#BINARY#</encryptedFile>
+  <encryptedFile path="Staff/K.Abrams" name="IMPORTANT_MEMO.dec" ip="101.0.89.154" header="Confidential Memo" extension=".txt">
+  Hey Kathy, 
+  今天能再去帮我买杯咖啡吗? 我3点钟回办公室. 
+  谢了! 记得对文件进行加密! 
+  -David Leatrou, CEO
+  </encryptedFile>
+  
+  <encryptedFile path="Staff/K.Abrams" name="Notes.dec" ip="101.0.89.154" header="Confidential Memo" extension=".txt">
+    公司缺少以下物品: 
+
+    方格纸
+    员工衬衫(S, L and XL)
+    咖啡(紧急, 需要尽快补充)
+    咖啡马克杯(到底是谁老把杯子摔坏? ! )
+    镜子(David要买这么多镜子干嘛? )
+  </encryptedFile>
+  
+  <encryptedFile path="Staff/K.Abrams" name="Needed_In_Office.dec" ip="101.0.89.154" header="Confidential Memo" extension=".txt">
+    Hey Kathy, 
+
+    我决定在我的房间里装几面镜子来增加我的个人魅力, 你能在下午, 大概6点, 来我这里帮忙吗? 
+    我想这些镜子能让我的房间看起来更有生气. 
+
+    谢了! 
+    -David Leatrou, CEO
+  </encryptedFile>
+  
+</Computer>

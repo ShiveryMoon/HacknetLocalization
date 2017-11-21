@@ -1,0 +1,21 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="entropyMission02" activeCheck="true">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <email>
+    <sender>Entropy</sender>
+    <subject>Re: 欢迎</subject>
+    <body>
+#PLAYERNAME#, 
+很好, 看来你拿到了你所需的东西. 那么, 你就可以正式地开始接受Enpropy黑客组织的各项任务了. 附件里我给出了我们组织的任务资源数据库的ip地址, 还一并给出了你的用户名和密码以用于获得登录权限. 
+当你有空的时候, 就去接受并完成你的第一项任务吧. 
+届时我将会再次联系你来评估你的任务进度. 
+-Tex
+    </body>
+    <attachments>
+      <link comp="entropy00" />
+      <account comp="entropy00" user="#PLAYERNAME#" pass="rosebud" type="3" />
+    </attachments>
+  </email>
+</mission>

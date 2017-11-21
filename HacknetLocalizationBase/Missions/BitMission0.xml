@@ -1,0 +1,43 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="bitMission00">
+  <goals>
+    <goal type="getAdmin" target="bitMission00"/>
+  </goals>
+  <missionStart val="7">changeSong</missionStart>
+  <nextMission>BitMission1.xml</nextMission>
+  <branchMissions>
+    <branch>BitMission2.xml</branch>
+  </branchMissions>
+  <email>
+    <sender>Bit</sender>
+    <subject>初试牛刀</subject>
+    <body>祝贺! 
+说实话...  .你这样回复我, 也不知道你到底成功了没, 不过既然你正在读这封邮件意味着你至少发现了一些东西, 我先假定你找到的那程序是有用的. 
+你应该试着入侵我的一个旧的测试服务器 - 如果Viper有用于入侵的工具的话, 你应该已经获得了所需的工具. 
+记住, 运行任何非基础的程序都需要提供端口号 - 就像这样: 
+
+>SSHCrack 22
+ ^文件名	^端口号
+     
+只需找一个你想破解的端口然后像这样运行即可. 
+
+对了, 提醒你一下, 你可以使用Tab键来自动补全命令 - 键入"ssh"之后敲击tab会自动补全完整命令. 这适用于所有命令! 
+
+祝你好运! 
+
+--Bit
+0
+      
+    </body>
+    <attachments>
+      <note title="安全基础指南">安全基础
+使用Probe指令来查看已打开的端口
+使用你所拥有的程序来攻击与之对应的端口
+例如: "SSHCrack 22"
+     ^文件名	^端口号
+当你破解足够数量的端口之后, 就可以使用"Porthack"指令了. 
+      </note>
+      <link comp="bitMission00" />
+    </attachments>
+  </email>
+</mission>

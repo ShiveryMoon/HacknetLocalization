@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubIntro1">
+  <goals>
+    <goal type="getString" target="ABX07cc9"/>
+    
+  </goals>
+  <nextMission>MainHub/Intro/Intro02.xml</nextMission>
+  <email>
+    <sender>CSEC Admin</sender>
+    <subject>来自CSEC的邀请</subject>
+    <body>
+你好#PLAYERNAME#,
+CSEC组织是一个只允许被邀请加入的组织, 由资深黑客和信息安全专家组成. 我们向优秀的人才提供大量的知识和资源, 以此来组建一个互相学习, 共同进步的良好团体. 
+我们组织的一位成员已经为你申请了一份邀请. 
+按照组织的规矩, 在正式接受你进入组织之前, 我们需要你向我们展示一下你的能力和知识. 
+去我们的一个测试服务器中, 在那里以你的名字为线索, 你会找到一个密码. 把密码回复给我, 然后我们进行下一步的测试. 
+如果你遇到任何困难, 我们建议你去参看教育站的档案. 
+恭喜你, 并祝你好运. 
+-CSEC 管理员
+    </body>
+    <attachments>
+      <link comp="hubTestComp01" />
+      <link comp="netEduComp" />
+    </attachments>
+  </email>
+</mission>

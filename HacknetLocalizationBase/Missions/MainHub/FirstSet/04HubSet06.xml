@@ -1,0 +1,23 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="FileDownload" target="jscottHome" file="DECHead.exe" path="home/work" />
+  </goals>
+  <nextMission>MainHub/DecypherSet/DECHeadMission02.xml</nextMission>
+  <posting title="追查一份加密文件">
+我手头有一个需要密码才能打开的文件 -- 这让我想到了一个方法, 如果能够追查到DEC文件的加密地点, 我们会提供给你足够的线索去完成这项任务. 
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>透过'潜望镜'</subject>
+    <body>
+很明显, 在DEC加密文件的头文件里储存了该文件加密地点的IP(和一些misc信息) -- 这可能是出于调试的目的, 然而在我们眼里它就是一个巨大的安全漏洞. 我们手上有想要打开的加密文件, 但是不知道密码, 而这个漏洞正好能帮我们解决问题. 
+所以, 第一步 -- 找到读取这些头文件的办法. 我们事先调查了一番, 发现DEC方案小组的其中一个成员有办法能在不知道密码的情况下解开加密文件的头部. 
+去他的终端调查一番, 将你能发现的所有认为有用的东西回复给我. 后面还有更多的任务要交给你. 
+-CT 团队
+    </body>
+    <attachments>
+      <link comp="jscottHome" />
+    </attachments>
+  </email>
+</mission>

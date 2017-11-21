@@ -1,0 +1,64 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="producerComp" 
+          ip="37.187.27.55"
+          name="Jason's LackBook Pro" 
+          security="2"
+          allowsDefaultBootModule="false"
+          icon="laptop"
+          type="2" > <!-- 1=  corporate, 2 = Home, 3 = server -->
+  <adminPass pass="DANGER" />
+  <!-- Security Stuff -->
+  <trace time="-1" /> <!-- Adds a trace timer - set to -1 to remove -->
+  <firewall level="6" solution="DANGER"/>
+  
+  <file path="sys" name="x-server.sys">#WHITE_THEME#</file>
+
+  <file path="home/scripts" name="DANGER.txt">
+    还有比danger这个单词更完美的吗? 不只是danger, 还有DANGER, 无论大小写. 这简直就是最完美的单词. 
+    最棒的区域? DANGER区域. 最佳的中间名? DANGER. 
+    我真希望我说的每句话里都带上danger. 
+  </file>
+
+  <encryptedFile path="home/scripts" name="T2_Screenplay.dec" ip="37.187.27.55" header="Secure Script Encryption inc (c)" extension=".doc" >
+    泰坦尼克2: 冰山的复仇
+    -剧本-
+
+JACK DAWSON: "从来没人考虑过这个问题 -- 不是冰山撞上我们...  是我们撞上的它! "
+ROSE DEWITT BUKATER: "哈? 是不是那些科学仪器复活你的时候把你的脑子给搞坏了? 我复活你是因为我*爱*你! "
+JACK DAWSON: "我知道, 但是我们惹麻烦了. 你想, 冰山也有家庭, 它们想要复仇. 我死之前它们跟我说过了...  它们也不想这样的...  "
+-JACK从裤裆里掏出了他炫酷的墨镜戴在头上. 
+JACK DAWSON: "在这等着我. "
+
+场景切换到加利福利亚海岸
+
+水中出现了一座冰山, 正在以惊人的速度撞向城市. 
+空中回响着疏散警报, 沙滩上的人们在惊恐地四处逃散. 
+第一座冰山身后浮现出了更多的冰山, 全部都冲向了沙滩. 
+
+ROSE DEWITT BUKATER: "救命! "
+JACK DAWSON: "Rose! 我来救你了! 我永远不会离开你的! "
+
+领头的冰山已经登上了沙滩, 滑向了我们的两个主角. 它掏出了火把和汽油. 
+
+ROSE DEWITT BUKATER: "JAAAAACCCKKKKKKK!"
+  </encryptedFile>
+
+  <encryptedFile path="home/scripts" name="GHL_ChapterList.dec" ip="37.187.27.55" header="Secure Script Encryption inc (c)" extension=".doc" >
+    银河英雄传说
+    -剧本目录-
+
+    第一章: 穿过平流层
+    第二章: 深刻影响
+    第三章: 反推力
+    第四章: 通往心脏的路
+    第五章: 沉重的震颤
+    第六章: 海军少将的进攻
+    第七章: 战争的四个战利品
+    第八章: 深刻的感激之情
+    第九章: 遗憾, 恐惧, 渴望
+    第十章: 深空中的爆炸
+    第十一章: 紧追不舍
+    第十二章: 当初的温柔, 变成了怒火
+  </encryptedFile>
+  
+</Computer>

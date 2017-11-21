@@ -1,0 +1,27 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="pacemakerHWArticle05">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="#0E0015 - 心脏起搏器v2.44 固件与补丁">
+此文将详细介绍2.44版本心脏起搏器的安全功能. 如需咨询一般操作, 请参考纸质说明书, 或者联系support@kellisBio.com获取说明书. 
+---------------------------------------------
+
+这个v2.44版固件由Eidolon软件公司设计. 版本控制, 查询, 更新可以访问他们的中央服务器, 地址为: 
+
+111.105.22.1
+
+在使用我们的key的同时, 只有在他们公司内部服务器里了添加数字签名的固件, 才可以在芯片上运行, 其他任何公司都没法为芯片设置工作码. 
+关于远程监控软件的接口和外部访问芯片的问题, 可以联系support@eidolonsoft.com. 
+  </posting>
+    <email>
+    <sender>ERROR</sender>
+    <subject>ERROR</subject>
+    <body>
+如果你收到这封邮件, 说明发生了一项未知错误. 
+请加以注意! 
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,10 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="EnWS05" name="EnTech工作站 _012" security="5" type="3" ip="156.151.0.50">
+  
+  <ports>80, 22, 1433, 25, 21</ports>
+  <portsForCrack val="9999999" />
+
+  <positionNear target="EnTechWSCore" position="12" total="12" />
+  
+
+</Computer>

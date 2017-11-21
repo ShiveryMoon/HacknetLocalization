@@ -1,0 +1,14 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="BitWorkServer" name="Bitwise Repo 基地" security="5" ip="23.236.62.147">
+  
+  <adminPass pass="tenzen" />
+
+  <ports>80, 22, 1433, 25, 21</ports>
+  <proxy time="1.5" />
+  <portsForCrack val="4" />
+  <trace time="80" />
+  <firewall level="-1"/>
+
+  <encryptedFile path="home/work" name="hn_repo_archive.dec" ip="156.151.59.35" header="EnTech(tm) Repository Backup" pass="ax229msjA">#BINARYSMALL#</encryptedFile>
+  
+</Computer>

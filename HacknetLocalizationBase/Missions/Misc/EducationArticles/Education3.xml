@@ -1,0 +1,31 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="education02">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Shells">
+Shell: 
+Shell是运行在单一主机上的低内存占用的小型进程, 可以用任何连接方式在本地对它进行操控. 
+这个极其方便的程序在许多任务中都是极其有用的, 当然它们能干什么取决于运行的shell的种类. 
+
+常规跨网络的功能有: 
+
+Overload(过载):
+过载用于测试网络和代理服务器, 这个功能可以使得运行shell的节点向目标机器发起泛洪攻击 - 用大量垃圾网络流量占满代理服务器的内存并耗尽其CPU时间.  
+
+Trap(陷阱):
+该模式会提醒用户是否有外来用户在本机器运行shell, 并允许对所有远程连接到本计算机的用户执行"forkbomb"攻击. 
+该模式在远程维护计算机安全又同时进行其他工作的时候非常有用. 
+
+  </posting>
+  <email>
+    <sender>ERROR</sender>
+    <subject>ERROR</subject>
+    <body>
+如果你收到这封邮件, 说明发生了一项未知错误. 
+请加以注意! 
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

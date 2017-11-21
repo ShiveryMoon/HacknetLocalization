@@ -1,0 +1,24 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="getString" target="*******"/>
+  </goals>
+  <nextMission>Entropy/StartingSet/Misc/MilburgReply.xml</nextMission>
+  <posting title="重回学校">
+一位高中的负责人在不久前联系我们, 他想查明学校的IT部门是否在未授权的情况下查看了学生的私人数据(也许这是某个学生家长提出的要求, 我们也不清楚). 他不想破坏任何数据, 只是想偷偷地搞到其中一个员工的登录密码, 这样他就可以自己调查这件事了. 
+  </posting>
+  <email>
+    <sender>Entropy Mailbot</sender>
+    <subject>重回学校</subject>
+    <body>各位黑客, 
+Milburgh高中的管理层联系到我们, 希望我们能悄悄地搞到他们IT部门员工的管理员密码, 以此就IT部门都保存了学生的什么数据来展开一项调查. 
+当你入侵时, 务必使一切数据保留原样 -- 任何的篡改将会影响到管理层人员的判断. 
+而你所需要做的, 就是黑进去, 找到密码, 然后清除你的操作日志, 把密码回复给我. 至于如何把密码交给学校的管理层就不需要你操心了. 
+祝你好运, 
+-Entropy 管理员
+    </body>
+    <attachments>
+      <link comp="milburgHigh" />
+    </attachments>
+  </email>
+</mission>

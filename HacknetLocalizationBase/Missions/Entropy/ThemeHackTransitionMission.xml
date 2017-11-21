@@ -1,0 +1,25 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="entropyToThemeHackTransitionMission" activeCheck="true">
+  <goals>
+    <goal type="FileDeletion" target="themeHackTransComp" file="Macrosoft_Internal_Raid_Archive.rar" path="home" />
+  </goals>
+  <missionStart val="0">entropyAddSMTPCrack</missionStart>
+  <missionEnd val="0">triggerThemeHackRevenge</missionEnd>
+  <nextMission>Theme/ThemeHackEndMission.xml</nextMission>
+  <email>
+    <sender>Entropy</sender>
+    <subject>入侵行为必须受到惩罚</subject>
+    <body>
+#PLAYERNAME#, 
+你在很短的时间内就证明了自己出色的能力, 真是令人印象深刻. 
+最近有件事闹得我头疼, 希望你能帮帮我. 我们组织新加进来一个很有天赋的黑客, 叫"Naix". 不过... 他这个人最近有点嚣张. 他声称最近从巨硬公司偷走了大量的网络数据. 
+Entropy一直致力于提高黑客在公众眼中的形象. 我们做的事情虽然违背了法律, 但这并不意味着我们就要伤害他人的利益. 而Naix的行为却在给我们黑客脸上抹黑. 
+我要求你删光所有他偷来的信息. 他作案设备的IP地址我已经贴在附件里了, 那些被偷的文档应该就在那里. 
+这次任务需要用到的新程序已经加进资源服务器了, 它应该会对你有所帮助的. 
+-Tex
+    </body>
+    <attachments>
+      <link comp="themeHackTransComp" />
+    </attachments>
+  </email>
+</mission>

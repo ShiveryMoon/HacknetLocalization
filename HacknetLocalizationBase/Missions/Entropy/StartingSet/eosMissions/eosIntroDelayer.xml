@@ -1,0 +1,26 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="eosIntro" activeCheck="true">
+  <goals>
+    <goal type="delay" time="2.5"/>
+  </goals>
+  <nextMission IsSilent="true">Entropy/StartingSet/eosMissions/eosIntroMission.xml</nextMission>
+  <posting title="eOS设备扫描">
+一位客户想要获取目标手机上的一些信息. 
+  </posting>
+  <email>
+    <sender>Entropy Mailbot</sender>
+    <subject>eOS设备扫描</subject>
+    <body>
+各位黑客你们好, 
+根据任务需要, 我们引进了一项新科技. 正好你在线, 我们希望你能够接受这个任务, 帮我们测试下这个新东西. 
+这项任务需要获取目标手机的操作权限 -- 一个eOS设备. 我们联系到了这个领域的一位专家, 他同意向我们提供相关工具. 不过记住, 他所提供的工具并没有经过实际测试. 
+一旦你获取了手机权限, 找到该手机持有者的邮箱账号的密码. 请把密码回复给我, 剩下的就交给我来处理. 
+祝你好运, 
+-Entropy 管理员
+
+    </body>
+    <attachments>
+      <link comp="eosIntroComp" />
+    </attachments>
+  </email>
+</mission>

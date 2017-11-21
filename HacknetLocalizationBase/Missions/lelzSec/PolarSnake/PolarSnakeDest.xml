@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="polarSnakeDest" name="北极星之首" ip="103.33.8.162" security="1">
+
+  <ports>22, 1433</ports>
+  
+  <file path="home" name="Ofuda.txt">
+    
+    我们已经注意到你了,
+    
+    马上,
+    
+    你就会加入我们.
+    
+    去收下你的礼物吧.
+    
+  </file>
+
+  <file path="home/Gifts" name="WHITE_x-server.sys">#WHITE_THEME#</file>
+  <file path="home/Gifts" name="SQLBufferOverflow.exe">#SQL_CRACK#</file>
+
+</Computer>

@@ -1,0 +1,99 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="EnTechPrometheus" name="En_Prometheus" security="5" ip="156.151.1.1">
+
+  <adminPass pass="d88vAnnX" />
+
+  <dlink target="enMail" />
+  <ports>80, 22, 1433, 25, 21</ports>
+  <portsForCrack val="9999999" />
+  <trace time="500" />
+
+  <positionNear target="EnTechMainframe" position="3" total="6" />
+
+  <file path="STORE/Hacknet_Project" name="Hacknet_NetCore.dll">#BINARY##BINARY#</file>
+  <file path="STORE/Hacknet_Project" name="HN_Connect_doc.txt">Hacknet项目
+--EnTech 机密--
+
+命令:"connect"
+
+作为对于远程连接通道(通常是SSH)的多重连接协议的封装. 
+该指令能够扫描可以利用的端口和可支持的设备来发现有效的连接协议, 之后利用它, 将输出封装为标准连接. 
+
+实际上, Hacknet的连接协议应该是通用和标准的, 在此之上可以使用所有的常见(和不常见)的连接协议来连接所有设备的用户服务. 
+  </file>
+    <file path="STORE/Hacknet_Project" name="HN_Connect_TESTGUIDE.txt">Hacknet项目
+--EnTech 机密--
+
+命令:"connect"
+测试指导: 
+
+除了连接工作站和公司运行的服务器, 我们同样需要支持连接无线和受限的OS设备. 
+我们的测试计划包括连接多个移动设备(一些被破解了, 其他的保持出厂设置). 这些设备和prometheus服务器相连. 
+附加帮助, 如果你需要一个用来测试(评估物理输出, 你应该可以从任何地方连接上去)的话, 请联系服务器团队. 
+  </file>
+  
+  <file path="STORE/Hacknet_Project" name="SyncedDevices.txt">Hacknet项目
+--EnTech 机密--
+
+用于测试Hacknet的连接模型的移动和无线设备和本服务器进行同步(包括所有的eOS设备). 
+我们会经常性的重置设备(以防万一)并且最好在本服务器上重置 - 不要把设备与其他机器配对! 
+人们工作时这些设备散布在桌子上, 但是如果它们没电了, 需要做清除或再次同步操作, 必须在prometheus服务器上进行. 
+  </file>
+  
+  <file path="STORE/Hacknet_Project" name="Hacknet_Project_Contacts.txt">Hacknet项目
+--EnTech 机密--
+
+合约与来源
+
+由于Hacknet项目的敏感性(并且每个人都签署过保密协议), 询问, 特性修改请求或者其他管理上的建议都应该通过Hacknet管理邮件中继发送: 
+hnManager@entech.com
+
+这会把邮件发送给所有相关人员, 如果有该领域的相关人士的话, 他会回复你的. 
+
+
+
+  </file>
+
+  <file path="STORE/EnSec_Project" name="EnSec_Invioability_Project.txt">
+EnSec Invioability项目是一款操作系统层面上的防护软件, 只能允许授权的操作和管理员命令通过, 它能够提供独一无二的系统安全级别, 防止所有常规(或非常规)的渗透和入侵. 
+它是一个完全向用户透明的系统(某些紧急更新情况会由外部人员控制, Entech公司会提供相关技术支持), 并且能够给敏感和机密的系统提供完全的安全防护. 
+同时, Hacknet项目可以寻找并展示目前安全系统中的漏洞. 当EnSec和Hacknet搭配起来后, 将会开启世界信息安全时代的新篇章. 
+ - EnSec - 
+ 你所希望的自由, 你所应有的安全. 
+  </file>
+
+  <file path="STORE/EnSec_Project" name="EnSec_Core_11-05.dll">#BINARY#</file>
+  
+  
+  
+  <eosDevice id="enPrometheus_eos1" name="ENTECH_TEST_01's ePhone 4S">
+    <note>passes
+1
+1
+3</note>
+    <note>HN
+该设备设置为标准未越狱的ePhone 4S
+如果没有外界影响, 没有开放的终端连接协议, 连接应该会失败. 
+</note>
+
+    <mail username="nstanford@entech.com" pass="murloc33" />
+  </eosDevice>
+  
+  <eosDevice id="enPrometheus_eos2" name="ENTECH_TEST_02's ePhone 4S">
+    <note>HN
+该设备设置为自定义越狱的ePhone 4S
+由于该设备被设置为允许SSH连接, 连接应该能够建立. 
+</note>
+
+    <note>用法 - 注意
+备注: 该设备是为测试目的而*故意设置为不安全*的. 它不应该连接任何外部服务或邮件系统, 而且它不允许存储任何敏感的测试或开发数据
+</note>
+    <note>远程创建测试
+asdf asdf 远程写入记录
+</note>
+
+    <note>远程测试2
+12345678</note>
+  </eosDevice>
+  
+</Computer>

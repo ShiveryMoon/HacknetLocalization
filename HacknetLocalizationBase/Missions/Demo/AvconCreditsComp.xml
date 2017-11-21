@@ -1,0 +1,57 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="avconCreditsComp" name="Avcon制作人员服务器" security="0">
+  
+  <addAvconDemoEndDaemon name="Demo End" />
+  <file path="home" name="Entropy_Contact.txt" >
+    黑客组织"Entropy"设立了一个招聘网站, 看起来, 他们正在招收新成员. 
+    这是他们网站的地址"199.59.149.230"
+    -M
+  </file>
+  <file path="home" name="ProxyOverloadGuide.txt" >
+    需要过载代理服务器时, 首先在你已经获得管理员权限的几个设备上运行shell. 
+    要做到这一点, 只需使用"shell"命令即可(例如: "exe shell"). 
+    一旦你开启了一些shell, 就可以使用它们的过载功能来不断给目标设备的代理服务器发送大量请求, 
+    直到代理服务器暂时性瘫痪. 
+    这样就能够给你开启一个窗口, 让你透过代理服务器的阻碍来直接对目标设备进行操作. 
+    -M
+  </file>
+  <file path="home" name="Credits.txt" >
+    -----HackNet-----
+
+    A Game by:
+    --Matt Trobbiani--
+    Twitter: @Orann
+    Email: mtrobbia@gmail.com
+
+    Flavour Text and Logos:
+    --Sarah Riggall--
+
+    Appearance Concept
+    Jeryth
+    http://www.reddit.com/user/jeryth
+
+    -Music-
+    Revolve - Hisboyelroy
+    Leviathan - Kirkoid
+    Ana - Hisboyelroy
+    www.ccmixter.org
+
+    -Testing and Thanks-
+    Tristan "tijit" Trabilsie
+    Jamie Williamson
+    Alex Mackay
+    Noblekale
+    Chris Johnson
+    Sam Crisp
+    Dylan Sale
+    Richard Taylor
+    Ben Kislby
+    Matt LeKrupa
+    Brad Wesson
+    Jamie Pillianaros
+  </file>
+  <file path="sys" name="DefaultBootModule.txt" >[Locked]</file>
+  <!--
+  <addEmailDaemon />
+  -->
+</Computer>

@@ -1,0 +1,45 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="decSoftWeb" name="DEC方案小组网络服务器" security="2">
+
+  <ports>80, 1433</ports>
+  <portsForCrack val="2" />
+  <firewall solution="ENCRYPT"/>
+  <addWebServer name="www.DEC-Solutions.com" url="Content/Web/Presets/DEC/DECMainPage.html" />
+  <proxy time="0" />
+
+  <positionNear target="decSoftMainframe" position="1" total="3" />
+  <dlink target="decSoftMainframe" />
+
+  <file path="home" name="README.txt">
+    哈哈就是让你点进来看的
+  </file>
+  
+  <encryptedFile path="home" name="Staff_Memo.dec" ip="101.0.89.154" header="Staff memo" extension=".txt">
+大家好, 
+首先, 热烈祝贺我们新的加密套件开发成功! 这是一场伟大的胜利, 我希望大家能够像我一样感到自豪. 
+现在, DEC方案小组已经成为世界软件开发界的最耀眼的新星. 我觉得, 作为一个团队, 我们应当继续努力, 以更高的标准来要求自己. 
+因此, 我将为公司执行几项新政策, 我希望你们能理解公司新政策的内涵, 并且严格遵守它, 以此来改进我们的工作流程, 提高我们的效率. 
+新政策将会在几天内开始执行. 到时候, 就期待兄弟们的表现了! 
+加油吧, 
+-David Leatrou, CEO
+  </encryptedFile>
+  
+  <encryptedFile path="home" name="New_Policies.dec" ip="101.0.89.154" header="Staff memo" extension=".txt">
+大家好, 
+这就是我前几天提到的新政策, 请仔细阅读! 
+   
+1) 敏感的公司资料(比如源代码, 机密备忘录等)存放时必须加密. 
+而且, 还有比我们自己的加密软件更好的吗? 在看过我们的成就后, 我相信你已经明白, 我们自家的加密套件是坚不可摧的. 
+我已经开始这么做了, 甚至有些文件我进行了双倍加密! 这就像戴两个套套, 就算破了一个, 也还是安全的嘛. 
+
+2) 你在加密文件的时候, 即便不设置密码也不要紧, 不过如果你觉得实在不放心, 就用你的员工ID作为密码. 
+比如, 我的重要文件密码是我自己的ID"dleatrou"! 
+
+3) 加密套件的各种版本一定要脱机存放! 在这种信息安全时代, 再小心也不为过! 
+
+享受你最后一个未加密的公司备忘录吧! 
+-David Leatrou, CEO
+  </encryptedFile>
+  <encryptedFile path="home" name="DECE_TestBuild_pdb.dec" ip="101.0.89.154" header="Source Code" extension=".pdb">#BINARY#</encryptedFile>
+  
+</Computer>

@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="deathRow" name="死亡人员名单数据库" ip="168.51.178.4" security="5" type="4">
+  
+  <adminPass pass="texas" />
+  <admin type="fast" resetPassword="false"/>
+
+  <portsForCrack val="3" />
+  <ports>80, 21, 1433</ports>
+  <firewall solution="AHSUNYAG" />
+  <proxy time="-1" />
+  <trace time="160" />
+  
+  <file path="home/SECURE/ProtectedFolder/AdminOnly" name="InternalMemo.txt">
+  作为这项计划的负责人, 我试图再次进入并控制它, 但是它的管理员已经更改了密码. 
+
+  这已经发生过好多次了, 浪费了我们公司的宝贵时间. 从现在起, 我认为应该把这里的密码保存为"texas". 
+  我将把这个备忘录储存在安全的位置, 以供将来参考. 我已经将日期记录在它商贸, 如果你将来坚持要浪费我的时间, 它可能会被当作法律文件. 
+
+  不要让我再说一遍! 
+  
+  记录于2012年4月2日   
+
+  Brad Collier
+  执行董事 - Records Division
+  法律顾问 Justice
+  </file>
+  
+  <deathRowDatabase />
+  
+</Computer>

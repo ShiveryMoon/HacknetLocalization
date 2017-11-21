@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="education07">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="*nix 系统的注释系统">
+任何基于 *nix 内核的终端驱动操作系统都内置了注释程序(键入 "notes" 运行), 这是一个能够极大的方便我们使用的程序. 
+但是很少有人发挥了它100%的价值, 比如说它极高的效率, 与众多邮件客户端和其他程序的优良兼容性(因此这些程序可以为你自动补全注释). 
+    
+要想使用它只需要键入 "Notes" 命令, 就是这么简单. 你可以通过 UI 手动添加注释, 也可以使用 "addNote [NOTE]" 命令来达到同样的效果. 
+  </posting>
+  <email>
+    <sender>ERROR</sender>
+    <subject>ERROR</subject>
+    <body>
+如果你收到这封邮件, 说明发生了一项未知错误. 
+请加以注意! 
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

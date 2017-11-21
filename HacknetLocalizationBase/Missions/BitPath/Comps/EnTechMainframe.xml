@@ -1,0 +1,24 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="EnTechMainframe" name="EnTech_宙斯" security="5" type="4">
+  
+  <adminPass pass="v19328hQ9" />
+
+  <admin type="basic" resetPassword="false"/>
+  <ports>80, 22, 1433, 25, 21</ports>
+  <portsForCrack val="9999999" />
+  <trace time="500" />
+  
+  <dlink target="EnTechOutsiderRepo" />
+  <dlink target="EnTechPrometheus" />
+  <dlink target="EnTechRomulus" />
+  <dlink target="EnTechWeb" />
+  <dlink target="EnTechWSCore" />
+  <dlink target="enMail" />
+
+  <file path="Repo/Hacknet" name="Hacknet.sln">#BINARY#</file>
+  <file path="Repo/Hacknet" name="Hacknet_Runtime.dll">#BINARY#</file>
+  <file path="Repo/Hacknet" name="HN_NETCORE.dll">#BINARY#</file>
+  <file path="Repo/Hacknet" name="Hacknet_Source.src">#BINARY#</file>
+  <file path="Repo/Hacknet" name="Content.xnb">#BINARY#</file>
+  
+</Computer>

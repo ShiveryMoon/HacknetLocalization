@@ -1,0 +1,33 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="AddDegree" owner="John Stalvern" degree="Masters in Digital Security" uni="Manchester University" gpa="3.0"/>
+  </goals>
+  <missionEnd val="1">changeSong</missionEnd>
+  <nextMission>MainHub/Misc/Faction_Gain_Helper.xml</nextMission>
+  <posting title="教老狗学新把戏 [Int.Academic]">
+我们组织的一位很有潜力的朋友需要向他的简历上添加一个新学位. 
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>二进制宇宙(大学)</subject>
+    <body>在信息安全公司的高层有朋友可是件好事儿 -- 尤其是这位朋友还对电脑安全方面毫不了解. 
+然而最近我们还真就碰到了这样的人. 我们的黑客已经联系到了他, 我们可以展露一些手段让他开开眼, 把他争取过来. 
+他老家有个曼彻斯特大学, 我们希望你在那给他添加一个新学位. 
+名字: John Stalvern
+学位: "Masters in Digital Security"
+学校: "Manchester University"
+绩点: 3.0 or higher
+注意: 你要向我保证一定记得删除你的操作记录 -- 他们这种国际组织很重视名声, 如果让他们发现你, 你一定会吃不了兜着走. 
+祝你好运, 
+-CSEC
+    </body>
+    <attachments>
+      <link comp="academic" />
+      <note title="学位细节">名字: John Stalvern 
+学位: "Masters in Digital Security"
+学校: "Manchester University"
+绩点: 3.0 or higher</note>
+    </attachments>
+  </email>
+</mission>

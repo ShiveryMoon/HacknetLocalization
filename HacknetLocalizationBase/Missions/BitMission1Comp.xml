@@ -1,0 +1,68 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="bitMission01" name="P. Anderson的卧室电脑" security="1" type="4">
+  
+  <file path="log" name="@18907 Connection From XXX.XXX.XXX.XXX" >Connection from [IP MASKED] established.</file>
+  <file path="log" name="@18922 XXX.XXX.XXX.XXX Given Administrator Access">Connection from [IP MASKED] given administrator privileges.</file>
+  <file path="log" name="@18928 XXX.XXX.XXX.XXX Acessed File [Valence_Dossier.pdf]">File [Valence_Dossier.pdf] was read by [IP MASKED] -- System Administrator</file>
+  <file path="log" name="@19002 XXX.XXX.XXX.XXX Deleted File [Valence_Dossier.pdf]">File [Valence_Dossier.pdf] was deleted by [IP MASKED] -- System Administrator</file>
+  <file path="log" name="@19002 XXX.XXX.XXX.XXX Disconnected">[IP MASKED] Disconnected from system</file>
+  <file path="home/Documents" name="Laptop_PoliceReport.txt">
+警察编号
+14 L 510 66
+
+
+请求数
+AAH 886</file>
+  
+  <file path="home/Documents/personal" name="letter_draft.txt">
+[DRAFT]
+
+05/08
+
+爸爸. 
+我知道你不理解我做出的选择, 我也不奢求你能明白. 但是我希望你能尊重我的决定并继续把我当作你的孩子看待. 
+虽然很抱歉, 但是我想, 直到你能做到为止, 我需要离开波士顿, 离开你. 我的英雄, 我的榜样, 他与我生活在同一个地方, 却无视我的存在, 我无法在这样的情况下, 和他生活在同一个城市里. 
+我已经尽我最大的努力来包容, 理解, 并试图解释这种转变, 但我不能再接受它了. 
+我要跟杰姆斯一起去洛杉矶. 如果你有什么想跟我说的, 给我打电话就行. 
+请您明白我并不是很轻巧地做出这个决定. 这是我必须做的事情, 我希望在这个时候, 你会学会接受真正的我. 
+我爱你. 
+Paul
+  </file>
+
+  <file path="home/Documents" name="chatlog.txt">
+[HotRice] 准备好出去浪了吗? 
+[Kiah] 那取决于. . . 
+[Kiah] 你准备好去死了吗
+[M4cr0b4t] 哈哈哈
+[HotRice] 闭嘴, Johnson! 
+[HotRice] 忘了你上次打翻花生酱的事情了? 
+[M4cr0b4t] 别提那次的事情了
+[HotRice] 就那一次就够你受的了
+[HotRice] 有谁知道Hellerphant在哪里吗? 
+[Kiah] 没有人知道他去哪了
+[Kiah] 我估计是有个魔法怪物把他抓走了. 
+[HotRice] 严肃点, 我们的计划被打乱了. 
+[HotRice] 为什么每次我担心的事情总会发生? 
+  </file>
+  
+  <file path="home/Documents" name="Laptop.txt">
+    约定保险不包括(索赔, 权利等? ? ? ? )
+    私人保险
+    "在事件发生前不要公布"
+    需要在它们被偷之前申报贵重物品? ? ? 
+    警察: 
+    "允许调查, 不隐瞒"
+    不可能发生任何事. . . 
+  </file>
+  
+  <file path="home/Documents" name="TaxReturn002.TAX">#BINARY#</file>
+
+  <file path="home/Work" name="ReportEmailDraft.txt">
+    -简介
+    -没有定论, 有线索
+    -笔记本电脑在会议中被窃取, 包括会议记录
+    -最有可能复制的人在这里 ---? ? ? ? ? 你认为是我干的? 
+    -我们会尽快提交我们找到的细节. 
+  </file>
+  
+</Computer>

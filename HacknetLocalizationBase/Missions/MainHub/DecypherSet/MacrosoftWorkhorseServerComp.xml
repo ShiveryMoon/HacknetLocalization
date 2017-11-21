@@ -1,0 +1,61 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="macrosoftWorkhorse04" name="巨硬 重负荷服务器 04" ip="168.61.82.245" security="3" type="3">
+  
+  <ports>21, 80, 1433</ports>
+  <portsForCrack val="3" />
+  <firewall level="-1"/>
+  <trace time="240" />
+  <proxy time="0" />
+
+  <file path="WORKLOGS" name="0118917.log">
+    工作: 加密文件
+    对象: 
+    文件: LemonStealingWhore.avi
+    输出: SeriousBuisnessDocuments.dec
+    --------------------------------------
+    工作完成 - 0错误
+  </file>
+
+  <file path="WORKLOGS" name="8978163.log">
+    工作: 编译源码(C#)
+    对象
+    文件: Main.cs
+    输出: WinC_DEBUG_NONRELEASE.exe
+    --------------------------------------
+    工作未完成 - 1错误
+    文件Main.cs未找到
+  </file>
+
+  <file path="WORKLOGS" name="3345633.log">
+    工作: 加密文件
+    对象: 
+    文件: WinCE_FirwareSpecs.pdf
+    输出: WinCE_FirwareSpecs.dec
+    密码: beepbeep
+    --------------------------------------
+    工作完成 - 0错误
+  </file>
+
+  <file path="WORKLOGS" name="489820.log">
+    工作: 编译源码(C#)
+    对象: 
+    文件: Main.cs
+    输出: WinC_DEBUG_NONRELEASE.exe
+    --------------------------------------
+    工作完成 - 0错误
+    1警告: 
+    Main.cs第12行 位置8: 检测不到代码
+  </file>
+
+  <file path="WORKLOGS" name="9982711.log">
+    工作: 加密文件
+    对象: 
+    文件: Naruto_Xrated_Collection.zip
+    输出: printer_Drivers.dec
+    密码: BELIEVEIT
+    --------------------------------------
+    工作完成 - 0错误
+  </file>
+  
+  
+</Computer>

@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="alphaCredits">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <email>
+    <sender>Matt Trobbiani</sender>
+    <subject>Re: 结局</subject>
+    <body>
+呃, 还有件事...  
+我知道你在玩盗版的Hacknet. 
+其实这不是多大事, 真的 - 我知道你可能有很多原因, 我绝对不会去批判任何一个穷困的人, 或者对目前的独立制作游戏的质量没信心的人. 
+但是...  Hacknet这个游戏几乎是我一个人做出来的, 它的销售额会直接关系到这个游戏未来的开发. 所以如果你喜欢这个游戏的话, 有能力的时候请考虑买正版吧! 
+如果你反对DRM, 这游戏在GOG.com和Humble Store上是免DRM的, 虽然我更偏爱steam版本. 
+无论如何, thanks for playing - 我希望你能享受这个游戏, 就像我制作这游戏时一样. 
+-Matt
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

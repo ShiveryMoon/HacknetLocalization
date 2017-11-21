@@ -1,0 +1,128 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="bitDropBox" 
+          name="Bitwise共享服务器" 
+          security="5"
+          ip="108.160.165.139"
+          allowsDefaultBootModule="false"
+          type="2" > <!-- 1=  corporate, 2 = Home, 3 = server -->
+  <!-- Accounts -->
+  <account username="bittest" password="test" type="1" />
+
+  <dlink id="bitRelay01" />
+  
+  <!-- Security Stuff -->
+  <ports>1433, 22, 21, 80, 25</ports>
+  <portsForCrack val="5" /> <!-- Number of ports to be open to allow porthack to run -->
+  <firewall level="6" solution="breezer"/>
+  <trace time="700" /> <!-- Adds a trace timer - set to -1 to remove -->
+
+  <uploadServerDaemon name="Upload Dropbox" folder="Drop"
+                      needsAuth="false" color="163,204,80"/>
+  
+  
+  
+  <file path="sys" name="x-server.sys">#WHITE_THEME#</file>
+
+  <file path="Drop/Uploads" name="test_upload.txt">
+测试文件, 请无视. 
+  </file>
+  <file path="Drop/Uploads" name="asdf.txt">
+    asdfghjkl
+    qwertyuiop
+    zxcvbnm
+  </file>
+  
+  <file path="Drop/Uploads" name="FileSanitiser.cs">
+    public static class FileSanitiser
+    {
+        public static string purifyStringForDisplay(string data)
+        {
+            data = data.Replace("\t", "    ").Replace("\"", "\"").Replace("\"", "\"");
+            for (int i = 0; i LTHAN data.Length; i++) {
+                if ((data[i] LTHAN 0x0020 || data[i] > 0x007F) AND (
+                    data[i] != 0x000A AND //Allow newlines
+                    data[i] != 0x000B AND
+                    data[i] != 0x000C AND
+                    data[i] != '\n'   )){
+                    //This char is outside the range of basic latin unicode chars!
+                    //We wont be able to display it
+                    //replace whatever's there with a space...  
+                    data = data.Replace(data[i], ' ');
+
+                }
+            }
+            return data;
+        }
+
+        public static void purifyVehicleFile(string path)
+        {
+            string data = Utils.readEntireFile(path);
+            data = data.Replace('\t', '#');
+            data = data.Replace("\r", "");
+            for (int i = 0; i LTHAN data.Length; i++) {
+                if (!GuiData.font.Characters.Contains(data[i]) AND data[i] != '\n') {
+                    data = replaceChar(data, i, '_');
+                }
+            }
+
+            Utils.writeToFile(data, "SanitisedFile.txt");
+        }
+
+        public static string replaceChar(string data, int index, char replacer)
+        {
+            return data.Substring(0, index - 1) + replacer + data.Substring(index + 1, data.Length - index - 2);
+        }
+
+        public static void purifyNameFile(string path)
+        {
+            string data = Utils.readEntireFile(path);
+            string[] split = data.Split(Utils.newlineDelim);
+            string[] d;
+            string ret = "";
+            for(int i = 0; i LTHAN split.Length;i++) {
+                d = split[i].Split(Utils.spaceDelim, StringSplitOptions.RemoveEmptyEntries);
+                ret += d[0] + "\n";
+            }
+
+            Utils.writeToFile(ret, "SanitisedNameFile.txt");
+        }
+
+        public static void purifyLocationFile(string path)
+        {
+            string data = Utils.readEntireFile(path);
+            char[] delims = {'\t' };
+            string[] split = data.Split(Utils.newlineDelim);
+            string[] d;
+            string ret = "";
+            for (int i = 1; i LTHAN split.Length; i++) {
+                d = split[i].Split(delims, StringSplitOptions.RemoveEmptyEntries);
+                for (int j = 1; j LTHAN d.Length; j++) {
+                    ret += d[j].Trim() + "#";
+                }
+                ret += "\n";
+            }
+
+            Utils.writeToFile(ret, "SanitisedLocFile.txt");
+        }
+
+    }
+  </file>
+  
+   <file path="Drop/Uploads" name="Where_Are_You.txt">嘿哥们, 你怎么老不回我? 你干嘛去了, 出去聚餐了还是什么? 
+这都过了一星期了, 给我回个话啊, 你还没给我讲清楚那东西到底是什么. 
+-v
+  </file>
+  
+  <file path="Drop/Uploads" name="READ_all_hackers.txt">
+这将是我最后一次检查这个服务器了, 然而很明显有人动过它. 
+这可真不是时候啊, 我现在正在跟EnTech合作一个大项目, 事情糟糕透了. 
+我感觉他们不希望我再插手这个项目了, 或者说他们觉得这个项目没前途. 
+哎, 也许我只是脑子太乱了. 我再调查一下这个服务器吧, 看看有没有什么危险. 我感觉肯定有问题. 
+-Bit
+1
+  </file>
+  
+ 
+  
+  
+</Computer>

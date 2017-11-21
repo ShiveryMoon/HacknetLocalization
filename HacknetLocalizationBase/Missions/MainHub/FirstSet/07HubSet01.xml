@@ -1,0 +1,29 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="WipeDegrees" owner="Jacob Stevens"/>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="清理一项学位记录">
+一位匿名的CSEC成员想让你帮个小忙. 由于他不想暴露身份和动机, 所以他不方便亲自动手. 
+该成员表示, 他的雇主经常因他的学位而强行将无关的任务安排给他, 而他却无能为力.
+他希望你能帮助他清理学位记录, 这样他就不用干这些杂活了.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>消除记录</subject>
+    <body>这项任务的发布者是一位匿名的CSEC成员. 虽然在进行这项任务的时候你有可能会辨别出这位发布者的真实身份, 但出于对本组织成员的尊重, CSEC希望你保留他的隐私. 
+任务: 
+我们组织的前成员需要清理他的记录 -- 删除他的所有学位信息记录. 
+姓名: Jacob Stevens
+注意: 你要向我保证一定记得删除你的操作记录 -- 他们这种国际组织很重视名声, 如果让他们发现你, 你一定会吃不了兜着走.       
+-CSEC
+    </body>
+    <attachments>
+      <link comp="academic" />
+      <note title="任务细节">删除记录
+姓名: Jacob Stevens</note>
+    </attachments>
+  </email>
+</mission>

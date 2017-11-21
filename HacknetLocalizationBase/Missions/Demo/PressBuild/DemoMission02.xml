@@ -1,0 +1,38 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="pressdemoMission01">
+  <goals>
+    <sendemail recipient="gila" subject="MedicalRecord - Helleran_Elanor" />
+  </goals>
+  <nextMission>Demo/PressBuild/DemoMission03.xml</nextMission>
+  <email>
+    <sender>Bit</sender>
+    <subject>潜入宝库</subject>
+    <body>干的漂亮, 看来你已经准备好了. 
+前面所有的准备都是为了此时的到来, 我仍然打算将所有的东西公布于网络. 我需要抓住一切可能的机会, 然而你是所有机会中最有可能的人, 但是在这件事上我不能仅仅依靠"最佳猜测". 
+我有些人情要还, 一些人帮助了我(可能他们并未意识到). 
+
+最特殊的一个, Gila, 一个来自CSEC的朋友帮我在一个不能再继续做的项目上继续工作.  在我被追踪的最后时刻我格式化了我的硬盘, 我现在又开始任性了, 所以只好拜托你了. 
+
+他想要一封医疗记录. 我已经尽我所能的破坏了Int.Medical的安全系统, 所以你应该能够利用你手上的工具去黑掉它. 他想要的东西的细节我已经附加在邮件中. 目标服务器安全等级很高, 别太马虎了, 你需要清除所有关于你的日志(log). 
+
+祝你好运, 这是你第一份正式的工作. 
+
+--Bit
+0
+    </body>
+    <attachments>
+      <note title="任务概要">
+连接到国际医学数据库
+破坏安全系统
+(Probe/Programs/Porthack)
+
+寻找关于"Elanor Helleran"的医疗记录
+
+把医疗记录发送至"gila@jmail.com"
+
+使用命令"rm *"删除/logs文件夹下的所有日志
+      </note>
+      <link comp="medicalDemo" />
+    </attachments>
+  </email>
+</mission>

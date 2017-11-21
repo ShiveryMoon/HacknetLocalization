@@ -1,0 +1,24 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="bit02_Phase5" >
+  <goals>
+    <goal type="getString" target="ax889msjA"/>
+  </goals>
+  <nextMission>BitPath/BitAdv_Intro06.xml</nextMission>
+  <email>
+    <sender> V </sender>
+    <subject>Bit -- 蔓延</subject>
+    <body>你成功进入这个服务器了吗? 
+这个新型的安全软件几乎蔓延到了所有的服务器里, 不过我还是找到了进入的方法 -- 漏洞仍然是存在的, 只不过我的进度有点慢. 
+在附件里我贴上了目前我正在调查的IP地址. 从我调查的角度来看, 并没有发现任何突破口 -- 你有没有什么好的办法? 
+如果你发现了它的管理员密码, 回复给我  -  我感觉如果想查明Bit是如何参与这一切的, 这个服务器将会是关键. 
+"Hacknet"项目的出现也让我感觉有点担心...  你听说过它吗? 将整个操作系统改写...  
+关于"hacknet项目"这事我们先放到一边吧. 目前我们要做的, 是想个办法进入这个中继服务器 -- 成功后我们再去考虑别的. 
+我可能会先去调查一下他们的产品服务器和销售服务器 -- "Prometheus"和"Romulus". 线索可能会出现在任何地方.  
+祝你好运, 
+-V
+    </body>
+    <attachments>
+      <link comp="EnTechOutsiderRepo" />
+    </attachments>
+  </email>
+</mission>

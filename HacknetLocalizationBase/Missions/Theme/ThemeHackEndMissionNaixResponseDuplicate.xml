@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="themeHackEndMission" shouldIgnoreSenderVerification="true">
+  <goals>
+    <goal type="FileDeletion" target="naixGateway" file="Macrosoft_Internal_Raid_Archive.rar" path="home" />
+  </goals>
+  <nextMission>Entropy/PostBranch/EntropyAdv01.xml</nextMission>
+  <branchMissions>
+    <branch>Theme/ThemeHackNaixBranch.xml</branch>
+    <branch>Theme/ThemeHackEndMissionFail.xml</branch>
+  </branchMissions>
+  <email>
+    <sender>naix@jmail.com</sender>
+    <subject>Re: Re: 你他妈在逗我? </subject>
+    <body>
+      Yeah, fuck you too, 傻逼. </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

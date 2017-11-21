@@ -1,0 +1,44 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="advExamplePC2" 
+          name="Adventure Example PC 2" 
+          ip="167.194.132.8"
+          security="0"
+          allowsDefaultBootModule="false"
+          type="1" > <!-- 1=  corporate, 2 = Home, 3 = server, 4 = empty-->
+  <!-- Security is a number from 0 to 5 that represents how hard it is to hack
+  From 1-4 it will need that many ports to open, 4 and above will automatically
+  add other security to scale it up easily, you can overrwriete specifics below-->
+  <!-- Accounts -->
+ 
+  <adminPass pass="password" />
+  
+  <!-- Files -->
+  <file path="home" name="Test_File">This is a test file in the home directory</file>
+  <file path="home/NewDirectory" name="Test_File">
+    This is a longer file that also creates a new directory by adding something to path
+
+    #BINARY
+    This generaes some binary (2000 chars of it)
+
+    #PLAYER_IP#
+    Becomes the IP of the player's computer
+
+    #PLAYERNAME#
+    the above string converts itself into the player's name
+
+    test test
+  </file>
+  <file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+  <file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
+  <file path="bin" name="WebServerWorm.exe">#WEB_CRACK#</file>
+  <file path="bin" name="SMTPOverflow.exe">#SMTP_CRACK#</file>
+  <file path="bin" name="SQLBufferOverflow.exe">#SQL_CRACK#</file> <!-- port 1433 -->
+
+  <file path="sys" name="White-Theme.sys">#WHITE_THEME#</file>
+  <file path="sys" name="Green-Theme.sys">#GREEN_THEME#</file>
+  <file path="sys" name="Yellow-Theme.sys">#YELLOW_THEME#</file>
+  <file path="sys" name="Teal-Theme.sys">#TEAL_THEME#</file>
+
+  <addOnlineWebServer name="Reddit" url="http://www.reddit.com" /> <!-- Remember the http:// -->
+  
+</Computer>

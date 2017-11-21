@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="pacemakerHWArticle01">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="您身边的Kellis生物科技">
+Kellis生物科技是一家经过国际认证的原始设备制造商(OEM), 在制造医疗和美容设备领域提供专业的全方位服务. 
+从产品设计到大规模生产, Kellis在医用级硬件领域的创新水准一直处于业界领先水平, 专注于嵌入式微型设备和操作设备的制造. 
+我们的目标决定了我们的产品标准, 只接受绝对可靠和绝对稳定的产品. 因为, 当关乎到您的健康问题时, 我们对产品质量绝不会有一丝松懈. 
+  </posting>
+    <email>
+    <sender>ERROR</sender>
+    <subject>ERROR</subject>
+    <body>
+如果你收到这封邮件, 说明发生了一项未知错误. 
+请加以注意! 
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

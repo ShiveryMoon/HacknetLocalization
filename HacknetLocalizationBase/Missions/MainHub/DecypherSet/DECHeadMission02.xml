@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="getString" target="beepbeep"/>
+  </goals>
+  <missionEnd val="1">addFlags:dechead</missionEnd>
+  <nextMission>MainHub/Misc/Faction_Gain_Helper.xml</nextMission>
+  <posting title="追查一份加密文件">
+我手头有一个需要密码才能打开的文件 -  - 这让我想到了一个方法, 如果能够追查到DEC文件的加密地点, 我们会提供给你足够的线索去完成这项任务. 
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>回复 : 透过"潜望镜"</subject>
+    <body>
+不错, 那玩意你拿到手了? 
+好, 文件我已经上传到负载均衡服务器了, 名为"CSEC_encode_1.dec". 我们给他它重命名了, 防止不必要的麻烦. 对了, 它最初的名字是"WinCE_FirmwareSpecs.dec" -  - 如果你对它感兴趣的话. 
+总之, 去读取它的头文件吧, 找到这个文件的加密地点, 然后追踪过去找到密码! 将密码回复给我, 接下来的事情就交给我们了. 
+谢谢你的帮助, 
+-CT 团队
+    </body>
+    <attachments>
+      <link comp="hubCrossroads" />
+    </attachments>
+  </email>
+</mission>

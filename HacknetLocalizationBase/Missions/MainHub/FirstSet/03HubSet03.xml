@@ -1,0 +1,31 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="removeDeathRowRecord" name="Joseph Felman"/>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="删除伪造的死亡记录">
+这是一项清理工作. 删除某位黑客向死亡名单数据库里植入的错误信息. 
+出于未知原因, 在死亡名单记录里出现了错误的重复记录 -- 看起来可能是身份盗窃或者是某人恶意破坏. 
+我们需要删除这个错误记录. 
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>死亡名单上的冒充者</subject>
+    <body>这项任务的发布者是一位匿名的CSEC成员. 虽然在进行这项任务的时候你有可能会辨别出这位发布者的真实身份, 但出于对本组织成员的尊重, CSEC希望你保留他的隐私. 
+任务内容: 
+在死亡人员名单上出现了一位叫"Joseph Felman"(#119080)的人的记录, 这个人的记录很明显复制自Alva Curry(#999080), 而后者才是本人. 
+在数据库里删除Joseph Felman的记录 -- 这个记录的存在不仅威胁到所有真正名叫Joseph Felman的人, 而且还是对死者Curry先生的不尊重. 请改正它. 
+-CSEC
+
+(汉化组注: 在死亡名单数据库中, 英文名字的姓和名是倒过来的)
+ 
+    </body>
+    <attachments>
+      <link comp="deathRow" />
+      <note title="记录细节">删除记录
+姓名: "Joseph Felman"</note>
+    </attachments>
+  </email>
+</mission>

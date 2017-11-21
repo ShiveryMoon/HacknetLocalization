@@ -1,0 +1,16 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="secuLockDrive" name="来黑我呀 /EL SecuLock 安全驱动" ip="69.172.201.208" security="4" type="4" icon="chip" >
+
+  <portsForCrack val="4" />
+  <proxy time="0.2" />
+  <ports>25, 22, 21, 1433</ports>
+  <trace time="400" />
+  <adminPass pass="ithoughtyouweremakingtea" />
+  <admin type="fast" resetPassword="false" isSuper="true"/>
+  
+  
+  <file path="home" name="DeleteMe.txt">你做到了! 我认为该服务器还不够安全, 请删除本文件, 证明给我看! </file>
+  
+  
+  
+</Computer>

@@ -1,0 +1,75 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="pacemakerSW_BE"
+          ip="111.105.22.1"
+          name="Eidolon 软件产品服务器" 
+          security="4"
+          type="1" > <!-- 1=  corporate, 2 = Home, 3 = server -->
+  <!-- Security Stuff -->
+  
+  <ports>80, 22, 1443, 25, 21</ports>
+  <trace time="320" /> 
+  <firewall level="-1"/>
+
+  
+  
+  <!-- Junk -->
+  <file path="projects/EnTech" name="SynergysticCloudGlassCeilingBreaker.app">#BINARY#</file>
+  <file path="projects/EnTech" name="HumanCapitalEnhancer.dll">#BINARY#</file>
+  <file path="projects/EnTech" name="IntergratedChannelHarnesser.dll">#BINARY#</file>
+  <file path="projects/EnTech" name="ProactiveFocusStorageExtender.dll">#BINARY#</file>
+  <file path="projects/EnTech" name="QualityVectorStreamliner.dll">#BINARY#</file>
+
+  <!-- The Goods -->
+  <file path="projects/KellisBT" name="Catalyst_Driver.cfg">#BINARY#</file>
+  <file path="projects/KellisBT" name="KBT_PacemakerFirmware_0.1.dll">#PACEMAKER_FW_WORKING#</file>
+  <file path="projects/KellisBT" name="KBT_PacemakerFirmware_0.22.dll">#PACEMAKER_FW_WORKING#</file>
+  <file path="projects/KellisBT" name="KBT_PacemakerFirmware_1.0.dll">#PACEMAKER_FW_WORKING#</file>
+  <file path="projects/KellisBT" name="KBT_PacemakerFirmware_1.11.dll">#PACEMAKER_FW_WORKING#</file>
+
+  <file path="projects/KellisBT/Tests" name="TestGuide.txt">
+作为我们测试环节的一部分, 在芯片上运行单元测试套件之前, 需要执行"周期性检查", 在固件运行之前要连接到测试平台并且进行循环测试, 这将循环检验所有有效的输出和自检时间, 虽然这只是一个普通的终端硬件测试, 但它也会帮助我们找到一些微小的错误. 
+在它运行之后, 所产生的数据会储存在测试平台, 你可以将这些数据分析后做出新的补丁来升级测试版本. 
+
+---
+警告: 当前测试固件的签名为: "PacemakerFirmware_Cycle_Test.dll"
+不要把该固件上传到准备部署的设备中
+---
+
+用于循环测试的固件是被安装了数字签名并编码的, 所以在芯片上运行时需要小心辨别运行版本, 别把它放置在你的输出文件夹中
+</file>
+
+  <file path="projects/KellisBT/Tests" name="KBTPM_Test_Suite.kbts">#BINARY#</file>
+  <file path="projects/KellisBT/Tests" name="PacemakerFirmware_Cycle_Test.dll">#PACEMAKER_FW_DANGER#</file>
+  
+  
+
+  <file path="projects/Internal" name="Goals.txt">
+逐步最大化的跨单位质量向量
+
+以客户为中心的协同关系
+
+独特的下一代协作和分享的设想者
+
+适宜抄袭的最佳的电子服务
+
+适当的一货币化过程为中心的外包
+
+有效供给的方法论
+
+实时无缝生成的好处
+  </file>
+  
+  <file path="projects/Internal" name="Eidolon_Security_Notes.txt">在我们最近一次会议的讨论中, 我们的技术支持团队提出一项需求, 他们需要获取我们系统的通配符权限来进行有效的维护和升级. 因此, 我们特地添加了一个新账户"EAdmin"(Eidolon 技术支持管理员). 
+这个账户开启了调试功能并拥有全部特权, 能够访问我们所有版本的产品. 它对于我们的技术支持团队来说意义很明显, 他们可以用这个账户轻松地获取管理员权限, 在我们的测试产品上进行调试. 而对于我们的部署经理来说, 你们要做的就是记得将这个账户添加到我们所有出口产品的设置脚本中. 
+
+账户详情: 
+用户名        : "EAdmin"
+密码          : "tens86"
+权限          : 全部
+调试设定      : 开启
+  </file>
+  
+  
+  
+  
+</Computer>

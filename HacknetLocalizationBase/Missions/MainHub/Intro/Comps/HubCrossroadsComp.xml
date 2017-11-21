@@ -1,0 +1,134 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="hubCrossroads" name="CSEC负载均衡服务器" security="0">
+
+  <positionNear target="mainHub" position="1" total="6" />
+
+  <file path="home" name="REQUEST.zip">#BINARY##BINARY#</file>
+  <file path="home" name="CT2.zip">#BINARY##BINARY#</file>
+
+  <encryptedFile path="home" name="encrypt_source.dec" ip="101.0.89.154" header="Secured Source Code" extension=".cs">
+    
+        private static string Encrypt(string data, ushort passcode)
+        {
+            StringBuilder ret = new StringBuilder();
+            for (int i = 0; i LESS_THAN data.Length; i++) {
+                int newVal = ((ushort)data[i] * 1822) + ushort.MaxValue / 2 + passcode;
+                ret.Append(newVal + " ");
+            }
+            return ret.ToString().Trim();
+        }
+        
+        ///summary
+        /// Returns an array containing
+        /// [0] Header Message
+        /// [1] IP Link
+        /// [2] Message Data
+        /// [3] File extension if provided, else null
+        /// [4] "1" is password is valid, "0" if not
+        ///summary
+        public static string[] DecryptString(string data, string pass = "")
+        {
+            string[] ret = new string[5];
+            ushort passcode = GetPassCodeFromString(pass);
+
+
+            string[] split = data.Split(Utils.robustNewlineDelim, StringSplitOptions.RemoveEmptyEntries);
+            if (split.Length LESS_THAN 2) throw new FormatException("Tried to decrypt an invalid valid DEC ENC file");
+            string[] headersSplit = split[0].Split(HeaderSplitDelimiters, StringSplitOptions.None);
+            if (headersSplit.Length LESS_THAN 4) throw new FormatException("Tried to decrypt an invalid valid DEC ENC file");
+
+            string headerMsg = Decrypt(headersSplit[1], passcode);
+            string ipLink = Decrypt(headersSplit[2], passcode);
+            string check = Decrypt(headersSplit[3], passcode);
+            string fileExtension = null;
+            if (headersSplit.Length > 4) fileExtension = Decrypt(headersSplit[4], passcode);
+            string message;
+            string passValid = "1";
+            if (check == "ENCODED") {
+                //Password was correct!
+                message = Decrypt(split[1], passcode);
+            }
+            else {
+                //invalid password
+                headerMsg = null;
+                ipLink = null;
+                message = null;
+                passValid = "0";
+            }
+            ret[0] = headerMsg;
+            ret[1] = ipLink;
+            ret[2] = message;
+            ret[3] = fileExtension;
+            ret[4] = passValid;
+            return ret;
+        }
+  </encryptedFile>
+
+  <encryptedFile path="home" name="CSEC_encode_1.dec" ip="168.61.82.245" header="WinC Firmware Specifications" extension=".pdf" pass="beepbeep">
+    WinCE固件驱动程序开发指南
+    ------------------------------------------------------
+    使用WinCE操作系统可以开发驱动或嵌入式系统的固件. 从车载到媒体播放器, 数以万计的设备都在使用该操作系统. 当你开发新驱动/固件的时候, 要牢记你的代码有可能会使用在各种不同的设备当中. 
+    ------------------------------------------------------
+
+    很多WinCE设备驱动实行流接口. 流接口的核心入口点为XXX_Open(设备管理器), XXX_Close(设备管理器), XXX_Read(设备管理器), 以及XXX_Read(设备管理器). 更多信息, 请查阅流接口驱动. 
+    网络适配器, 显示适配器, 鼠标设备, 键盘和其他特殊用途的设备不要使用流接口. 这些设备使用其他适合该设备的功能接口. 
+    无论你的设备驱动接口是否公开, 你可能需要实行一个中断服务程序(ISR). 关于中断和ISR的更多信息, 请查阅Interrupts. 
+    不同的进程加载不同的驱动程序. 下面的列表显示了具体的进程和它所需要加载的驱动. 
+
+
+    你可以在以下路径给你的固件写入代码: 
+    %_WINCEROOT%\Platform\%_TGTPLAT%
+    适用固件: 硬件平台相关. 这个路径主要包含OAL, 配置文件和BSP驱动. 禁止在以下路径改动硬件平台相关驱动: %_WINCEROOT%\Platform\%_TGTPLAT%\Drivers. 
+    %_WINCEROOT%\Platform\Common\Src\SOC
+    适用固件: SOC驱动高集成度的微处理器或本地外设集成的微处理器. SOC驱动包括实时时钟, 定时器, 调试以太网卡等等特定微处理器的OAL的驱动程序. 标准开发板(SDB)之后用同样的微处理器可以使用同一套SOC驱动程序. 
+    %_WINCEROOT%\Public\Common\OAK\Drivers
+    适用固件: 非本地外设的普通驱动, 即存在一个插入卡上或直接连接到一个电路板上的装置. 通用驱动程序包含独立于平台的代码, 能用链接到平台相关的代码来创建一个硬件驱动程序. 常见的驱动程序不特定于硬件平台或微处理器. 任何SDB都可以使用通用的驱动程序. 
+  </encryptedFile>
+
+  <file path="home" name="FOF_Screenplay.doc">
+    FRESH OUT OF FUCKS
+    -剧本-
+    开场: 轻柔的钢琴曲响起. 我们看了一眼高尔夫车仪表盘上的表: 现在是早上7点22分. 
+    一位衣衫褴褛的男人正在痛饮他手中明显是偷来的啤酒. 不要随意评价他 -- 酒很好喝, 他脸上洋溢着幸福. 
+    我说他衣衫褴褛, 其实是想说他简直穿了一个速度表在身上. 他的身影清晰可见. 
+    这位乞丐以40英里每时的速度开过一家咖啡厅(他背上有一台涡轮增压), 他的风压打翻了一位商人的咖啡. 
+    伴随着两位残疾人的尖叫, 他飞速从两架轮椅中穿过. 之后, 他把手中没喝完的啤酒随意扔向了路边, 就好像, 他从来不在乎这些酒一样, 对, 就是一点也不在乎. 
+    现在音乐真正激昂起来了, 伴随着号角声将剧情推向高潮. 我们的英雄闲庭信步地走向附近的垃圾箱, 爬了上去, 并且, 没有丝毫犹豫地, 脱下了他的"裤子", 开始畅快淋漓的倾泻.   
+    将镜头切到一位惊吓脸的老妇人上. 打出剧名. 
+  </file>
+
+  <encryptedFile path="home" name="T2_Screenplay.dec" ip="37.187.27.55" header="Secure Script Encryption inc (c)" extension=".doc" pass="DANGER">
+    泰坦尼克2: 冰山的复仇
+    -剧本-
+
+JACK DAWSON: "从来没人考虑过这个问题 -- 不是冰山撞上我们... 是我们撞上的它! "
+ROSE DEWITT BUKATER: "哈? 是不是那些科学仪器复活你的时候把你的脑子给搞坏了? 我复活你是因为我*爱*你! "
+JACK DAWSON: "我知道, 但是我们惹麻烦了. 你想, 冰山也有家庭, 它们想要复仇. 我死之前它们跟我说过了... 它们也不想这样的... "
+
+-JACK从裤裆里掏出了他炫酷的墨镜戴在头上.
+ 
+JACK DAWSON: "在这等着我. "
+
+场景切换到加利福利亚海岸
+
+水中出现了一座冰山, 正在以惊人的速度撞向城市. 
+空中回响着疏散警报, 沙滩上的人们在惊恐地四处逃散. 
+第一座冰山身后浮现出了更多的冰山, 全部都冲向了沙滩. 
+
+ROSE DEWITT BUKATER: "救命! "
+JACK DAWSON: "Rose! 我来救你了! 我永远不会离开你的! "
+
+领头的冰山已经登上了沙滩, 滑向了我们的两个主角. 它掏出了火把和汽油. 
+
+ROSE DEWITT BUKATER: "JAAAAACCCKKKKKKK!"
+
+  </encryptedFile>
+  
+  <encryptedFile path="home" name="C_EXE_contact.dec" ip="74.125.237.119" header="Encrypted Messaging Systems inc" extension=".txt" pass="quinnoq">
+
+    任务涉及到的JMail账户名叫"dlocke". 
+    我知道我们已经为之奋斗很久了, 但是别着急, 我们现在处于绝对的领先地位 -- 顺风求稳, 不能浪. 
+    等我有计划了以后, 会给你更多消息. 
+  </encryptedFile>
+  
+</Computer>

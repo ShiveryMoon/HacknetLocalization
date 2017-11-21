@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="avconMissionEnd" activeCheck="true">
+  <goals>
+    <goal type="FileDownload" target="bitMission02" file="Entropy_Induction_Test" path="home" />
+  </goals>
+  <missionEnd val="2">changeSong</missionEnd>
+  <nextMission>Entropy/EntropyMission1.1.xml</nextMission>
+  <email>
+    <sender>Matt Trobbiani</sender>
+    <subject>All Out of Time</subject>
+    <body>祝贺! 
+
+你刚刚完成了 Hacknet 的所有试玩内容! 
+本游戏的内部测试版已经发布了, 你可以从 Desura 或者 IndieCity 那里拿到它. 
+本游戏依然处于开发状态, 我正在努力工作, 让这款游戏趋于完善, 让这款游戏的每一次发行都能再创新高. 
+
+如果您对游戏有任何意见, 或对游戏的未来发展方向有什么建议的话, 请一定与我们联系. 
+
+感谢您购买本游戏! 
+
+来自 Matt Trobbiani
+
+另外, 如果您意犹未尽, 或许可以到已连接的服务器上碰碰运气? 
+      
+    </body>
+    <attachments>
+      <link comp="avconCreditsComp" />
+    </attachments>
+  </email>
+</mission>

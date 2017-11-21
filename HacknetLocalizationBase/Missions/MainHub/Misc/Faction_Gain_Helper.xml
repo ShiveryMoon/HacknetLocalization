@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="csecFactionGainHelper" activeCheck="true">
+  <goals>
+    <goal type="delay" time="1.5"/>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission IsSilent="true">NONE</nextMission>
+  <email>
+    <sender>CSEC Admin</sender>
+    <subject>CSEC的邀请</subject>
+    <body>
+你好#PLAYERNAME#,
+
+恭喜,你的任务已经完成 - 你的能力已经受到了我们的重视. 
+
+祝贺你, 并祝你好运
+-CSEC管理员
+
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

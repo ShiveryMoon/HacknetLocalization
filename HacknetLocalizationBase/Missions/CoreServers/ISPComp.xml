@@ -1,0 +1,15 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ispComp" name="ISP管理服务器" ip="68.144.93.18" security="5" type="4">
+  
+  <adminPass pass="tracert" />
+
+  <portsForCrack val="3" />
+  <ports>80, 22, 1433</ports>
+  <firewall level="-1" />
+  <proxy time="-1" />
+  <trace time="-1" />
+
+
+  <ispSystem />
+  
+</Computer>

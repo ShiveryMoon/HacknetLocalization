@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="entropyMission01.2">
+  <goals>
+    <goal type="getAdmin" target="entropy01"/>
+  </goals>
+  <nextMission>Entropy/EntropyMission2.xml</nextMission>
+  <email>
+    <sender>Entropy</sender>
+    <subject>欢迎</subject>
+    <body>
+欢迎你, #PLAYERNAME#, 
+
+恭喜, 
+你出色及时地完成了你的第一项任务, 让我们见识到了你的能力. 现在, 我诚挚地欢迎你来到Entropy黑客组织. 
+在我们的资源服务器里, 你可以找到管理员账户的详细资料. 作为组织送给你的见面礼, 你可以去资源服务器里面随意下载你所需要的程序, 同时记得阅读我们组织的宗旨. 一旦你准备好了, 请回复这封邮件. 我会给你安排一些真正有挑战的任务. 
+再次的恭喜你通过测试. 
+-Tex
+    </body>
+    <attachments>
+      <link comp="entropy01" />
+      <account comp="entropy01" user="admin" pass="rosebud" />
+    </attachments>
+  </email>
+</mission>

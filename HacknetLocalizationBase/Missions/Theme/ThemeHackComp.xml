@@ -1,0 +1,21 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="themeHackComp" name="代理_节点-X22" security="1">
+  
+  <dlink target="naixGateway" />
+  <file path="bin" name="SSHcrack.exe">#SSH_CRACK#</file>
+  <file path="bin" name="WebServerWorm.exe">#WEB_CRACK#</file>
+  <file path="sys" name="x-server.sys">#GREEN_THEME#</file>
+  <file path="home" name="Get_Out.txt" >
+有意思, 
+    
+我发现我有点儿低估你了啊! 还真是有点小惊讶. 
+txt文本总是能很好地表达出我的讽刺. 
+行了, 别再报复我在这里乱搞了, 我挺喜欢这个代理服务器的. 
+  </file>
+  <file path="log" name="@11907_Connection_Routed_173.194.35.172_To_173.188.235.2">Connection Routed 173.194.35.172 To 173.188.235.2</file>
+																					
+  <file path="log" name="@28907_Connection_Routed_173.194.35.172_To_203.194.22.112">Connection Routed 173.194.35.172 To 203.194.22.112</file>
+																					
+  <file path="log" name="@52734_Connection_Routed_173.194.35.172_To_#PLAYER_IP#">Connection Routed 173.194.35.172 To #PLAYER_IP#</file>
+																				
+</Computer>

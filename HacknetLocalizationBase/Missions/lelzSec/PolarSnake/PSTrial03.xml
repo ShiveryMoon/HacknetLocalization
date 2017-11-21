@@ -1,0 +1,13 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="psTrial03" name="北极星  -  勤奋之试炼" ip="103.31.8.1" security="4">
+
+  <trace time="-1" />
+  <portsForCrack val="2" />
+  <firewall level="5" solution="SNAKE" />
+  
+  <file path="home" name="Talismin.ttgl">//AA N UD SH  JAIJ  YYAL P
+#BINARY##BINARY##BINARY#</file>
+
+  <dlink target="psTrial03b" />
+  
+</Computer>

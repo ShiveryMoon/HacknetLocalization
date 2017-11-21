@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="entropyServer01">
+  <goals>
+    <goal type="FileDeletion" target="#COMP#" file="#FILE#" path="#PATH#" />
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Cleanup Operation">
+我们组织一个很有价值的客户要求我们删除一个前雇员私人电脑上的文件. 
+然而这些文件并不是唯一的, 但是客户只是希望移除这个人的副本文件. 
+目标似乎不可能通过被动追踪溯源到你. 
+  </posting>
+  <email>
+    <sender>#CLIENT#</sender>
+    <subject>善始善终2 - 需要编辑</subject>
+    <body>
+各位黑客你们好, 
+我公司的前雇员刚跳槽到了我们的竞争对手那里. 然而在他跳槽之前, 从公司内部获取了大量的内部文件, 如果他保存这些文件将会对我公司造成巨大损害. 
+我们希望你访问这台私人电脑并删除这些文件. 这些文件貌似储存在一个独立的文件夹中并且没有备份. 
+谢谢你能接受这个任务, 
+-#CLIENT#
+    </body>
+    <attachments>
+      <link comp="#COMP#" />
+    </attachments>
+  </email>
+</mission>

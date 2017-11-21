@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="lelzSecHub" name="/el 论坛" security="6">
+
+  <ports>80, 22, 1433, 21, 25, 103</ports>
+  
+  <messageBoard name="/el/ - Digital Security">
+    <thread>Content/Missions/lelzSec/MessageBoard/Threads/PolarSnake.txt</thread>
+    <thread>Content/Missions/lelzSec/MessageBoard/Threads/CoderThread.txt</thread>
+    <thread>Content/Missions/lelzSec/MessageBoard/Threads/SecuLock.txt</thread>
+    <thread>Content/Missions/lelzSec/MessageBoard/Threads/TimestampsThread.txt</thread>
+    <thread>Content/Missions/lelzSec/MessageBoard/Threads/NotesThread.txt</thread>
+    <thread>Content/Missions/lelzSec/MessageBoard/Threads/TestThread.txt</thread>
+    <thread>Content/Missions/lelzSec/MessageBoard/Threads/ClockThread.txt</thread>
+    <!--
+    <thread>Content/Missions/lelzSec/MessageBoard/Threads/PLACEHOLDER_LinksThread.txt</thread>
+    -->
+  </messageBoard>
+</Computer>

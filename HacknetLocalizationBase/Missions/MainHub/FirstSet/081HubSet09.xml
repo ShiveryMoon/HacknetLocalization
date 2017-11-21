@@ -1,0 +1,28 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet09">
+  <goals>
+    <goal type="getString" target="AAX1BB7"/>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="调查eOS设备">
+我们的客户需要获得某个目标人物的一些信息, 而他相信这些信息储存在一个eOS设备中. 
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>(手机)越狱</subject>
+    <body> 我尽量简短说明. 
+一位客户需要我们搜索目标人物的电脑和其他设备, 寻找一个"注册ID" -- 目标人物的家庭电脑与某eOS设备同步(附属链接), 而他认为这个ID就藏在该eOS设备中. 
+一旦你得到这个ID, 请回复给我. 其他事情就交给我们处理. 
+祝你好运, 
+-CSEC
+    </body>
+    <attachments>
+      <link comp="hubEosMisison" />
+      <note title="任务细节">
+在目标电脑上扫描eOS设备
+在该设备中找到上述所指的"注册ID"
+将该ID回复给CSEC</note>
+    </attachments>
+  </email>
+</mission>

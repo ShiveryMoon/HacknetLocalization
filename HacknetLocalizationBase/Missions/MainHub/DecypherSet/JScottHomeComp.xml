@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="jscottHome" name="Joseph Scott的作战基地" security="3" icon="laptop">
+
+  <encryptedFile path="home/work" name="Decypher.dec" ip="101.0.89.154" header="DECYPHER - DO NOT SHARE" extension=".exe">#DECYPHER_PROGRAM#</encryptedFile>
+  <file path="home/work" name="DEC_Header_Analysasdsadsafds.txt">
+  事情完全超出了我们的控制. 起初, 难点在于在没有专用工具的条件下破解文件加密, 现在呢? 
+  分析这些头文件依然是一个巨大的难关, 里面还有加密过的资源 IP, 这仍然是一个重大的安全隐患(我才不管这些让你的调试会话和客户关系变得多简单呢). 
+  
+  好吧, 这里有一些我们遇到问题的证据. 我会把这种令人震惊的事情放在一边, 稍后处理. 
+  心分二用或许会让我被解雇, 在我平静下来之前, 我还是专注一点比较好. 
+  
+  天哪, DECHead.exe, 为什么你会给我带来这么多问题啊. 
+  我猜它绝对不是一个外包的项目那么简单. 
+  
+  天哪我为什么要在一个文件里写这些……
+  拿来抚慰我受伤的心灵吗? 
+  </file>
+  <file path="home/work" name="DECHead.exe">#DECHEAD_PROGRAM#</file>
+  
+</Computer>

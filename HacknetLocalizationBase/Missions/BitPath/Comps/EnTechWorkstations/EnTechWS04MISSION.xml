@@ -1,0 +1,38 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="EnWS04" name="EnTech工作站 _008" security="5" type="3" ip="156.151.0.42">
+  
+  <ports>80, 22, 104</ports>
+
+  <portsForCrack val="3" />
+
+  <trace time="78" />
+
+  <admin type="fast" resetPassword="true" isSuper="true"/>
+  
+  <file path="WORKSTATION/store" name="comp.bin">#BINARY#</file>
+  <file path="WORKSTATION/store" name="MedStreamRef.txt">正如我们之前说的, 这儿有我写下的许可文件 -- 允许你的桌面上的流式传输保持开启状态. 正如我们讨论过的, 在本地保留此文件的备份来应付所有质疑你这件事的人. 如果他们不相信你, 让他们找我. 
+对于其他看到此文件的人, 本008号工作站的操作员Jorioni先生患有严重的心脏病 - 我们用软件帮助他的心脏监视仪和他的工作站交换数据, 我们辅助他安装这个软件为了能够保持监控他的状况以防突发情况. 
+作为"多样化工作环境"计划的一部分, 我们将会例外帮助Jorioni先生在这儿找一份活. 
+如果对于这个安排有任何质疑, 可以直接与我联系. 
+
+-D. Tagg,
+人力资源总监
+  </file>
+  <file path="WORKSTATION/store" name="StoreServIPs.txt">--存储服务器 IPS-
+Prometheus (存储开发中的项目)
+156.151.1.1
+
+Romulus (开发/编译服务器(同样包含已开发完的版本))
+156.151.1.12
+  </file>
+  <file path="WORKSTATION/store" name="AssetPack_012.zip">#BINARY##BINARY#</file>
+  <file path="WORKSTATION/store" name="AssetPack_013.zip">#BINARY##BINARY#</file>
+  <file path="WORKSTATION/store" name="Prometheus.txt">
+    d88vAnnX
+  </file>
+  <file path="WORKSTATION/hn_os" name="Hacknet_NetCore.dll">#BINARY##BINARY#</file>
+  
+
+  <positionNear target="EnTechWSCore" position="8" total="12" />
+
+</Computer>

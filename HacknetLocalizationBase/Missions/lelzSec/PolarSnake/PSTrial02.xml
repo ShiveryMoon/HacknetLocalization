@@ -1,0 +1,25 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="psTrial02" name="北极星  -  急速之试炼" ip="103.31.7.41" security="3">
+
+  <ports>80, 22, 25</ports>
+
+  <portsForCrack val="3" />
+
+  <trace time="50" />
+
+  <admin type="fast" />
+
+  <proxy time="2" />
+
+  <file path="home" name="Talismin.ttgl">//AA N UD SH  JAIJ  YYAL P
+#BINARY##BINARY##BINARY#</file>
+
+  <file path="home" name="Reward of Haste.txt">
+    
+    
+    33
+    
+    
+  </file>
+  
+</Computer>

@@ -1,0 +1,15 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="medical" name="通用医疗" ip="208.93.170.15" security="5" type="4">
+  
+  <adminPass pass="codeine" />
+  <admin type="none" />
+
+  <portsForCrack val="4" />
+  <ports>80, 25, 21, 1433, 104</ports>
+  <firewall level="8" solution="MEDICATE" />
+  <proxy time="2" />
+  <trace time="-1" />
+
+  <MedicalDatabase />
+  
+</Computer>

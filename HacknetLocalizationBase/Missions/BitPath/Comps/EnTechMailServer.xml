@@ -1,0 +1,151 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="enMail" name="EnTech 邮件服务器" security="5" ip="156.151.59.82">
+  
+  <adminPass pass="ax889msjA" />
+
+  <ports>80, 22, 1433, 25, 21</ports>
+  <portsForCrack val="9999999" />
+  <trace time="500" />
+
+  <positionNear target="EnTechMainframe" position="5" total="6" />
+  <account username="nstanford" password="murloc33" type="2" />
+  <account username="hnManager" password="hnmanager22" type="2" />
+  <account username="bcarter" password="dota4lyf" type="2" />
+  <account username="rc" password="byC89kMMe" type="2" />
+  
+  <mailServer name="EnTech Mail" color="0,129,242">
+    <email recipient="nstanford" sender="EnTech Management" subject="Hacknet Project Update">
+大家好, 
+
+首先我宣布, 我们的进度十分理想! 尽管我们在连接模型上遭受了一些挫折, 但我们仍能在最后期限范围内完成我们的任务. 你们做的不错. 一些外部承包商正在帮助我们解决开发早期遇到的问题, 从结果来看, 他们做的非常好! 
+我认为, 这个项目对每个人都能有启发, 并且它也加强了我的信念 - Hacknet项目确实可以反映出我们目前在信息安全方面遇到的问题. 
+通过将现有的系统推到极限(我们也是一样), 我们在EnSec的理论和开发上取得了巨大的进步 - 非常振奋人心的一点是, 我们的研究成果能够造福大量用户. 
+我们的产品还需要继续更新, 
+
+大家继续努力, 
+-RC
+    </email>
+    
+    <email recipient="nstanford" sender="EnTech Management" subject="Hacknet Project concerns and responses">
+大家好, 
+
+我们的一个工程师表达了对这个项目方向的担忧. 我转述一下: 
+"如果被恶意使用, 这可能是我们有史以来创造出来的最危险的工具了. 除非你能保证传播能被极为小心的跟踪和监视, 否则我不能保证我能有信心继续在这个项目上工作"
+我完全没料到会有这样的观点, 出于公开透明, 我现在要同整个公司讲明白这个问题. 
+正如我以前说的一样, 很早我们就将传播的限制和跟踪视作设计上认为是一种很难解决的麻烦. 制造一个威力巨大的工具的固有问题之一就是它们的滥用和与之伴随的严重后果. 这一领域的问题是我认为需要请求外部专家帮助才能更好解决的例子之一, 他们也给出了很好的结果. 
+虽然目前我没有已完成的产品能够用于展示, 不过我保证我会重视这个问题, 并且希望能和你们一起讨论. 目前*所有的*版本都内置了一个追踪器, 它能够每隔随机的时间后自动激活, 即使是在现在这样的项目早期阶段, 它也能帮助我们追查到失窃的版本. 
+
+加油, 继续努力工作, 
+-RC
+    </email>
+    
+    <email recipient="nstanford" sender="bcarter@entech.com" subject="Re: Romulus passwd"> 
+Hey,
+
+你可能最初设置的时候已经使用了这个密码, 不过我可以再告诉你一次, Romulus的管理员密码是: 
+
+h7ggNKl2
+
+在你的桌面上应该有指向它的链接, 如果没找到的话, 我直接告诉你: 156.151.1.12, 你可以通过它登陆. 
+
+祝你好运, 
+-Ben
+    </email>
+
+    <email recipient="nstanford" sender="Hacknet team Management" subject="Welcome to the Hacknet Team">
+Hello, 欢迎来到Hacknet小组. 由于项目的敏感性, 你在小组中的大部分活动会和本项目中其他部分隔离, 并且很少有机会能看到完整的编译好的项目文件. 因此, 我们希望能简单的给每个人介绍一下项目总体目标. 
+
+Hacknet OS是从底层由下至上设计的全新的电脑安全检查和渗透测试框架. 
+
+EnTech开发它作为公司新的安全软件套装(EnSec)配套, 用于宣传和展示EnSec, 它的性能是远超于传统安全软件的. 
+
+作为项目核心, hacknet是宣传工具, 但是作为单独的一个项目, 它也是有史以来创造的最有野心和威力的反安全工具. 
+
+欢迎加入我们组织 - 我确信你会同意这是一个无比令人激动的项目. 
+-Hacknet 团队管理员
+    </email>
+
+    <email recipient="nstanford" sender="EnTech Management" subject="EnTech Current projects and Direction">
+欢迎来到EnTech! 
+
+我们目前正在致力于两个大的项目, 你之后会得到你们小组的更详细的项目介绍. 本邮件是简要介绍我们目前的方向以及这两个项目是如何互相配合的. 
+
+第一个是EnSec, 一个全新的电脑安全套装, 设计用来颠覆电脑安全领域. 人为错误一直以来都是所有安全系统的主要问题来源. 但是我们认为它应该是"唯一的"问题来源. 通过去除和最小化系统中人为错误的可能性, 并且使用我们全新的享有专利的系统, 数字安全将不再是问题, 而是一个选择. 
+
+Hacknet OS是EnSec的配套工程, 用于展示安全系统上的存在的问题以此劝使人们使用我们提供的最佳安全方案. 
+
+欢迎! 
+-RC
+    </email>
+    
+    
+    <!-- CEO emails -->
+
+    <email recipient="rc" sender="Anonymous" subject="RE(5): New Case - Bit">
+
+      确认收到付款, 期待与您的下次合作. 
+      ---
+
+      操操操, 你都干了些什么? 事情不应该是这样的啊. 
+      你个傻屌疯子, 我没让你去杀他啊, 老天爷啊. 
+
+    </email>
+    <email recipient="rc" sender="Anonymous" subject="RE(4): New Case - Bit">
+
+      目标已经消灭. 
+      希望你能按照约定付款, 否则, 我的杀手们将会好好和那些不守信的客户谈谈了. 
+      ---
+      
+      如果他还没死, 那还不迟. 立刻终止这项任务, 我要取消付款. 操你妈的我雇你不是让你去杀人灭口的. 
+      我已经不管他对我们项目会产生什么鬼威胁了, 我他妈可不想因为你那猪脑子没看懂我的话, 就让我间接成为一个杀人凶手! 
+
+    </email>
+    
+    <email recipient="rc" sender="bcarter@entech.com" subject="RE: Mainframe Access Emergency">
+      
+      没问题, 
+
+      用户名:admin
+      密码:v19328hQ9
+      
+      我会关闭自动通过机制, 直到你搞定为止. 
+      -Ben
+      
+      ----
+      有意外出现了, 我需要得到主机的访问权来查看情况. 我要调查最近的访问和编译, 因此我需要管理员权限. 
+
+    </email>
+    
+    <email recipient="rc" sender="Anonymous" subject="RE(3): New Case - Bit">
+
+      太晚了, 已经没法阻止任务了. 我们的对话是匿名的, 如果你有特殊情况就应该早一点给我讲清楚. 
+      ---
+      死? 你他妈说什么? 我只是想让你砸了他的电脑然后给他安个罪名把他送进牢里, 而不是杀掉他! 够了够了, 赶快给老子取消这项任务, 我自己来处理. 
+      
+      这家伙可是个天才, 就算他对我的项目不利, 我也没必要赶尽杀绝啊. 赶快给老子想办法停止这任务! 
+      如果你真想这么干, 你自己承担责任, 别他妈把我扯进去. 
+
+    </email>
+    <email recipient="rc" sender="Anonymous" subject="RE(2): New Case - Bit">
+
+      任务已开始执行. 我们收费虽高昂, 不过放心, 我保证一星期之内, 你会收到他的死讯. 
+      费用将按照一位普通目标的标准收取. 
+      ---
+
+      谢谢你接受我的委托. 你这次具体有什么打算? 这个人深知项目的各项细节, 对我的威胁太大了. 
+
+    </email>
+    <email recipient="rc" sender="Anonymous" subject="RE: New Case - Bit">
+      
+      明白了, 交给我吧. 
+      ---
+
+      我的一位前雇员莫名消失了, 然而我并不是担心他, 我真正担心的是他将会对我的项目造成巨大的威胁, 因为他的失踪是有目的的, 他很清楚自己在做什么. 这个项目对于我来说非常重要, 甚至可以说这个问题将会威胁到全世界. 你能帮我处理他吗? 
+      详情见附件. 他叫"Bit". 
+      
+      -rc
+    </email>
+
+  </mailServer>
+  
+</Computer>

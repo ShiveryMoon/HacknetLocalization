@@ -1,0 +1,36 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="avconMission">
+  <goals>
+    <goal type="getAdmin" target="avconComp"/>
+  </goals>
+  <nextMission>Demo/AvconDemoEnd.xml</nextMission>
+  <email>
+    <sender>Bit</sender>
+    <subject>初试牛刀</subject>
+    <body>祝贺你! 	
+
+这种类型的软件在别处你可是找不到的
+	
+你应该尝试着做点更有趣的事情  -  -  Viper是出了名的乱摆乱放, 如果你得到了这样东西的话, 你就应该已经得到足够的工具以入侵更强大的机器了. 
+在你隔壁的电脑上, 是不是正运行着Glove Slap Demo? 你去试试看能不能打开CD tray. 
+
+记住, 运行任何非基础的程序都需要提供端口号 - 就像这样: 
+
+>SSHCrack 21
+ ^文件名 ^端口号
+     
+只需找一个你想破解的端口然后像这样运行即可. 
+
+你可以仔细观察, 看看它是否起作用了
+
+祝你好运! 
+
+--Bit
+0
+      
+    </body>
+    <attachments>
+      <link comp="avconComp" />
+    </attachments>
+  </email>
+</mission>

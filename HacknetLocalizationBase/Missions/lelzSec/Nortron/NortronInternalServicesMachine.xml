@@ -1,0 +1,56 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="nortronInternalServices" name="Nortron内部服务器" security="2">
+
+  <ports>22,21</ports>
+  <trace time="60" />
+  <firewall level="1" />
+  <link target="nortronMail" />
+  <link target="nortronMainframe" />
+  <positionNear target="nortronMainframe" position="1" total="3" />
+  <!-- J. Abrams -->
+  <file path="staff_folders/J.Abrams" name="SecuDoc.bat" >#BINARY#</file>
+  <file path="staff_folders/J.Abrams" name="REMINDER.txt" >
+    笔记: 
+    新邮箱
+    用户名=j.abrams
+    密码=bootyking420
+    为什么每年都让我们换账号密码? 
+  </file>
+  <file path="staff_folders/J.Abrams" name="Rootkit_analysis_report_2(Copy).doc" >
+TODO: 写作报告
+http://en.wikipedia.org/wiki/Antivirus
+  </file>
+  <file path="staff_folders/J.Abrams" name="Rootkit_analysis_report_2(Copy)(Copy).doc" >
+杀毒软件可以尝试扫描rootkit
+rootkit是一种恶意软件, 可以在不被侦测到的情况下, 获取一台电脑的管理员权限. 
+rootkit具有可以改变操作系统的功能
+并且在某些情况下篡改杀毒软件, 使其失效. 
+rootkit极其难以卸载, 通常情况下需要重装整个系统才可以. 
+
+来源 - http://en.wikipedia.org/wiki/Antivirus
+  </file>
+  <file path="staff_folders/J.Abrams" name="SecuDoc.bat" >#BINARY#</file>
+
+  <!-- P. Evans -->
+  <file path="staff_folders/P.Evans" name="SecuDoc.bat" >#BINARY#</file>
+
+  <!-- L.L. Coolay -->
+  <file path="staff_folders/L.L.Cooljay" name="SecuDoc.bat" >#BINARY#</file>
+
+  <!-- T.Stark -->
+  <file path="staff_folders/T.Stark" name="SecuDoc.bat" >#BINARY#</file>
+  <file path="staff_folders/T.Stark" name="Harrasment_Evidence.txt" >
+    
+这是我同事发给我的一封邮件: 
+    
+| T-BONE, Tony,好哥们 - 最近咋样? 
+| 我们一会去吃午饭吧? 我想吃鸡. 
+| 也许再来点西瓜也不错. 
+| 等你回复
+| 
+| -帅气的 JJJJJJJJJJJJ
+
+我的名字不是TONY他怎么就是记不住. 
+叫我THOMAS STARK不行吗? ? ? ! 
+  </file>
+</Computer>

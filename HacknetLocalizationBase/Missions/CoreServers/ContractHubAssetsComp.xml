@@ -1,0 +1,51 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="mainHubAssets" name="CSEC资源服务器" security="4">
+  
+  <adminPass pass="csec-5xg3D11" />
+  <admin type="fast" resetPassword="false"/>
+  <positionNear target="mainHub" position="5" total="6" />
+  <file path="home/Templates/DeathRowDatabaseTemplate" name="template.txt">[FIRST_NAME]#[LAST_NAME]#[RECORD_NUM]#32#Rural#N/A#N/A#N/A#[LAST_WORDS]</file>
+  <file path="home/Templates/DeathRowDatabaseTemplate" name="FileNamingScheme.txt">
+死亡名单数据库文件命名格式: 
+LastName_FirstName[RecordNumber]
+
+我们建议你先下载一份template.txt的备份, 在本地编辑它, 然后按照格式重命名, 再上传到数据库中. 
+例如: Doe_John[12345]
+考虑到有时候需要把样本文件中所有方框内的文本全部改写, 你可以使用如下方法来简化操作: 
+1: 在你的操作系统里"active"(打开)该文本(使用这个命令就可以轻松做到 - "cat template.txt")
+2: 使用replace, 不需要添加文件名 - (replace "[FIRST_NAME]""John")
+3: 重复步骤二, 直到文件修改成你想要的样子. 
+4: 重命名文件(mv template.txt Doe_John[12345])
+5: 将文件上传至数据库(连接到远程数据库后, 请输入"upload /home/Doe_John[12345]" 以确保上传到正确的文件夹内! )
+</file>
+  
+  <file path="bin/SQL_Mem_Corrupter" name="SQL_MemCorrupt.exe">#SQL_CRACK#</file>
+  <file path="bin/SQL_Mem_Corrupter" name="info.txt">
+--SQL Memory Corruption Injector 简介--
+SQL Memory Corruption Injector (SQL_MemCorrupt.exe)是一款针对SQL开放端口(默认端口号1433)进行攻击的软件. 
+该软件会在数据库中的某个表中注入一个条目, 当数据库读取它时, 会导致数据库的内存损坏, 之后会立刻要求数据库重新查询该条目, 这会引起SQL数据库核心发生崩溃. 
+这样一来, 只要赶在目标系统清除了无效的SQL链接并重启服务器之前, 就能暂时让其他未经授权的数据流通过SQL服务端口. 
+该软件在显示模式下, 会在顶端显示运行状态, 底部显示SQL服务输出(理想情况下会显示条目注入的内存转储). 
+</file>
+
+  <file path="bin/WebServerWorm" name="WebServerWorm.exe">#WEB_CRACK#</file>
+  <file path="bin/WebServerWorm" name="info.txt">
+--Web Server Worm 简介--
+这项网络服务快速访问蠕虫病毒是一款针对HTTP网络服务(常见的运行端口号为80或8080)的病毒型可执行文件.
+这个程序可以利用网站服务器软件中一个仍然有效的漏洞, 通过一个缓冲区的溢出缺陷, 从而允许注入任意代码(包括蠕虫病毒本身). 
+该蠕虫病毒一旦在服务器上运行, 便会允许任何外部数据通过该端口进入操作系统, 以极高的效率绕开端口的安全防护. 
+该功能免费使用. 
+
+该蠕虫病毒*并不会*妨碍网站本身的正常运作, 而且蠕虫病毒本身在运行时也很容易被发现, 所以很容易被人察觉到有不正常的现象正在发生. 
+
+</file>
+
+  <file path="bin/Sequencer" name="Sequencer.exe">#SEQUENCER_EXE#</file>
+
+  <file path="Themes" name="CSEC_x-server.sys">#WHITE_THEME#</file>
+  <file path="Themes" name="Mint_x-server.sys">#MINT_THEME#</file>
+  <file path="Themes" name="Teal_x-server.sys">#TEAL_THEME#</file>
+  <file path="Themes" name="Blue_x-server.sys">#BASE_THEME#</file>
+  
+  
+</Computer>

@@ -1,0 +1,24 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="entropyMission1.1">
+  <goals>
+    <goal type="FileDeletion" target="entropy01.1" file="config.sys" path="MsgBoard" />
+  </goals>
+  <nextMission>Entropy/EntropyMission1.2.xml</nextMission>
+  <posting title="Entropy 数据库测试任务">
+瘫痪新闻服务器 -- 任务确认完成
+  </posting>
+  <email>
+    <sender>Entropy</sender>
+    <subject>测试任务</subject>
+    <body>
+黑客你好, 
+这是一项服务器测试任务. 
+你应该已经完成这项任务了. 如果没有的话, 那么现在就接受这项任务吧. 
+瘫痪这家新闻服务器. 
+-Entropy
+    </body>
+    <attachments>
+      <link comp="entropy01.1" />
+    </attachments>
+  </email>
+</mission>

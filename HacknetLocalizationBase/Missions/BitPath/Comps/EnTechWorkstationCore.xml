@@ -1,0 +1,15 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="EnTechWSCore" name="En工作站核心" security="1" type="3" ip="156.151.0.0">
+  
+  <ports>1433</ports>
+  <trace time="26.5" />
+
+  <dlink target="EnWS01" />
+  <dlink target="EnWS02" />
+  <dlink target="EnWS03" />
+  <dlink target="EnWS04" />
+  <dlink target="EnWS05" />
+
+  <admin type="fast" resetPassword="true" isSuper="true"/>
+
+</Computer>

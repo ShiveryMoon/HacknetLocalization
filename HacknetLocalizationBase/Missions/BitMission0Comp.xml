@@ -1,0 +1,72 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="bitMission00" name="Bitwise 测试PC" security="1">
+  
+  <file path="home" name="Test_File.txt">恭喜你, 你赢了! </file>
+  <file path="home" name="L-E_x-server.sys">#PURPLE_THEME#</file>
+  <file path="sys" name="x-server.sys">#PURPLE_THEME#</file>
+
+<file path="home" name="Hobbes_TerminalGuide.txt.txt">
+快捷命令列表包括你可能会使用到的所有命令: 
+
+cat [filename] - 输入指定的文件名输出文件内容
+
+cd / - 回到根目录
+
+ls - 将你所在的目录下的所有目录和文件输出
+
+cd .. - 回到上一级目录
+
+replace [filename] "[string1]" "[string2]" - 用指定的字符串(string 2)替换指定的字符串(string 1)
+
+mv [filename] [target] - 移动或者重命名一个文件, 如果你想要移动文件, 你需要指定你所想要移动到的文件夹名称, 例如这样 - mv config.sys /misc/
+
+如果你想要重命名文件, 你只需要在输入需要更改的文件名后指定你所想要更改的文件的新名称, 例如这样 mv config.sys config.old
+
+Help 1, Help 2, Help 3 - 帮助文件, 共三页, 读懂它. 
+
+forkbomb - 它并不起眼, 但假如你想尽快关闭一个系统, 它会是个很有用的紧急措施. 你需要管理员权限来使用这个工具. 你可以对你的的电脑使用它作为一种防御措施. 
+
+在一个拥有管理员权限的系统里建立一个远程主机, 你可以在你的电脑上运行它作为一种防御措施. (更多信息请查看"陷阱"词条)
+
+</file>
+  
+<file path="home/autolog_reports" name="log01332.txt">
+[shinterland] 我在等老板走
+[shinterland] 然后我会在后边与你汇合
+[jwalter] 你认为他会有什么好主意吗? 
+[shinterland] 呵呵, 我想不会. 
+[shinterland] 他根本不知道接下来这一坨麻烦事. 
+[jwalter] 别忘了清除浏览器历史记录, 我可不希望他通过这些记录找到我们. 
+[shinterland] 好, 好, 好, 我已经把它覆盖了. 
+[shinterland] 他刚拿起他的大衣, 现在他正走向门口. . . 
+[jwalter] OK, 给我一些时间去调整摄像头的供电系统. . . 
+[jwalter] 搞定! 在干扰图像消失前你有三分钟时间
+[shinterland] 我会拿到那份名单的, 然后我们可以喝点啤酒喝一杯庆祝一下. 
+</file>
+  
+<file path="home/autolog_reports" name="log0177_F.txt">
+[vope] 你一定不会相信我要说的事情的. 
+[r@$put1n] 什么? 
+[r@$put1n] 那东西起作用了吗? 
+[vope] 有佣兵为了源闯入了我的房间. 
+[r@$put1n] 我靠! 好像你惹到了大的利益集团了! 
+[r@$put1n] 报酬应该很好吧? 
+[vope] 一万二美元,对两个月工作来说算是不错的报酬. 
+[vope] 我真想知道他们会把它用来干嘛. 
+[r@$put1n] 他们可能用来掏空你的银行账户. 
+[vope] 哈哈, 账户里面压根就没钱, 让他们偷去吧
+-- 证实虚假 --
+</file>
+  
+<file path="home/autolog_reports" name="log01009.txt">
+[felix] 结局是好的, 那个白痴比尔被解雇了, 而我安全了. 
+[bleedingcool] 很好
+[felix] 我一直讨厌比尔, 你帮了我一个忙. 
+[bleedingcool] 更不用说那一万美元的回扣对吧? 
+[felix] 当然, 那也对我帮助很大
+[felix] 所以我们现在都搞定了? 
+[bleedingcool] 都搞定了, 我会花上几个月专门待在那里. 等下一年Brisby新电影出来的时候我会把你叫回来的. 
+[felix] 日后再会, 老板. 
+</file>
+  
+</Computer>

@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="eosIntro" activeCheck="true">
+  <goals>
+    <goal type="delay" time="3.8"/>
+  </goals>
+  <nextMission IsSilent="true">Entropy/EntropyMission1.1.xml</nextMission>
+  <email>
+    <sender>Entropy Mailbot</sender>
+    <subject>待处理请求</subject>
+    <body>
+      邮件服务器为你暂挂了一个请求. 
+      请稍等. 
+    </body>
+    <attachments>
+      <link comp="eosIntroComp" />
+    </attachments>
+  </email>
+</mission>

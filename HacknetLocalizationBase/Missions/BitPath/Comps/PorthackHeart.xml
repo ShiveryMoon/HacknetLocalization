@@ -1,0 +1,6 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="porthackHeart" name="Porthack.心脏" security="0" type="3">
+  
+  <PorthackHeart />
+  
+</Computer>

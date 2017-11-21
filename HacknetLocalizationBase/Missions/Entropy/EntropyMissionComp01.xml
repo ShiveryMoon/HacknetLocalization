@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="entropy01" name="Entropy 资源服务器" security="4">
+
+  <file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
+  <file path="home/backups" name="FTPBounce.exe">#FTP_CRACK#</file>
+  <file path="bin" name="SSHcrack.exe">#SSH_CRACK#</file>
+  <file path="home" name="Mantra.txt">
+Entropy 宗旨
+我们的组织建立在三个准则之上. 我们力求做到这三点: 
+1)在任何事情上努力追求正义和公正
+2)我们追求创造和分享, 而不是毁灭
+3)永远不要为停滞不前而寻找理由
+我们组织不会接受, 也不允许违背这三条准则的成员, 违反这三条准则的成员将会被直接开除. 
+</file>
+  <account username="admin" password="rosebud" />
+  
+</Computer>

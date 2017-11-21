@@ -1,0 +1,10 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="avconComp" name="Fractal Alligator AvCon Demo PC" security="1">
+  
+  <ExternalCounterpart name="Avcon Demo Relay" id="avconServer" />
+  <file path="home" name="HatlandAdventures.exe">#BINARY##BINARY#</file>
+  <file path="home" name="Hatland_Content.xnb">#BINARY##BINARY#</file>
+  <file path="home" name="HatlandAdventures.pdb">#BINARY##BINARY#</file>
+  <file path="home/network" name="HatlandHighscoresServer.exe">#BINARY##BINARY##BINARY#</file>
+  
+</Computer>

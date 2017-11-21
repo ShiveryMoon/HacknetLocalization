@@ -1,0 +1,20 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="psTrial01" name="北极星  -  耐心之试炼" ip="103.31.7.38" security="1">
+                               
+  <ports>22</ports>
+  <trace time="-1" />
+
+  <proxy time="24" />
+
+  <file path="home" name="Talismin.ttgl">//AA J UU SH  ANNA  YYAL P
+#BINARY##BINARY##BINARY#</file>
+
+  <file path="home" name="Reward of Patience.txt">
+    
+    
+    103
+    
+    
+  </file>
+  
+</Computer>

@@ -1,0 +1,29 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<Person id="csec_med_01" handle="Ehwitt" firstName="Elliot" lastName="Whit" isMale="true">
+  
+  <Birthplace name="London" />
+  <Degrees>
+    <Degree uni="Manchester University" gpa="3.3">法律学硕士</Degree>
+    <Degree uni="Manchester University" gpa="3.1">政治学学士</Degree>
+  </Degrees>
+  <DOB>09/09/1961 22:00:00</DOB>
+  <Medical>
+    <Blood>BO</Blood>
+    <Height>166</Height>
+    <Allergies>NONE</Allergies>
+    <Perscription>伊维菌素X35每月::调节心率</Perscription>
+    <Notes>由于患者的心脏问题, 他们已在患者身上安装了心脏起搏器, 且允许一些微调. 
+    
+参考: 
+. 
+起搏器连接ID: 202.6.141.219
+文件资料和说明: 66.96.147.84
+. 
+额外信息: 
+在采取任何可能破坏心脏起搏器的行动, 或执行任何侵入性行动前, 请与厂家联系, 以确认它的稳定性. 
+
+    </Notes>
+  </Medical>
+  <Notes>起搏器任务</Notes>
+  
+</Person>

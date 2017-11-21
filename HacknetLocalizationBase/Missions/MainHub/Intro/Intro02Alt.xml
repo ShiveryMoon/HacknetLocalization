@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubIntro2Alt">
+  <goals>
+    <goal type="FileUpload" target="kfcRecordsRepo" file="Seasoning_Order_Placement_Template_Pt1.docx" path="home/Ordering" destTarget="hubPubDrop" destPath="Drop/Uploads" />
+    <goal type="FileUpload" target="kfcRecordsRepo" file="Seasoning_Order_Placement_Template_Pt2.docx" path="home/Ordering" destTarget="hubPubDrop" destPath="Drop/Uploads" />
+  </goals>
+  
+  <missionEnd val="0">assignPlayerToHubServerFaction</missionEnd>
+  <nextMission>MainHub/Intro/Intro03Pass.xml</nextMission>
+  <email>
+    <sender>CSEC Admin</sender>
+    <subject>来自CSEC的邀请  -  难以置信</subject>
+    <body>
+#PLAYERNAME#,
+我刚刚收到一位极具分量的人的来信, 希望我能邀请你加入我们这个小组织. 老实说, 我简直受宠若惊, 真不知道你是怎么认识这种级别的人物的(你应该知道我指的是谁), 真的很了不起. 
+我是CSEC的人 - 按照你的推荐人的吩咐, 我已经为你省去了加入CSEC的自动测试部分, 接下来继续加油吧, 如果你还想更进一步, 就来完成我的测试. 
+我给你准备了一项有意思的任务  -  不过有意思并不意味着简单! 
+我想让你入侵啃得鸡的服务器, 帮我找到他们的11种秘密香料配方. 
+如果你能得到一份配方表并且将它上传至CSEC共享服务器的话, 那么我将正式欢迎你加入CSEC. 
+-Vap0r
+CSEC 管理员
+    </body>
+    <attachments>
+      <link comp="kfcWebServer" />
+      <link comp="hubPubDrop" />
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,12 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="hubTestComp01" name="CSEC 邀请中继" security="2">
+  
+  <link target="hubTestComp02" />
+  <file path="home/Test" name="CONTINUE.txt">
+继续前往已连接的服务器, 来进行下一阶段的测试. 
+  </file>
+  <firewall solution="KRAKEN"/>
+  <proxy time="0" />
+  <account username="admin" password="easy" />
+  
+</Computer>

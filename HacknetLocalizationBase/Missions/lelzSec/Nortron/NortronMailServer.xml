@@ -1,0 +1,87 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="nortronMail" name="Nortron邮箱服务器" security="1">
+
+  <ports>25</ports>
+  <trace time="10.0" />
+  <firewall level="17" solution="123456789ABC" />
+  <link target="nortronMainframe" />
+  <positionNear target="nortronMainframe" position="2" total="3" />
+  
+  <!-- Mail Server Accounts -->
+  <account username="j.abrams" password="bootyking420" type="2" />
+  
+  <mailServer name="Nortron Mail" color="220,208,69">
+    <email recipient="j.abrams" sender="Peter Evans" subject="Where's that report?">
+John, 
+有什么进展吗? 我还在等你的rootkit分析报告. 
+我们正在策划一起新的营销活动, 
+公司高层希望我们这些人能做好自己手头的工作. 
+我也不想催你, 试试看, 能不能在星期一之前把报告赶出来.  
+上头这么多人等着呢! 
+
+谢了, 
+-Peter
+    </email>
+    <email recipient="j.abrams" sender="hornberg@gmx.de" subject="Fw:Fw: Best Graffiti">
+      -------- Original Message -------- Subject: 	Fw: Best Graffiti
+      Date: 	Wed, 31 Oct 2012 18:54:54 +1300
+      From: 	TK Skull tkn.skull@xtra.co.nz
+        To: 	skull1@ntlworld.com
+          , "JJ SK" e4@bigpond.com
+            , "G?nter Hornberg" ghornberg@gmx.de
+              , "Andrea Senior" senior@xtra.co.nz
+                , "Cols" C.D.Wilson@xtra.co.nz
+                  , "Flo Wilson" FloJoW@xtra.co.nz
+
+From: gandgrichards@xtra.co.nz 
+Sent: Wednesday, October 31, 2012 2:58 PM
+To: gandgrichards@xtra.co.nz 
+Subject: Fw: Best Graffiti
+
+Subject: : Best Graffiti
+
+ > 
+ > 
+   这些东西真是惊人...  有点意思
+ >
+ 
+ --某些内容可能没加载出来--
+    </email>
+        <email recipient="j.abrams" sender="gandgrichrds@xtra.co.nz " subject="Fw: Aircraft Shots!">
+From: gandgrichrds@xtra.co.nz 
+Sent: Friday, October 19, 2012 8:41 AM
+To: gandgrichrds@xtra.co.nz 
+Subject: Fw: Aircraft Shots
+
+Subject: ...  . Aircraft Shots...  .
+ 
+Open the pps.Attach: file...  
+
+
+给你这些表情, 你可以免费使用于你的邮件 - by IncrediMail
+--检查到可疑的exe文件签名, 附件已被删除--
+    </email>
+    <email recipient="j.abrams" sender="Nortron IT Support" subject="RE:Cant Log In">
+Abrams先生, 
+这已经是我们第四次提醒你了. 现在在你桌子上挂着一个大牌子, 就是为了时刻提醒你关于Nortron公司的防火墙政策. 我们非常重视网络安全, 所以在你上网之前, 你需要自己输入密码来绕开防火墙, 这是保护我们公司安全非常重要的一环. 
+就像之前一样, 这是绕开防火墙的密码: 
+123456789ABC
+请把它写下来, 以免你忘记了. 
+
+-IT
+
+  | IT, 
+  | 你们怎么还没修好! 
+  | 他妈的我还是上不了网! 
+  | 没网络你叫我怎么工作! 
+  | 你告诉我这个什么鬼防火墙的密码有卵用? 
+  | 网络是瘫痪了吗? 为什么你们这些人就不能帮我修一下? 
+  | 
+  | 我到底怎么才能上网? 这件事很重要! 
+  |
+  | Mr. J. Abrams
+  | Nortron Marketing
+    </email>
+    
+  </mailServer>
+</Computer>

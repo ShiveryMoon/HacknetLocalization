@@ -1,0 +1,20 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="psTrial03b" name="勤奋之尾" ip="103.31.8.2" security="2">
+
+  <trace time="-1" />
+  <firewall level="4" solution="FANG" />
+  
+  <file path="home" name="Talismin.ttgl">//AA N UD SH  JAIJ  YYAL P
+#BINARY##BINARY##BINARY#</file>
+
+  <file path="home" name="Reward of Diligence.txt">
+    
+    
+    8
+    
+    
+  </file>
+  
+  
+  
+</Computer>

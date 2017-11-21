@@ -1,0 +1,28 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="FileDeletion" target="pointclicker" file="Mengsk.pcsav" path="PointClicker/Saves" />
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Point Clicker">
+一个热心的客户希望我们删除他在游戏服务器上的存档, 以此来延续他对游戏的兴趣. 
+  </posting>
+  <email>
+    <sender>Entropy Mailbot</sender>
+    <subject>Point Clicker</subject>
+    <body>你好, 
+我现在有点郁闷, 但更倒霉的是, 我的那些同事没一个能帮的上忙的. 
+虽然我很反感向外界寻求帮助, 但是我只能这么做了. 
+把你们组织介绍给我的那个人向我保证你们会保密, 所以我就简要说明一下: 我在PointClicker里已经刷到无敌了, 我希望我能再刷一遍二周目来证明我在这个游戏里的王者地位. 然而这个游戏并没有重置按钮. 
+我希望你能黑进游戏服务器删掉我的存档, 这样我就能再爽一次了. 我的用户名是"Mengsk". 你要是想的话, 在你删之前可以先感受一下我的存档有多屌. 
+即将"脱坑"的, 
+-M
+    </body>
+    <attachments>
+      <link comp="pointclicker" />
+      <note title="合同内容">任务目标
+"Mengsk"</note>
+    </attachments>
+  </email>
+</mission>

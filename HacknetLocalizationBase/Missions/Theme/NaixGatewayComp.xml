@@ -1,0 +1,91 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="naixGateway" name="Naix 基地网关" security="3" ip="173.194.35.172">
+  
+  <adminPass pass="roxxane" />
+  <proxy time="2" />
+  <trace time="70" />
+  <file path="bin" name="SSHcrack.exe">#SSH_CRACK#</file>
+  <file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
+  <file path="bin" name="WebServerWorm.exe">#WEB_CRACK#</file>
+  <file path="sys" name="x-server.sys">#GREEN_THEME#</file>
+  <file path="home" name="PirateKart_2011.zip">#BINARY#</file>
+  <file path="home" name="Macrosoft_Internal_Raid_Archive.rar">#BINARY#</file>
+  <file path="home" name="to_get.txt">
+    //等我有空就去把这些插件搞到手
+    Access Me
+    Add N Edit Cookies+
+    Chickenfoot
+    CookieSwap
+    DOM inspector
+    Domain Details
+    Firebug
+    Firebug Autocompleter
+    Firecookie
+    FireFTP
+    Firesheep
+    FormBug
+    FoxyProxy
+    Google Site Indexer
+    Greasemonkey
+    Groundspeed
+    HackBar
+    Host Spy
+    HttpFox
+    iMacros
+    JavaScript Deobfuscator
+    JSview
+    Key Manager
+    Library Detector
+    Live HTTP Headers
+    PassiveRecon
+    Poster
+    RefControl
+    Refspoof
+    RESTClient
+    RESTTest
+    Resurrect Pages
+    Selenium IDE
+    SQL Inject ME
+    Tamper Data
+    URL Flipper
+    User Agent Switcher
+    Vitzo WHOIS
+    Wappalyzer
+    Web Developer
+    XSS Me
+  </file>
+
+  <file path="home" name="contract.txt">
+[cs#2827] 我理解, 先生. 可以提供一下您的账号吗? 
+[Gregory] 当然可以. 6724001984. 
+[cs#2827] 好的, 我帮您查一下. 
+[cs#2827] 可以提供您的全名和生日吗? 我需要核实您的身份. 
+[Gregory] Gregory Jordan Childs, 22/01/1982.
+[cs#2827] 谢谢, 核验正确. 你好, Gregory Childs先生. 
+[cs#2827] 您的下一个任务在蒂拉斯波尔. 任务简报将会由"Spool"先生转交给你. 
+[cs#2827] 我们希望您能在8月9日之前到达. 
+[cs#2827] 您将获得3.3万美元的报酬, 以及1万美元的开销补助. 
+[Gregory] 我接受这个任务. 
+[cs#2827] 祝您好运, 先生. 感谢您咨询Alliegence能源客服服务. 
+[Gregory] 真是体贴的客服啊.
+</file>
+
+<file path="home" name="admissionletter.docx">
+亲爱的Julius, 
+
+祝贺您! 您已正式加入皇家军事情报委员会. 我们很高兴您选择了我们这样一个有声望的机构来继续您的学术研究. 
+
+当你下个月抵达校区, 管理人员会将您的ID卡发放给您, 并且为您安排房间. 
+
+我期待在学期开始时能够见到您. 
+
+Thaddius Venture
+招生负责人
+皇家军事情报委员会
+
+另外: 感谢您的捐款, 非常感谢. 
+</file>
+
+  <file path="home" name="[#PLAYERNAME#]x-server.sys">#BASE_THEME#</file>
+  
+</Computer>

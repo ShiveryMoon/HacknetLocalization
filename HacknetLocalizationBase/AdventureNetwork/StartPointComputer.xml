@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="advStartPoint" 
+          name="Adventure Startpoint PC" 
+          ip="167.194.132.5"
+          security="0"
+          type="2" >
+
+  <!-- IMPORTANT: The id "advStartPoint" will always be revealed at the start of an adventure mode session
+  Use this computer as a base point from which to start your network -
+  it should probably have some files on it and link out to some stuff
+  -->
+  
+  <dlink target="advExamplePC" />
+  
+  <!-- Files -->
+  <file path="home" name="Test_File">This is a test file in the home directory</file>
+  <file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+  <file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
+  <file path="bin" name="WebServerWorm.exe">#WEB_CRACK#</file>
+  <file path="bin" name="SMTPOverflow.exe">#SMTP_CRACK#</file>
+  <file path="bin" name="SQLBufferOverflow.exe">#SQL_CRACK#</file>
+  <!-- port 1433 -->
+
+</Computer>

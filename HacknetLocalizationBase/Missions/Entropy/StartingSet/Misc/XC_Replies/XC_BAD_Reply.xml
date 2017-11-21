@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="xcRepBAD" activeCheck="true">
+  <goals>
+    <goal type="delay" time="2.5"/>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="ERROR">
+未知错误
+  </posting>
+  <email>
+    <sender>X-C Proj. : Bradford</sender>
+    <subject>Re: 内部调查</subject>
+    <body>
+呃, 好吧. 
+你这活干的...  有点不太专业啊. 我想...  ..我还是和我们的博士讨论一下今后如何合理使用项目资源吧. 
+谢谢你, 这件事我还是自己来搞吧. 
+-C.O Bradford
+    </body>
+    <attachments></attachments>
+  </email>
+</mission>

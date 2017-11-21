@@ -1,0 +1,135 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ppMarketing" name="PP市场公司" security="2" type="4">
+
+  <proxy time="1.1" />
+  <portsForCrack val="2" />
+  <!-- Number of ports to be open to allow porthack to run -->
+  <firewall level="-1" />
+  <trace time="400" />
+  
+  <account username="admin" password="willsmith" />
+
+  <encryptedFile path="home/WORKSPACE" name="SECURE_MAILLIST.dec" ip="74.125.237.119" header="Marketing encryption lv.2">我耍你玩呢, 你个菜鸟黑客, 我怎么可能把重要的数据文件就这么放在公开服务器上? 尤其是当我们知道有人正在觊觎它的时候. 
+  来, 送给你点垃圾二进制数据, 这样文件的大小看起来才合适. 
+
+  #BINARY#
+  
+  爱你的, 
+  一位真正的信息安全专家
+  XOXO
+  </encryptedFile>
+
+  <file path="home/WORKSPACE/INDUCTION" name="welcome.docx">
+各位员工们好, 欢迎你们来到PP市场战争前线的第一天. 别让我们企业在外的友善形象欺骗了你们 -- 这是一场战争, 而你们是奋战的战士. 作为全美国第一的企业营销公司, 你们在这里工作就是一场攻坚战 -- 每一位客户对我们来说都是一座要塞, 每一件产品都是一把武器, 每一次挑战对我们来说都是一场战斗, 一定要确保把顾客放在第一位. 
+我们要时刻确保我们内部与外部增进交流, 以增加品牌之间的协同作用. 你需要通过在线业务, 来最大程度的曝光活动, 如果你对此有任何疑问, 请咨询你的直属经理, 去参加共享学习课程. 
+作为人力资源主管, 我衷心祝愿你能顺利度过职业生涯的这段扣人心弦旅程. 
+Jane Halliday - PP市场人力资源部经理</file>
+
+  <file path="home/WORKSPACE/INDUCTION" name="dresscode.docx">
+所有的员工, 尤其是IT部门, 需要规范着装要求来提高我们企业的外在形象: 	
+- 全天需要身着黑色, 木炭色, 黑曜石色或海军蓝的西装. 
+- 作为西装的内衬, 需要穿着白色, 淡蓝色, 象牙色或灰色纽扣的长袖衬衫. 
+- 男性员工需要佩戴黑色, 红色, 蓝色, 紫色或绿色的领带. 只允许使用纯色 -- 研究表明带图案的领带会惊吓到我们的客户. 
+- 女性员工需要身着开领衬衫, 在冬季允许披戴围巾. 
+- 穿黑色或棕色的鞋子
+	
+IT部门员工需要身着藏青色的制式工作服, 需要经常清洗和熨烫以保持我们企业的良好形象. 
+我们希望你们能理解我们严格的着装要求. PP市场公司很注重建立在外的良好形象. 
+Jane Halliday - PP市场人力资源部经理</file>
+ 
+  <file path="home/WORKSPACE" name="Maillist_info.txt">这就是我们从黑客手中得到的邮件列表(顺便一提, 我们给这家伙付了不少钱). 结果这邮件列表还是加密的? 那我们到底为啥要付钱给这个黑客? 
+HR说他会找其他人来尝试解码这个邮件列表, 或者只要有人能从中提取出有用的东西都行. 根据黑客的说法, 这个文本的大小是正确的, 所以只要我们能破解开这个文件, 我们就能得到正确的数据. 
+真麻烦. 好吧, 至少这邮件列表确实在我们手里了, 虽然我们还打不开...  .</file>
+
+  <file path="home/WORKSPACE/INDUCTION" name="complaint_procedure.docx">
+如果你对同事不满, 或想投诉你所在的部门, 必须向你的直属经理或是部门主管上交一份106B格式的文档. 文档内容为简述事情的经过并给出理由. 30天内我们会对投诉进行调查. 所有的投诉案都由HR部门处理, 为了保证一个公平的解决方案, 我们将会在一年内给出答复. 
+</file>
+  
+  <file path="home/WORKSPACE/INVESTIGATIONS" name="winters_kevin.txt">
+根据要求, 我们将员工Kevin Winters发给外界的邮件全部扫描了一遍, 发现每封邮件里都有关于PP市场公司的内部信息. 运营总监James Wilson已经发出通告, 寻找任何线索来证明Winters在同竞争公司进行不可告人的交易. 
+</file>
+  
+  <file path="home/WORKSPACE/INVESTIGATIONS" name="kw_evidenceA01.txt">
+[winters] Terry, 我感觉公司内部有人在背地里在干很阴险的勾当. 
+[craigmore] 公司之间的竞争很正常啊. 
+[winters] 他们只是从其他公司那里买来了邮件列表. 一般这种事只会被看做在j-mail买了植入广告权. 
+[craigmore] 那他们的手段是如何运作的? 
+[winters] 他们自己的团队研发出了一种算法, 能够通过邮件的各种属性, 来分辨出哪些邮件是他们想要的. 
+[craigmore] 真的? 我靠, 这么贱? 
+[winters] 有传言说, 他们正在开发一种聊天bot, 能够模拟成用户在论坛上发言, 然后进行变相营销. 
+[winters] 这是一种用bot发言来进行的洗脑营销. 
+[craigmore] 靠.  
+[winters] 听着, 我会尽我所能卸载掉硬盘上的所有东西, 希望你一会能掩护我离开. 
+[winters] 我需要逃离这里. 
+</file>
+  
+  
+  
+  <file path="home/documents" name="IncidentLog1.txt">
+[nem] 你周末登录了S3吗? 
+
+[felix] 没, 怎么了? 
+
+[nem] 有些文件丢失了, 我们的宽带使用率也显示错误. 然而我并没有查到相应的操作日志. 
+
+[felix] 这有点奇怪啊. 
+
+[felix] 你有没有查看过防火墙的完整性? 
+
+[nem] 还没. 
+
+[nem] 糟了. 
+
+[felix] 怎么了? 
+
+[nem] 邮件服务器的RDP服务已经宕机了. 
+
+[nem] 我去机房瞅瞅. 
+
+[nem] 马上回来. 
+
+</file>
+  
+<file path="home/documents" name="IncidentLog2.txt">
+[nem] 好了, 我把所有文件都打包好了, 已经发送给你了.
+ 
+[felix] 恩, 我先异地保存它, 以后我们可以再找回来. 
+
+[felix] 顺带一提, 这是纯B/S结构. 
+
+[nem] 真不敢相信他们能攻破我们的防御. 
+
+[nem] 这几个月的邮件都失窃了. 
+
+[nem] 我敢打赌Letterman一定会很生气的. 
+
+[felix]嗯, Weinstein估计都要气炸了. 
+
+[nem] 你还是先想办法保住饭碗吧. 
+
+[nem] 我一会儿再来找你. 
+
+</file>
+  
+  <file path="home/documents" name="logs.txt">
+[gscott] 你看了今天上午刚发布的消息了吗? 
+
+[cgershwin] 哈, 你敢信他们居然想让我们免费帮他们加班? 
+
+[gscott] 其实吧, 我也能理解, 毕竟这公司才刚开不久. 不过我还是希望他们能提高给我们的待遇. 
+
+[gscott] 我就是因为减薪才跳槽到这里的. 
+
+[cgershwin] 我给他们三个月时间来处理这一切. 
+
+[cgershwin] 再不加薪我就走人. 
+
+[gscott] 到时候带上我. 
+
+[gscott] 想不想下班之后一起喝一杯? 
+
+[cgershwin] 你请客我就去!  
+
+</file>
+  
+</Computer>

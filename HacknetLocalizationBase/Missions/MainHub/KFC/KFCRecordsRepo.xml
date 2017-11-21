@@ -1,0 +1,82 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="kfcRecordsRepo" ip="202.7.177.65" name="啃得鸡记录库" security="2" type="4">
+  <ports>80,25</ports>
+  <trace time="125" />
+  <proxy time="0" />
+  <firewall level="2" solution="CHICKEN" />
+  <positionNear target="kfcMainframe" position="1" total="3" />
+  <link target="kfcMainframe" />
+
+  <file path="home/Ordering" name="Seasoning_Order_Guidelines.docx">
+隔离指南
+    
+调味品的混合成分需要分离到两个独立公司, 每个公司提供一半成分(目前, 新墨西哥洲工厂提供1-6种混合香料, 本地的肯塔基洲工厂提供剩余的5种香料). 
+两个单独的交付工作应在啃得鸡特许经营许可的分配中心进行, 应放在无标记的白色袋子内. 
+
+事先准备好的调味品包装会发送到特许经营的分配中心, 在那里将面粉, 鸡蛋粉, 奶粉, 盐粉混合在一起后得到最终产品. 
+这确保了没有数字备份的配方的密码不被泄露. 
+  </file>
+
+  <file path="home/Ordering" name="Seasoning_Order_Placement_Template_Pt1.docx">
+    啃得鸡干货订单模板
+
+工厂: 新墨西哥州Esperenza228号
+产品: 香草和香料的混合品
+单位体积: 1kg
+总计: [UNIT_VOLUME_NEEDED]
+
+产品生产指南: 
+
+    配比 --
+    16% | 辣椒粉
+    09% | 搓过的鼠尾草
+    24% | 大蒜粉
+    28% | 多香果
+    07% | 牛至叶
+    16% | 马郁兰
+
+  </file>
+  
+    <file path="home/Ordering" name="Seasoning_Order_Placement_Template_Pt2.docx">
+    啃得鸡干货订单模板
+
+工厂: 肯塔基洲谢尔比维尔伊甸园路11号
+产品: 混合香料
+单位体积: 1kg
+总计: [UNIT_VOLUME_NEEDED]
+
+产品生产指南: 
+
+    配比 --
+    14% | 紫苏
+    04% | 辣椒粉
+    42% | 味精
+    24% | 洋蔥鹽
+    16% | 红辣椒(贡布)
+
+  </file>
+
+  <file path="home/Ordering" name="Order_Requirement_Certs.docx">
+餐饮经理证书 - 英语 PDF / 西班牙语 PDF 
+
+人力资源DBPR 5030-080, 需求: 划片酒店和餐馆的督查部门, 提醒食品经理. (2010年5月7日)
+食品资源回收指南 - PDF
+
+佛罗里达州农业和消费者服务部指南, 对食品回收计划感到兴趣的组织, 为有需要或收集运输食品提供过剩或多余的罐头或腐烂的食物的组织. 
+食品检验报告 - PDF
+
+人力资源DBPR 5022-015, 记录在公共食品服务机构的检查酒店和餐馆划分使用的表格. (修订于2009年10月1日)
+  </file>
+  
+  <file path="home/Media" name="Logo.png">#BINARY#</file>
+  <file path="home/Media" name="Logo_Small.png">#BINARY#</file>
+  <file path="home/Media" name="MediaKit_2011.zip">#BINARY##BINARY#</file>
+  <file path="home/Media" name="Guide.txt">
+    在啃得鸡, 我们的目标只有一个: 给人们提供世界上最好吃的鸡. 
+    所以, 我们只选用上等的香料, 精选最新鲜的鸡肉. 
+    之后, 搭配上我们纯手工制作的新鲜汉堡胚, 加入啃得鸡独家秘制香料, 再由啃得鸡官方认证厨师来为您新鲜制作. 
+    太麻烦了? 不. 只有当你尝一口, 你才能体会到我们每一分额外努力的价值. 
+    新鲜的才是更好的. 马上行动, 快去你身边的啃得鸡尝尝吧. 
+  </file>
+  
+</Computer>

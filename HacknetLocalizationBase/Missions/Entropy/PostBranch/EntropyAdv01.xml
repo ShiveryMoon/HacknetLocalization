@@ -1,0 +1,25 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="entropyMission03">
+  <goals>
+  </goals>
+  <missionStart>entropySendCSECInvite</missionStart>
+  <nextMission>NONE</nextMission>
+  <email>
+    <sender>Entropy</sender>
+    <subject>恭喜</subject>
+    <body>
+看起来你已经完成了不少任务 -- 希望你的所作所为能够让文明的黑客形象在公众心中维持一段时间. 
+我们非常感激你到现在为止为Entropy所做的贡献, 而且很明显, 我们组织已经无法满足你了. 
+说实话, Entropy组织在黑客世界中永远不会扮演一个起眼的角色-我创造它, 只是希望在这个公众对黑客亚文化的看法愈加恶化的时代, 能够作为先驱去改变这个情况. 
+当Entropy需要你的时候, 我希望你能伸出援助之手 -- 这是我的荣幸. 
+我是另一个更加强大的黑客组织CSEC的一员. 这个组织只允许受邀请的人加入 -- 成员全都是极专业的黑客和电脑安全方面的专家. 我认为你在那里才能大显身手. 
+我已经向组织发起了请求, 给你发一封邀请函, 你应该马上就会收到他们的邀请 -- 并且接受考验. 
+要知道我这么做可不容易 -- 一份加入CSEC组织的邀请函可不是随随便便就能搞到的. 
+祝你好运, 
+-Tex
+    
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

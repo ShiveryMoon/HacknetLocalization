@@ -1,0 +1,76 @@
+Out now in Chinese!
+中文版现已发布！
+
+
+
+Short Decription:
+Hacknet is an immersive, terminal-based hacking simulator for PC. Dive down a rabbit hoIe as you follow the instructions of a recently deceased hacker, whose death may not have been the accident the media reports.
+Hacknet是一款身临其境，基于终端的黑客模拟器。你将跟随一位最近刚过世的黑客，通过他遗留的线索，来探询混乱未知的网络世界。他的死可能并非像媒体所报道的意外那么简单。
+
+
+
+Long Decription: 
+Hacknet is an immersive, terminal-based hacking simulator for PC. Dive down a rabbit hoIe as you follow the instructions of a recently deceased hacker, whose death may not have been the accident the media reports. 
+Hacknet是一款身临其境，基于终端的黑客模拟器。你将跟随一位最近刚过世的黑客，通过他遗留的线索，来探询混乱未知的网络世界。他的死可能并非像媒体所报道的意外那么简单。
+Using old school command prompts and real hacking processes, you’ll solve the mystery with minimal hand-holding and a rich world full of secrets to explore. 
+只需进行简单的教学，你便能使用基础的指令来完成真实的骇入过程，探索这充满了谜团的黑客世界。
+Bit, a hacker responsible for creating the most invasive security system on the planet, is dead. When he fails to reconnect to his system for 14 days, his failsafe kicks in, sending instructions in automated emails to a lone user.
+Bit, 一位负责开发世界上最具攻击性的骇入系统的黑客，去世了。当他的系统连续14天都没有检测到他的操作后，系统的保险程序便开始运行，将他未完成的计划发给了一位陌生的用户。
+As that user, it’s up to you to unravel the mystery and ensure that Hacknet-OS doesn't fall into the wrong hands. 
+作为这名用户，你需要决定是否一步步揭开事实的真相，并且确保Hacknet操作系统不会落入到不法之徒手中。
+Exploring the volatile nature of personal privacy, the prevalence of corporate greed, and the hidden powers of hackers on the internet, Hacknet delivers a true hacking simulation,
+Hacknet能够为你提供一个全方位的真实黑客模拟器，可以让你探索人类窥探隐私的天性、制止企业贪婪盛行并暗中对抗隐藏在网络世界中的强大黑客，
+while offering a support system that allows total beginners get a grasp of the real-world applications and commands found throughout the game.
+同时它又能提供学习支持，可以让一个真正的电脑小白通过游戏来掌握现实世界的电脑命令和对应用程序的操控。
+
+
+
+Features
+游戏特色
+
+Real Hacking 
+真实的骇入
+Based on actual UNIX commands, Hacknet focuses on real hacking, not the Hollywood-style version of it. This creates a truly immersive experience and puts players right in the thick of trying to break through the firewalls. 
+基于真实的UNIX指令，Hacknet将重点放在真实的骇入过程，而不是追求炫酷的好莱坞式黑客。通过拟真化的骇入过程，让玩家们仿佛置身骇入现场，体验打破防火墙时几近真实的感受。
+
+Unlock the mystery of Bit 
+探寻Bit的死亡之谜
+A hacker is dead and the media reports don’t add up. When you are contacted by his “ghost” - an automated failsafe system - you’re drawn into the dark and murky world of underground hackers. 
+一位黑客莫名死亡，而媒体们的报道根本无法自圆其说。跟随着他的“灵魂”（一个自动邮件发送系统）带给你的指示，你将会慢慢深入并参与到一个黑暗而又庞大的黑客阴谋之中。
+
+Full immersion 
+完全的浸入式体验
+You are thrust into a persistent virtual world with no “levels” or obvious game elements to break the illusion
+你将会被带入一个无尽的虚拟黑客世界，在这里没有"级别"或者是明显的游戏元素来打破这一体验。
+Follow the guidance of the emails from Bit or just dive down the rabbit hole, chasing down clues and snippets of information you find as you explore different systems. 
+你可以选择跟随Bit的邮件的指引，或是直接遨游在整个服务器网络之中，探索并追寻信息的蛛丝马迹。
+
+Accessible but uncompromising 
+上手简单精通难
+Whilst not holding your hand or dumbing down
+本游戏不会限制你的游戏方式或让你按部就班
+the design of the game and the learning curve enables those with no prior terminal experience to enjoy it whilst delighting those in the know. 
+游戏内容和学习曲线的设计，能够让初学者或有终端操作经验的人都能找到一份属于自己的快乐。
+
+Killer tunes 
+杀手级音乐
+Hack to the beat of a soundtrack featuring underground artists including Carpenter Brut (Hotline Miami) and Remi Gallego (AKA The Algorithm). 
+Hacknet原声带由underground风格音乐家创作，包括Carpenter Brut (Hotline Miami)和Remi Gallego (又名The Algorithm)。
+Soundtrack produced in association with The Otherworld Agency.
+本游戏原声带由The Otherworld Agency协助创作
+
+
+
+Reviews
+评测
+“It’s the closest thing to a real life hacking sim I’ve ever seen” 
+“这是我这辈子见过的最接近真实的黑客模拟器”
+Kotaku 
+
+“The idea itself owes a lot to the likes of Uplink. But it’s the execution that makes Hacknet great” 
+“Hacknet的游戏概念和Uplink很相似，然而独特的exe命令使得它在众黑客游戏里脱颖而出”
+Rock, Paper, Shotgun 
+
+“Probably the coolest game I'll play all year. Not even kidding.” 
+“说真的，这可能是我今年玩过的最cooooooooool的游戏了”
+Digital Chumps 

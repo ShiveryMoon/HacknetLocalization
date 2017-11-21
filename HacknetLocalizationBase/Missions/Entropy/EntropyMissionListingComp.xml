@@ -1,0 +1,7 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="entropy00" name="Entropy 任务数据库" security="5" type="3">
+
+  <file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
+  <missionListingServer name="Entropy Contract Listings" group="Entropy" assigner="true" />
+  <account username="#PLAYERNAME#" password="rosebud" />
+</Computer>

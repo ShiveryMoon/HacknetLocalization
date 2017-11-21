@@ -1,0 +1,95 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="hubEosMisison" 
+          name="Sal_家_工作站" 
+          security="4"
+          type="2" >
+
+  <file path="home/docs" name="Anastasia.txt">
+[swinters77] 所以, 你这个周末都忙活了些啥? 
+[jlogan74] 没什么, Jerry 又出门了. 
+[swinters77] 我猜这意味着你不在家? 
+[jlogan74] 其实....我本来打算在 Rhys 家里过夜的. 
+[swinters77] Jane, 这件事正在变得有点失控. 
+[swinters77] 你还能坚持多久? 
+[jlogan74] 我明白, 我明白! 只是, 只是这太困难了, 你明白的! 
+[jlogan74] Jerry 一直在忙活他的工作, 即使回到家也是累的几乎虚脱了. 
+[jlogan74] 我甚至都不记得我们上一次一起出去是什么时候, 哪怕是一起喝杯咖啡. 
+[jlogan74] 然后 Rhys 出现了....这一开始是一个错误, 但是我现在觉得, 某些东西改变了. 
+[jlogan74] 我把我自己圈进了这个圈套里. 
+[swinters77] 我以后是不是叫你 Anastasia 更合适些 :P
+  </file>
+  
+  <file path="home/docs" name="lab_nightmare.txt">
+[137847] 结果出来了么? 
+[137849] 出来了, 可惜无法得到任何结论. 
+[137847] 真的么? 我本以为我们这次妥妥攻破了它呢. 
+[137849] 细胞计数相比上次大幅度上升. 
+[137849] 但是看起来他们并没有攻击目标, 而是坐在那无所事事. 
+[137847] 我真的不知道我还能在这个项目上坚持多久. 
+[137849] 罗马不是一天建成的, 上帝获得力量也充满了艰辛. 
+[137847] 我已经想不起来上次在家美美的睡上一觉是哪辈子的事情了. 
+[137849] 当然, 看的出来. 你的鼾声响彻整个实验室. 
+[137847] 真的? 真没想到我会这样. 非常抱歉. 
+[137849] 这不是什么令人羞耻的事情. 
+[137849] 那么, 咱们有下一步的计划么? 
+[137847] 我觉得, 拿最新的样品, 把基因序列重新旋转一下, 说不定是个办法. 
+[137849] 行. 一起去吃午饭? 
+[137847] 看情况吧. 
+[137849] 啥情况? 
+[137847] 得看他们会不会再次试图拿一片牛排抚慰我受伤的心灵. 
+  </file>
+  
+  <eosDevice name="Elanor Helleran's ePhone 4S" id="salEosPhone">
+    <note>
+#前方高能, 请注意! ! ! #
+#彩蛋, 注意: 这是彩蛋! #
+ids
+Registration :
+AAX1BB7
+      
+Steam :
+VZX3H-GMZMX-2MM9W
+7Q3VA-RY90R-8YZMH
+QL3JM-TJ79V-DJCYZ
+HI4RC-I6TGZ-MR3K8
+XIWW9-TDXF7-HN5EA
+2FNDM-Q5X2F-XRBFV
+8HDZ2-3EA3D-DYYB2
+T6CM3-FAD07-VNJC2
+LKBW3-FX4PZ-FTVPP
+WMX5W-3F8KA-I2BE4
+A7R03-64W9W-490P6
+XMDG0-EGZWY-IJL2Z
+HN73E-K6YZB-HBM3A
+AN4M3-I9ZM9-IEBFG
+BFJXK-Q7XRF-EZH2M
+47LEZ-58FMA-6RW24
+QVQ2Z-NFWD4-T9BZI
+7M27N-HAQQA-CFWZW
+3N0DR-XWXD3-ZC2RE
+4ZV5T-8IK4X-0V547
+I77DL-CAJAR-XPHN0
+N3Z8C-5TIHW-MJZRK
+    </note>
+    <note>
+购物清单
+咖啡
+怪物能量
+摇滚明星
+NOS
+\* 没找到中文名 *\
+Amp
+\* 没找到中文名 *\
+烈火战车
+Xyience
+\* 没找到中文名 *\
+亚利桑那冰茶能量款
+Rip It
+\* 没找到中文名 *\
+猛毒
+很多很多吃的
+    </note>
+    <mail username="sal@jmail.com" pass="22foxhound" />
+  </eosDevice>
+
+</Computer>

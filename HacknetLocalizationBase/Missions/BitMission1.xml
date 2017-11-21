@@ -1,0 +1,33 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="bitMission01">
+  <goals>
+    <goal type="FileDeletion" target="bitMission01" file="@18907_Connection_From_XXX.XXX.XXX.XXX" path="log" />
+    <goal type="FileDeletion" target="bitMission01" file="@18922_XXX.XXX.XXX.XXX_Given_Administrator_Access" path="log" />
+    <goal type="FileDeletion" target="bitMission01" file="@18928_XXX.XXX.XXX.XXX_Acessed_File_[Valence_Dossier.pdf]" path="log" />
+    <goal type="FileDeletion" target="bitMission01" file="@19002_XXX.XXX.XXX.XXX_Deleted_File_[Valence_Dossier.pdf]" path="log" />
+    <goal type="FileDeletion" target="bitMission01" file="@19002_XXX.XXX.XXX.XXX_Disconnected" path="log" />
+  </goals>
+  <nextMission>BitMission2.xml</nextMission>
+  <branchMissions>
+    <branch>BitMission2.xml</branch>
+  </branchMissions>
+  <email>
+    <sender>Bit</sender>
+    <subject>善始善终</subject>
+    <body>好样的! 从现在开始事情变得越来越复杂了. 
+我需要你帮我一个忙. 
+最近我因一点点小马虎而给自己惹了不少麻烦. 这就是为什么我给你写这封邮件. 总而言之, 我的意思是, 有几台电脑上有一些我本不想存放在那里的操作日志. 
+你一定要记住这点 -- 不要忘记删除你的操作日志. 如果你之前从没删过, 那就从现在开始. 你在任何现代的操作系统上所做的一切都会被跟踪记载在日志文件夹(~/log)下. 只需要进入这个文件夹, 使用"rm *"命令删除所有信息即可. 永远不要忘记这点. 
+--Bit
+0
+      
+    </body>
+    <attachments>
+      <note title="任务细节">任务细节
+删除目标计算机上日志文件夹(~/log)里的所有文件
+命令"rm *"删除当前文件夹中的所有文件 - 请小心使用! 
+      </note>
+      <link comp="bitMission01" />
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,38 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="modifyDeathRowRecord" name="John Boorman">I'm ready, Warden</goal>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="给一位家庭成员添加一份死亡记录">
+某位被判刑处死的死者的家属找到我们, 希望我们能够在官方死亡记录上添加死者的记录. 
+死者的家属认为, 死刑这个判决的背后有着肮脏的交易(... 他们着重强调了这个判决非常冤枉). 他们把这点加在了死亡记录里, 然而官方驳回了整份记录. 
+按照家属的原话, "至少我们想把他最后的遗言保留下来". 
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>缺失的正义</subject>
+    <body>
+我们希望添加一份死亡记录. 死者的家属希望我们将死者的正确信息添加至死亡人员数据库. 信息如下: 
+------------------------------------
+First Name: "John"
+Last Name : "Boorman"
+遗言: "I'm ready, Warden"
+------------------------------------
+
+其他细节无所谓, 但是你最好尽可能地将记录编写的符合事实. 一份死亡记录模板已经上传至CSEC资源服务器(在 /home/Templates 路径下), 它会对你有所帮助. 
+我们建议你把模板文件复制下来, 在你的本地编辑修改好以后再上传. 记得重命名文件(使用"mv"指令)以标明死者姓名和你使用的记录编号. 
+以下是家属给我们的留言: 
+"非常感谢你的帮助. 这个判决从一开始就是不公正的. 我们一直坚信他是无辜的, 就算是现在我们仍然想要努力去为他声冤. 
+而且... 一个死者没有死亡记录, 这本身就是对他的不尊重. 至少我们想把他最后的遗言保留下来. 最后, 再次感谢你. "
+    </body>
+    <attachments>
+      <link comp="mainHubAssets" />
+      <link comp="deathRow" />
+      <note title="信息细节">First Name: "John"
+Last Name : "Boorman"
+遗言: "I'm ready, Warden"</note>
+    </attachments>
+  </email>
+</mission>

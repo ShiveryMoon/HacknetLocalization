@@ -1,0 +1,46 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="entropyAdvFail01" name="KyonBox" security="3" ip="176.194.38.111">
+  <file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
+  <account username="admin" password="haruhi" />
+  <proxy time="2" />
+  <trace time="70" />
+  <file path="home/loot" name="Macrosoft_dox.txt">Macrosoft Storage Servers:
+  168.61.82.246
+  </file>
+  <file path="home/docs" name="jessie.txt">
+[lilsebastian] 所以, 你觉得你爸妈同意你出来吗?  
+[kkswatch] 我不知道, 妈妈不喜欢我老出去玩. 
+[lilsebastian] 我会给你买点麦当劳吃. 
+[kkswatch] 真的吗? 
+[lilsebastian] 随便你想吃什么.  
+[kkswatch] 那我们出去玩什么呢? 
+[lilsebastian] 恩. . . 我想我们可以去瞭望台. 
+[lilsebastian] 一起看看星星或者做点别的. 
+[kkswatch] 这样吗? 听起来感觉很像是个约会哟. 
+[lilsebastian] 呃. . . 你答应嘛? 
+[kkswatch] 那就约好在25号后街小巷见面吧. 
+[lilsebastian] :D
+  </file>
+  
+  <file path="home/docs" name="lantime.txt">
+[jlord93] 准备好这周末出去浪了吗? 
+[xn00bslayerx] 当然! 
+[xn00bslayerx] 带上炸鸡和啤酒出发! 
+[jlord93] 让我们嗨一整天 :p
+[xn00bslayerx] 我希望Jessie这周末也能出来玩
+[jlord93] 哎呦, 春天来啦
+[xn00bslayerx] 闭嘴! 
+[jlord93] 用你的魅力征服她吧哥们
+[jlord93] 行了, 我下了, 明天学校见. 
+  </file>
+  
+  <file path="home/docs" name="update.txt">
+[slaggedfire] 你猜这群开发者这次更新了什么屎东西? 
+[slaggedfire] 我是说, 你更新草坪动画效果有卵用? 
+[slaggedfire] 来点干货行不行! 
+[zuggj1] 估计就这点更新都要了他们的命. 
+[slaggedfire] 想不想登录后再来次突袭? 
+[zuggj1] 好啊. 
+  </file>
+  
+</Computer>

@@ -1,0 +1,33 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="bitMission00">
+  <goals>
+    <goal type="getAdmin" target="practiceServer"/>
+  </goals>
+  <missionStart val="0">CSECTesterGameWorldSetup</missionStart>
+  <missionEnd val="0">assignPlayerToHubServerFaction</missionEnd>
+  <nextMission>MainHub/Intro/Intro01.xml</nextMission>
+  <email>
+    <sender>Matt Trobbiani</sender>
+    <subject>超级特殊的秘密测试任务</subject>
+    <body>
+	哟, 
+    
+	谢谢你帮忙测试! 这是一个让你重新熟悉使用这个黑客机器所设计的热身任务. 
+	现在你已经得到一组已经获取管理员权限节点和4个基本的工具(SSHCrack, WebServerWorm, SMTPOVerflow, FTPBounce). 
+    
+	拿下这些计算机的管理员权限后再回复这封邮件. 
+	做完这些你的CSEC等级会提升, 在那里你可以开始接受更新的任务. 
+	别忘了先去看看CSEC资源服务器! 
+      
+    -Matt
+    
+    
+    .
+    
+    
+    </body>
+    <attachments>
+      <link comp="practiceServer" />
+    </attachments>
+  </email>
+</mission>

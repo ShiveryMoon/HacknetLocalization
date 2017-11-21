@@ -1,0 +1,11 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="themeHackTransComp" name="代理_节点-X04" security="3" ip="173.194.35.163" type="4">
+  
+  <proxy time="0.4" />
+  <trace time="105" />
+  <admin type="fast" resetPassword="true" isSuper="true"/>
+  <file path="sys" name="x-server.sys">#GREEN_THEME#</file>
+  <file path="home" name="Macrosoft_Internal_Raid_Archive.rar">#BINARY#BINARY#</file>
+  <file path="log" name="@11907_Connection_Routed_173.194.35.172_To_173.188.235.2">Connection Routed 173.194.35.172 To 173.188.235.2</file>
+
+</Computer>

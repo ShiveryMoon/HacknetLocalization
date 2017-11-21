@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="themeHackEndMission">
+  <goals>
+    <goal type="FileDeletion" target="naixGateway" file="Macrosoft_Internal_Raid_Archive.rar" path="home" />
+  </goals>
+  <nextMission IsSilent="true">Entropy/PostBranch/EntropyAdv01.xml</nextMission>
+  <branchMissions>
+    <branch>Theme/ThemeHackNaixRudeReply.xml</branch>
+    <branch>Theme/ThemeHackNaixBranch.xml</branch>
+    <branch>Theme/ThemeHackEndMissionFail.xml</branch>
+  </branchMissions>
+  <email>
+    <sender>Entropy</sender>
+    <subject>ERROR</subject>
+    <body>
+      Connect-Responder.exe 检测到一个从你的ip到173.194.35.163的异常连接. 
+      本设备禁止外部连接, 如果你错误地连接到本设备, 请寻求你的系统管理员的协助. 
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

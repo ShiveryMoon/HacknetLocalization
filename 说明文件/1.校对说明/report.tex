@@ -1,0 +1,125 @@
+%!TEX program = xelatex
+\documentclass[10pt,a4paper,UTF8]{article}
+\usepackage{ctex}
+\usepackage{indentfirst,latexsym,bm,amsmath,amsthm,enumerate,graphicx,setspace,subfigure,cite,fancyhdr,float}
+\usepackage[vmargin=2.54cm,hmargin=3.18cm]{geometry}
+
+\begin{document}
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~修正部分~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    %通用修正
+    \setlength{\parindent}{2em}                        %首行缩进2字符
+    \renewcommand{\baselinestretch}{1.5}\normalsize    %修改行距为标准的x倍
+
+    %中文相关的修正
+    \renewcommand*{\qedsymbol}{[证毕]}                 %中文的证x明毕
+    \newcommand{\HEI}{\CJKfamily{hei}}                 %中文黑体
+    \newcommand{\KAI}{\CJKfamily{kai}}                 %中文楷体
+
+    %英文修正
+    \newcommand{\romannum}[1]{\expandafter{\romannumeral#1}}    %罗马字符
+
+    %添加新的定理环境
+    \newtheorem{instance}{\HEI例}[section]
+
+    %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~修正结束~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    \begin{titlepage}
+        \title{Venique的校对说明\footnote{Made By \LaTeX}}
+        \author{Venique}
+
+
+        \maketitle
+        \thispagestyle{empty}
+        
+        \vspace{0.55\textheight}
+        
+        \rightline{Venique}
+        \rightline{venique@live.com}
+    \end{titlepage}
+
+    \newpage
+
+    \pagestyle{fancy}
+    \chead{Stage 2： 校对说明}
+    \lhead{Venique}
+    \rfoot{\thepage} 
+    \cfoot{}
+    \section{前请提要}
+    	\subsection{目前进度梳理：}
+    		在诸位的辛勤努力之下，我们终于完成了Stage 1的汉化工作。目前除了极少数没有完全翻译的文件之外，剩下所有的文件都已经给出了一个及以上的翻译。
+
+    		在第一阶段翻译工作中，我们主要看重的是效率，因此有许多翻译存在着翻译腔、错字、语句不通顺的问题，在Stage 2阶段我们的目标是在原有翻译的基础上润色和校对
+
+    \section{汉化总体目标}
+    	这里主要写一下我希望达到的目标：
+    	
+    	时间表：
+
+    	\begin{enumerate}[(a)]
+    		\item 8.15 完成校审
+    		\item 8.17 完成中文替换英文
+    		\item 8.20 发送给Matt
+    		\item 剩下的听天由命
+    	\end{enumerate}
+
+
+   	\section{下一步安排}
+    	\subsection{Stage 2：校审格式}
+    		\begin{enumerate}[情况1.]
+    			\item \label{situa:1}某文件开始校审，且\textbf{校审完毕}。
+
+    				按照如下格式填写文件头
+
+    				\begin{center}
+    					$\backslash$*Venique 校审, 基于 A,B,C, done*$\backslash$
+    				\end{center}
+
+    				其中A,B,C是本文件翻译人员
+
+    				同时删除掉他们的翻译，仅保留自己的校审。因此校审过的文件会只剩下一行校审过的翻译。
+    				(P.S Done是为了方便我写的统计程序识别)
+
+    			\item 某文件开始校审，同时\textbf{未}校审完。
+
+    				按照如下格式填写文件头
+
+    				\begin{center}
+    					$\backslash$*Venique 校审, 基于 A,B,C*$\backslash$
+    				\end{center}
+
+    				ABC说明同\ref{situa:1}
+
+
+    				\textbf{请务必在校审完此文件后修改文件头},形式同\ref{situa:1}
+
+    		\end{enumerate}
+
+    	\subsection{Stage 2：工作量分配}
+    		\begin{enumerate}
+    			\item 目前总共有252个文件，部分文件为配置文件，按照时间表大概有18天的时间，因此每天至少要有14个文件校对完毕。
+    		\end{enumerate}
+
+    	\subsection{Stage 2: 校对人员}
+			\begin{enumerate}
+    			\item Stage 2 采取报名参与的形式，想参加Stage 2的人请在QQ上找我报名获取新的git仓库地址与用户名密码。
+    			\item 在报名的时候需要提供一下信息
+    				\begin{enumerate}
+		    			\item 自己的在Stage 1中Git用的用户名
+		    			\item 每天\textbf{平均}翻译量（要求每3天一平均都能达到这个翻译量，我会写一个脚本进行检测）
+		    		\end{enumerate}
+		    		在我审核通过后，会通过QQ和Email的方式发送Git仓库地址与用户名密码。
+    		\end{enumerate}    		
+
+    \section{其他说明：}
+    	\begin{enumerate}
+			\item 在校对的时候遇到翻译与自己的理解不同，请与原翻译讨论，请不要强行修改对方的翻译。校对仅仅是润色。。并不是可以随便改变原翻译的意思。
+
+			\item 我好饿，求拍打喂食。
+
+			\item 我戒了屁股！！难以置信。。。
+
+			\item 目前的Git仓库，我会择日修改密码，停止工作。最近请注意及时上传自己的修改
+
+		\end{enumerate}
+
+\end{document}
+

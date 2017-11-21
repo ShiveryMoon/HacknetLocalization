@@ -1,0 +1,7 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="webReddit" name="www.reddit.com" security="4">
+  
+  <addOnlineWebServer url="http://www.reddit.com/r/pics/comments/92dd8/test_post_please_ignore/" name="Reddit" />
+  <file path="sys" name="Hero_We_Deserve">ForthewolfX</file>
+  
+</Computer>

@@ -1,0 +1,25 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="entropyNews05">
+  <goals>
+    <goal type="getAdmin" target="entropy01"/>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="New Opbol Dongle patent will Tantalize Fanboys">
+Opbol申请新的接收器专利, 吊玩家们的胃口
+
+Opbol的骨灰级粉丝们, 放下手头的事情, 赶快准备好你的钱包吧. 
+计算机技术公司Opbol今天申请了一项新的专利, 意味着它将进军家庭游戏机市场. 
+这项专利是一个可扩展的"接收器". 专家说, 它可能会成为新型游戏控制器或动作传感器的一个部件. 
+到目前为止这个设备才刚刚设计出雏形, 一个两端钝圆的伸缩缸形状物体. 不过我们得到消息说这个产品再过几天就能达到设计性能了. 保持关注我们的空间! 
+  </posting>
+  <email>
+    <sender>Tom Wilkins</sender>
+    <subject>我们必须阻止Entropy</subject>
+    <body>
+摧毁Entropy的数据库
+    </body>
+    <attachments>
+      <link comp="entropy01" />
+    </attachments>
+  </email>
+</mission>

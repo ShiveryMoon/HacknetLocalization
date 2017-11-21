@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="medicalDemo" name="国际医疗数据库" security="2" icon="kellis">
+
+  <ports>104, 22, 21, 1433</ports>
+  <proxy time="-1" />
+  <portsForCrack val="1" />
+  <!-- Number of ports to be open to allow porthack to run -->
+  <firewall level="-1" />
+  <trace time="-1" />
+  
+  <account username="admin" password="codeine" />
+
+  <MedicalDatabase />
+  
+</Computer>

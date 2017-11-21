@@ -1,0 +1,25 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="entropyNews01">
+  <goals>
+    <goal type="getAdmin" target="entropy01"/>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Entropy Group engaged in malicious Hacking?">
+Entropy 黑客组织要转型为骇客了?
+
+最近的报道称, 黑客组织"Entropy"收留了一个臭名昭著的骇客, 并且为他提供了工作. 
+我们还不能确认这个消息的真实性. 如果消息属实, 那么Entropy组织在将来一定会面临严峻的法律问题. 
+在我看来, 这样的举动会破坏现在的良好网络环境, 遏制那些富有创造力的黑客组织的发展. Entropy应当受到严厉的谴责. 
+记者 :  Tom Wilkins
+  </posting>
+  <email>
+    <sender>Tom Wilkins</sender>
+    <subject>我们必须阻止Entropy</subject>
+    <body>
+摧毁Entropy的数据库
+    </body>
+    <attachments>
+      <link comp="entropy01" />
+    </attachments>
+  </email>
+</mission>

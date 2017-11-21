@@ -1,0 +1,9 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="miscMacrosoftStorage" name="巨硬仓库服务器" security="5" ip="168.61.82.246">
+  
+  <ports>80, 22, 21, 25, 1433, 3724</ports>
+  <file path="THEMES" name="GOLD-Theme.sys">#YELLOW_THEME#</file>
+
+  <positionNear target="macrosoftWorkhorse04" position="1" total="4" />
+  
+</Computer>

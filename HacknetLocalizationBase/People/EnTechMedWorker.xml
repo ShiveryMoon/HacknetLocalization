@@ -1,0 +1,20 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<Person id="entechboss" handle="Jojo" firstName="Joseph" lastName="Jorioni" isMale="true">
+  
+  <Birthplace name="Califonia" />
+  <Degrees>
+    <Degree uni="University of California" gpa="2.9">软件工程学士</Degree>
+  </Degrees>
+  <Medical>
+    <Blood>AA</Blood>
+    <Height>178</Height>
+    <Allergies>NONE</Allergies>
+    <Perscription> 螺内酯x70 两月一次::醛固酮抑制剂作为心脏调节器</Perscription>
+    <Notes>患者所患冠心病的急性情况下 - 氧气输送到心脏的血流量比平时大大降低因天生的明显的血管缺陷. 
+病人配备一个调节监视器, 可以提醒他的血氧饱和度, 因为他的心脏衰竭的风险要大得多, 而且必须迅速作出反应. 
+这不是一个起搏器, 仅仅是一个报警系统. 
+  </Medical>
+  <Notes>
+  </Notes>
+  
+</Person>

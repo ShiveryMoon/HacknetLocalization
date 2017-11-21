@@ -1,0 +1,31 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="FileUpload" target="hubCrossroads" file="encrypt_source.dec" path="home" destTarget="hubPubDrop" destPath="Drop/Uploads" decrypt="true" />
+  </goals>
+  <missionEnd val="1">addFlags:decypher</missionEnd>
+  <nextMission>MainHub/Misc/Faction_Gain_Helper.xml</nextMission>
+  <posting title="发现或开发解码软件">
+一个新公司研发出了一项新的文件加密软件, 并且把大量原本向我们开放的代码给加密了. 
+这个加密算法并不是我们所见过最复杂的, 不过目前还没有解决的办法. 无论你用什么办法完成这项任务, 只要把文件解码了就行. 
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>潜入宝库</subject>
+    <body>
+DEC方案小组最近完成了他们新的"DEC加密程序组" -- 基本上来说就是个文件加密组件. 我们想要查看的文件被这个组件给加密了. 
+我向我们的负载均衡服务器(一个面向所有CSEC用户的非安全的文件放置点)上, 放置了一份该加密组件的备份, 名为"encrypt_source.dec". ".dec"是该文件的扩展名. 
+你先自己看看这个加密文件吧. 该公司的网站上基本没什么有用的东西, 不过如果你仔细发掘的话可能会找到点有用的东西. 一旦你进入了他们的网站, 请立即尝试扫描, 看看有没有藏得更深的网络. 
+一旦你解码成功了, 就把该文件上传到CSEC共享服务器吧. 
+    </body>
+    <attachments>
+      <link comp="hubCrossroads" />
+      <link comp="hubPubDrop" />
+      <link comp="decSoftWeb" />
+      <note title="任务细节">调查DEC方案小组的企业网络
+找到解密DEC文件的办法
+解码放置在CSEC负载均衡服务器上的文件
+把解码后的文件上传到CSEC共享服务器</note>
+    </attachments>
+  </email>
+</mission>

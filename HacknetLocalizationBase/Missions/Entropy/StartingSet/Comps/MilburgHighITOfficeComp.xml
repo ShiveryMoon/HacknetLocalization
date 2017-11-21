@@ -1,0 +1,75 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="milburgHigh" name="Milburg高中IT办公室" security="2" type="4">
+
+  <proxy time="0.9" />
+  <portsForCrack val="1" />
+  <!-- Number of ports to be open to allow porthack to run -->
+  <firewall level="-1" />
+
+  <adminPass pass="*******" />
+  
+  <file path="home/misc" name="People_not_To_Trust.txt" EduSafe="false">
+[jinkle] 嘿哥们, 你手头有货不? 
+[jinkle] Lacy那边的一个家伙让我来找你. 
+[marcy] 没错是我, 你想来点儿? 
+[jinkle] 太棒了, 一盎司多少钱? 
+[marcy] $145
+[jinkI;tle] 行, 成交. 我们在哪碰面? 
+[marcy] 那我们说定了, 145$一盎司的大麻? 
+[jinkle] 对, 说定了. 
+[marcy] 好. 我有你的IP地址, 一会儿我就过来. 
+[jinkle] 等会, 你怎么知道我的IP地址的? 
+[marcy] 因为我是警察呀. 
+[jinkle] 干. 老妈非杀了我不可. 
+  </file>
+  
+  <file path="home/MH_STAFF" name="Student_TopSearchHistory.txt" EduSafe="false">
+1  谷歌
+2  双峰
+3  胸
+4  性
+5  侧乳
+6  爱情动作片
+7  怎样停用绿网
+8  能绕过绿网的网站
+9  南北战争时期的油画
+10 GTA(侠盗猎车手)
+11 甩臀
+12 什么是甩臀
+13 甩臀技巧
+14 画有半裸妓女的法国战争油画
+15 运动会
+16 "球"类运动
+...  .
+  </file>
+  
+  <file path="home/MH_STAFF" name="Announcements.txt">
+关于网络/代理服务器瘫痪的通知
+虽然我们的一部分员工不知道代理服务器瘫痪是什么意思, 但是很明显我们的一部分学生知道那意味着什么. 
+在通知发出的那个晚上, 很明显发现了网络连接依然可用, 但是绿网并没有工作. 在接下来的20分钟里有22T的爱情动作片被下载到了学校的服务器和各个房间的电脑内. 
+很明显我们想通过加强安全手段避免让这件事再一次发生. 也许, 不通知学生们这种事情会好很多. 
+非常感谢
+
+-校长办公室
+  </file>
+  
+  <file path="home/MH_STAFF" name="pw_memo.log">
+4:37 PM - MBIT: 我一直在想咱学校的网络安全系统
+4:37 PM - JBrooks: 是么
+4:37 PM - MBIT: 嗯, 我觉得这些升级神马的全都是劳民伤财
+4:37 PM - MBIT: 你试试这个
+4:38 PM - MBIT: 最简单的办法
+4:38 PM - MBIT: 我们只需要把IT的密码设成这个
+4:38 PM - MBIT: *******
+4:38 PM - JBrooks: 什么鬼
+4:38 PM - MBIT: 就是这个啊! 
+4:38 PM - MBIT: 就是7个*啊
+4:38 PM - MBIT: 这就是密码, 只有星号
+4:38 PM - MBIT: 谁会想到会是这个密码? ! 肯定没有人能猜的到! 就算有人黑到了密码, 那看起来也像是被加密了的密码. 
+4:38 PM - MBIT: 这简直就是牢不可破啊! 
+  </file>
+  
+  <file path="home/MH_STAFF/PRIVATE_STUDENT_EMAILS" name="mail.txt">如果一个学生曾经给我发了一封感谢的电子邮件, 我会把它储存在这里. 
+上帝啊. . . 我是如此的孤单. . . 记事本.exe. . . . . . 只有你懂得我的孤单:(</file>
+  
+</Computer>

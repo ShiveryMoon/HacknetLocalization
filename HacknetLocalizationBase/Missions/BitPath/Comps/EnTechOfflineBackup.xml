@@ -1,0 +1,51 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="EnTechOfflineBackup" name="EnTech_离线_循环_备份" security="5" type="4">
+  
+  <admin type="fast" resetPassword="false"/>
+
+  <portsForCrack val="6" />
+
+  <proxy time="2" />
+  <ports>80, 22, 1433, 25, 21, 104</ports>
+  <!--
+  <trace time="99" />
+  -->
+  <trace time="-1" />
+  
+  <positionNear target="EnTechMainframe" position="0" total="12" />
+  <firewall solution="EMMETPLACE" additionalTime="0.0"/>
+  
+  <!-- Files
+  We need 3 folders, dated, with hacknet content sets
+  -->
+  <file path="ARCHIVE/Hacknet/24-02" name="Hacknet_Content.xnb">#BINARYSMALL#</file>
+  <file path="ARCHIVE/Hacknet/24-02" name="HacknetCore.dll">#BINARYSMALL#</file>
+  <file path="ARCHIVE/Hacknet/24-02" name="Hacknet.exe">#HACKNET_EXE#</file>
+  <file path="ARCHIVE/Hacknet/24-02" name="Hacknet_Source.zip">#BINARYSMALL#</file>
+
+  <file path="ARCHIVE/Hacknet/03-12" name="Hacknet_Content.xnb">#BINARYSMALL#</file>
+  <file path="ARCHIVE/Hacknet/03-12" name="HacknetCore.dll">#BINARYSMALL#</file>
+  <file path="ARCHIVE/Hacknet/03-12" name="Hacknet.exe">#HACKNET_EXE#</file>
+  <file path="ARCHIVE/Hacknet/03-12" name="Hacknet_Source.zip">#BINARYSMALL#</file>
+
+  <file path="ARCHIVE/Hacknet/18-09" name="Hacknet_Content.xnb">#BINARYSMALL#</file>
+  <file path="ARCHIVE/Hacknet/18-09" name="HacknetCore.dll">#BINARYSMALL#</file>
+  <file path="ARCHIVE/Hacknet/18-09" name="Hacknet.exe">#HACKNET_EXE#</file>
+  <file path="ARCHIVE/Hacknet/18-09" name="Hacknet_Source.zip">#BINARYSMALL#</file>
+  
+  
+  <!-- EnSec Files...   -->
+  <file path="ARCHIVE/EnSec/24-02" name="EnSec_Source.zip">#BINARYSMALL#</file>
+  <file path="ARCHIVE/EnSec/24-02" name="EnSec_DeploymentPack.zip">#BINARYSMALL#</file>
+  <file path="ARCHIVE/EnSec/24-02" name="EnSec_Runtime.dll">#BINARYSMALL#</file>
+
+  <file path="ARCHIVE/EnSec/25-12" name="EnSec_Source.zip">#BINARYSMALL#</file>
+  <file path="ARCHIVE/EnSec/25-12" name="EnSec_DeploymentPack.zip">#BINARYSMALL#</file>
+  <file path="ARCHIVE/EnSec/25-12" name="EnSec_Runtime.dll">#BINARYSMALL#</file>
+
+  
+  <file path="ARCHIVE/Misc" name="hn_buildtool.bat">#BINARYSMALL#</file>
+  <file path="ARCHIVE/Misc" name="en_Dec_mediakit.zip">#BINARYSMALL#</file>
+  <file path="ARCHIVE/Misc" name="templates.tmp">#BINARYSMALL#</file>
+
+</Computer>

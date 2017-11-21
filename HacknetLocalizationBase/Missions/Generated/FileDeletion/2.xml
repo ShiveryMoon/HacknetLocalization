@@ -1,0 +1,25 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="GenMission">
+  <goals>
+    <goal type="FileDeletion" target="#COMP#" file="#FILE#" path="#PATH#" />
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="#CLIENT# - 疏漏的数据">
+一个黑客组织偷走了某公司的珍贵数据. 目前这些黑客已被绳之以法, 不过他们必须将偷走的东西归还原主. 
+  </posting>
+  <email>
+    <sender>#CLIENT#</sender>
+    <subject>#CLIENT# - 疏漏的数据</subject>
+    <body>
+黑客你好, 
+我们的公司, #CLIENT#, 最近受到了黑客组织的入侵. 目前这些黑客已被绳之以法, 然而我们没法把他们偷走的数据找回来. 
+不过, 我们有该黑客组织的服务器IP地址, 希望你能够帮我们处理一下这个问题. 
+如果你能巧妙地处理这个问题那就更好了. 
+-#CLIENT#
+    </body>
+    <attachments>
+      <link comp="#COMP#" />
+    </attachments>
+  </email>
+</mission>

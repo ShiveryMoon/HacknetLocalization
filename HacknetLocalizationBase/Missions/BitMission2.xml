@@ -1,0 +1,34 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="bitMission02" activeCheck="true">
+  <goals>
+    <goal type="FileDownload" target="bitMission02" file="Entropy_Induction_Test" path="home" />
+  </goals>
+  <nextMission>Entropy/EntropyMission1.1Delayer.xml</nextMission>
+  <email>
+    <sender>Bit</sender>
+    <subject>生涯起点</subject>
+    <body>
+好样的! 如果你收到这封邮件, 说明你做的很好... 恩, 也许这一切真的是值得的. 
+我对你抱有的期望是不是太大了? 也许吧. 
+我知道我没有充裕的时间来一点点教你, 你要学的东西太多了. 所以, 我的决定如下. 
+有一个叫'Entropy'的组织目前正在招收新成员. 他们会教你更多黑客知识. 当你的黑客技术足以帮我完成我的夙愿时, 我会再联系你. 
+为了进入Entropy, 你需要绕过一个代理服务器, 在你已经得到管理员权限计算机上运行几个shell(使用shell命令), 它可以用来过载代理服务器. 
+祝你好运... 
+还有, 谢谢. 
+--Bit
+0
+
+P.s: 我差点忘记了, 如果你遇到了麻烦, 我有网络教育档案服务器的链接, 这个服务器上面有很多有用的信息. 
+    </body>
+    <attachments>
+      <note title="代理服务器相关">关于代理服务器--Entropy用于测试新人的老套路
+使用"Shell"命令在你有管理员权限的计算机上运行shell. 
+连接到目标计算机, 使用probe来查看他的安全系统. 
+使用shell过载目标代理服务器. 
+网络教育档案服务器有更多的细节. 
+      </note>
+      <link comp="netEduComp" />
+      <link comp="bitMission02" />
+    </attachments>
+  </email>
+</mission>

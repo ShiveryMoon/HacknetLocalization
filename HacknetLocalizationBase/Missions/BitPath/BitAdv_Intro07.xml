@@ -1,0 +1,49 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="bit02_Phase7" >
+  <goals>
+    
+    <!--
+    <goal type="FileDeletion" target="EnTechMainframe" path="Repo/Hacknet" file="Hacknet.sln" />
+    <goal type="FileDeletion" target="EnTechMainframe" path="Repo/Hacknet" file="Hacknet_Runtime.dll" />
+    <goal type="FileDeletion" target="EnTechMainframe" path="Repo/Hacknet" file="HN_NETCORE.dll" />
+    <goal type="FileDeletion" target="EnTechMainframe" path="Repo/Hacknet" file="Hacknet_Source.src" />
+    -->
+    
+    <!-- Offline Backups -->
+    <goal type="FileDeletion" target="EnTechOfflineBackup" path="ARCHIVE/Hacknet/24-02" file="Hacknet_Content.xnb" />
+    <goal type="FileDeletion" target="EnTechOfflineBackup" path="ARCHIVE/Hacknet/24-02" file="HacknetCore.dll" />
+    <goal type="FileDeletion" target="EnTechOfflineBackup" path="ARCHIVE/Hacknet/24-02" file="Hacknet.exe" />
+    <goal type="FileDeletion" target="EnTechOfflineBackup" path="ARCHIVE/Hacknet/24-02" file="Hacknet_Source.zip" />
+
+    <goal type="FileDeletion" target="EnTechOfflineBackup" path="ARCHIVE/Hacknet/03-12" file="Hacknet_Content.xnb" />
+    <goal type="FileDeletion" target="EnTechOfflineBackup" path="ARCHIVE/Hacknet/03-12" file="HacknetCore.dll" />
+    <goal type="FileDeletion" target="EnTechOfflineBackup" path="ARCHIVE/Hacknet/03-12" file="Hacknet.exe" />
+    <goal type="FileDeletion" target="EnTechOfflineBackup" path="ARCHIVE/Hacknet/03-12" file="Hacknet_Source.zip" />
+
+    <goal type="FileDeletion" target="EnTechOfflineBackup" path="ARCHIVE/Hacknet/18-09" file="Hacknet_Content.xnb" />
+    <goal type="FileDeletion" target="EnTechOfflineBackup" path="ARCHIVE/Hacknet/18-09" file="HacknetCore.dll" />
+    <goal type="FileDeletion" target="EnTechOfflineBackup" path="ARCHIVE/Hacknet/18-09" file="Hacknet.exe" />
+    <goal type="FileDeletion" target="EnTechOfflineBackup" path="ARCHIVE/Hacknet/18-09" file="Hacknet_Source.zip" />
+    
+  </goals>
+  <missionStart>enTechEnableOfflineBackup</missionStart>
+  <nextMission>BitPath/BitAdv_Intro08_Complete.xml</nextMission>
+  <email>
+    <sender> V </sender>
+    <subject>Bit -- 阻止</subject>
+    <body>已经读完了吧. 你应该知道这意味着什么. 
+也就是说, 我们要解决的目标是Bit自己最初所开发的软件 -- 如果这样做能结束这一切的话. 
+当你进入承包商服务器的时候, 我在研究他们的备份 -- 他们用离线的方式来保护文件, 不过服务器会按照设置好的频率自动联网从他们的产品服务器上下载更新, 以保持备份的实时性. 
+因此, 通过巧妙地上传更新补丁, 我能够使服务器开启网络. 估计到时候很难和你保持联系, 不过我想到了一个办法 -- 我重新装配了一个我以前的软件来给你提醒剩余时间, 它原本是我以前和朋友一起干活的时候用来协调工作的. 
+一份名叫"Sequencer"的程序已经上传到 CSEC 资源服务器. 当你一切都准备好了, 就运行这个程序. 它会给我发送一个信号, 然后我会马上开启服务器的网络使你同它建立连接. 你没有太多时间, 但我相信这足以完成任务. 当我保持服务器网络开启时, 你需要尽快寻找他们的备份库并删除一切与"Hacknet"有关的东西. 我会持续给你做掩护, 并且在你删除备份时, 帮你清空主机的所有内容. 
+如果 Bit 想摧毁hacknet的话, 这就是我们所能做到的最好结果了. 
+
+上吧. 必胜. 
+
+-V
+    </body>
+    <attachments>
+      <link comp="mainHubAssets" />
+    </attachments>
+  </email>
+</mission>

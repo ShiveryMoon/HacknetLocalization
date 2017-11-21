@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Person id="csec_med_01" handle="Sal" firstName="Elanor" lastName="Helleran" isMale="false">
+  
+  <Birthplace name="London" />
+  <Degrees>
+    <Degree uni="Manchester University" gpa="3.1">计算机科学硕士</Degree>
+  </Degrees>
+  <DOB>06/08/1991 14:22:00</DOB>
+  <Medical>
+    <Blood>AA</Blood>
+    <Height>167</Height>
+    <Allergies>NONE</Allergies>
+    <Perscription>胺碘酮(乙胺碘呋酮) x70 两月一次</Perscription>
+    <Notes>患者诊断患有心律不齐. 刚开始轻度症状由于滥用咖啡因或其他兴奋剂而恶化. 患者多次被建议停止摄入她公开承认上瘾的能量饮料和咖啡, 但是经常复发. 
+在全面诊断之前, 建议进行一次血常规来检测兴奋剂(是否合法或者别的什么)
+  </Medical>
+  <Notes>按下建立医疗病例</Notes>
+
+</Person>

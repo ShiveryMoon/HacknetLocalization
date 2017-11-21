@@ -1,0 +1,9 @@
+config.ini
+init_num: "12"
+continual_spawning "YES"
+colours_enabled {"peach","ivory","fudge","chocolate","magenta"}
+behaviors_enabled {"twirl","thrust","helicopter"}
+resolution: {"1280","800"}
+fullscreen: "YES"
+alt_tab_enabled: "YES"
+texture_folder: "C:/Documents_and_Settings/Admin/Fax/Not_Porn/Documents/Serious_Documents/System/textures"

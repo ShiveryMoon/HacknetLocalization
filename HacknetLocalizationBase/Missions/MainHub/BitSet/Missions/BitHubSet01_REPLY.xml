@@ -1,0 +1,25 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="bitHubSet01" activeCheck="true">
+  <goals>
+  </goals>
+  <missionEnd val="1">hubBitSetComplete01</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="调查CSEC成员失踪">
+我们许多人的好朋友, 著名的CSEC成员Bit, 2周前莫名失踪了, 并且没有再同包含我们在内的任何人联系. 
+在许多私人调查展开的同时, 我也向所有希望提供帮助的成员发布CSEC的官方公告. 
+如果你知道关于他的任何信息或是他现在的状态, 请务必告诉我们. 
+
+  </posting>
+  <email>
+    <sender>Vap0r</sender>
+    <subject>Re:Bit失踪调查</subject>
+    <body>哈..
+干的漂亮, 希望Bit没有遇到什么太大的麻烦. 
+这件事我们必须要重视起来. 我会再去调查一番, 一旦发现了什么, 我会再次联系你. 
+谢谢,
+-Vapor 
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="academic" name="国际学术数据库" ip="129.67.0.11" security="5" type="4">
+  
+  <adminPass pass="techtonic" />
+  <admin type="fast" resetPassword="false"/>
+
+  <portsForCrack val="4" />
+  <ports>80, 25, 21, 1433</ports>
+  <firewall level="8" solution="ACADEMIC" />
+  <proxy time="-1" />
+  <trace time="195" />
+
+  <file path="academic_data" name="admin.txt">提醒: 如果你因维护机器而退出登录, 请记住该服务器当前安全周期的密码: "techtonic". 
+</file>
+  
+</Computer>

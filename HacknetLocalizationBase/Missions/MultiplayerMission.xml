@@ -1,0 +1,18 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="multiplayerMission" activeCheck="true">
+  <goals>
+    <goal type="FileDeletion" target="opponent#0" file="system32.sys" path="home" />
+  </goals>
+  <nextMission>NONE</nextMission>
+  <email>
+    <sender>Anonymous</sender>
+    <subject>战斗</subject>
+    <body>
+欢迎, 黑客
+
+你目前正遭受敌对黑客的攻击. 在你被摧毁之前, 我们需要你尽全力摧毁他/她. 
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

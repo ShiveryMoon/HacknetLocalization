@@ -1,0 +1,24 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="entropyNews03">
+  <goals>
+    <goal type="getAdmin" target="entropy01"/>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="New Macrosoft Phone: About as bad as you expecte">
+巨硬公司发布新款手机 : 要多烂有多烂
+
+看起来巨硬公司的开发脚步根本停不下来. 我们的员工有幸得到一台最新的样品机"Waterfall", 然而经过我们的测试, 已经发现了很多严重的安全漏洞. 
+手机用户已经习惯于这个无处不在的科技巨头所开发的操作系统了, 然而这些安全漏洞使得任何安装在手机上的app都可以不受限制的控制手机, 该漏洞会让你的私人信息在未加密的情况下发送到网络上任何一个位置. 
+巨硬公司的第四代手机"Waterfall"本将在两星期后发售, 但由于漏洞的存在, 专家声称发售日期将延后一个月. 更多信息, 请关注我们的空间. 
+  </posting>
+  <email>
+    <sender>Tom Wilkins</sender>
+    <subject>我们必须阻止Entropy</subject>
+    <body>
+摧毁Entropy的数据库
+    </body>
+    <attachments>
+      <link comp="entropy01" />
+    </attachments>
+  </email>
+</mission>

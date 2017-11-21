@@ -1,0 +1,23 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="entropyMissionFail01">
+  <goals>
+    <goal type="getString" target="168.61.82.246"/>
+  </goals>
+  <nextMission>Entropy/PostBranch/EntropyAdv01.xml</nextMission>
+  <email>
+    <sender>Entropy</sender>
+    <subject>希望这么做能派上点用场</subject>
+    <body>
+看起来你已经完成了任务, 虽然不是很完美. 但是仍然希望你的所作所为能够让文明的黑客形象在公众心中维持一段时间. 
+虽然你已经删掉了Naix从巨硬公司偷来的文件, 但我不是很确定这些文件在别的地方是否还有备份 -- 我有一个闲置的黑客IRC频道, 本希望能从中收到那些备份被删除的消息, 然而并没有. 也许是消息有延迟, 也许是他们想掩盖什么信息. 
+如果你现在想到处逛逛, 请随意. 
+对了, 还有件事情我希望你能帮我一下. 在IRC频道里有人在讨论你曾经调查的那件事 -- 他声称弄到了失窃服务器的ip地址. 
+你能帮我去把ip弄到手吗? 只要把ip地址回复给我就行. 我曾追踪过这个人的地址, 我所需要的东西看起来就在那里. 
+谢了, 
+-Tex
+    </body>
+    <attachments>
+      <link comp="entropyAdvFail01" />
+    </attachments>
+  </email>
+</mission>

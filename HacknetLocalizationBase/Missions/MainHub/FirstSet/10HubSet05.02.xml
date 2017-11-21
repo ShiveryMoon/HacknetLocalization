@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="FileUpload" target="hubCrossroads" file="C_EXE_contact.dec" path="home" destTarget="hubPubDrop" destPath="Drop/Uploads" decrypt="true" decryptPass="quinnoq"/>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="解开一个加密文件" reqs="decypher">
+一位CSEC成员手里有份加密文件, 他没法自己解码这个文件. 不过他手上有解码该文件所需的密码. 
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>夜晚的两艘船</subject>
+    <body>
+嘿, 
+我的朋友给我发来了关于工作上一些细节的文件, 然而它是加密的, 我完全没办法打开它. 
+我已经把它上传到了负载均衡服务器上, 名字是"C_EXE_contact.dec", 你能解码它并上传到共享服务器上吗? 
+密码是"quinnoq". 
+谢谢! 
+-CSEC Dan
+    </body>
+    <attachments>
+      <link comp="hubCrossroads" />
+      <link comp="hubPubDrop" />
+      <note title="任务细节">下载 C_EXE_contact.dec
+解码它
+上传文件至CSEC共享服务器. </note>
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="xcRepOK" activeCheck="true">
+  <goals>
+    <goal type="delay" time="2.5"/>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="ERROR">
+未知错误
+  </posting>
+  <email>
+    <sender>X-C Proj. : Bradford</sender>
+    <subject>Re: 内部调查</subject>
+    <body>
+干得不错, 我相信你并不是靠运气蒙对ID的. 
+这确实是我想要找的那类文件. 希望我们团队在这个项目上所付出的汗水在将来能得到回报. 
+谢谢, 
+-C.O Bradford
+    </body>
+    <attachments></attachments>
+  </email>
+</mission>

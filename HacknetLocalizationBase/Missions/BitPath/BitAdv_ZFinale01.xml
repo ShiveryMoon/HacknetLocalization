@@ -1,0 +1,24 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="bit02_finale01" >
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission> <!-- For real this time :D --> 
+  <email>
+    <sender>Bit</sender>
+    <subject>尾声</subject>
+
+    <body>嘿, 
+如果一切都进展顺利的话, 这将是我发给你的最后一封邮件了 -- 我不知道这样说是不是显得太悲哀了....
+也许你也是最后一个看到我留言的人了....但是! 这封邮件代表着好消息! 我最希望的事情,就是这封邮件能发到你手中,来告诉你: 一切都结束了. 
+所以, 谢谢你. 我知道这一切很不容易(这将会很不容易? )...  我真的需要花点时间来习惯这操蛋的时态. 
+我知道我已经要求你做了太多的事了, 不过, 我还有最后一件事希望你帮我. Porthack并不是完全独立的  -  它曾经是, 不过, 这么说吧, 你现在也许能理解为什么它不会成为人手一份的那种大众货了. 
+它的核心  -  心脏, 是它的剩下的最后一部分了. 本来这个核心是被设计成无法抹杀的, 但是我已经尽我所能了, 剩下的靠你了, 但这是我最后的请求. 
+--Bit
+0
+      
+    </body>
+    <attachments>
+      <link comp="porthackHeart" />
+    </attachments>
+  </email>
+</mission>

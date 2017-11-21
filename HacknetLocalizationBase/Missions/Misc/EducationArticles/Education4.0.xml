@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="education02">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="代理服务器快速指南">
+代理服务器的作用相当于在目标计算机和对应连接设备之间形成一个缓冲层, 能够监控并过滤传入的流量, 起到缓冲作用. 它可以通过优化重复访问来提高网络性能, 并能够阻止某些类型的攻击. 
+
+代理服务器最广为人知的缺点就是它的存储上限, 一旦代理服务器的存储空间占满, 它就无法再阻止数据流的通过. 
+
+为了利用这个缺陷, 黑客和测试人员往往在其他计算机上运行Shell(通常使用"shell"指令). 当你在足够多的肉鸡上运行了shell后, 就可以连接到目标计算机并使用shell的"overload"功能来发动泛洪攻击, 用大量垃圾数据填满目标的代理服务器, 这样就可以让有害的数据流通过. 
+  </posting>
+  <email>
+    <sender>ERROR</sender>
+    <subject>ERROR</subject>
+    <body>
+如果你收到这封邮件, 说明发生了一项未知错误. 
+请加以注意! 
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

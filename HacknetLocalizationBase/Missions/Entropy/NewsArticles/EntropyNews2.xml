@@ -1,0 +1,25 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="entropyNews02">
+  <goals>
+    <goal type="getAdmin" target="entropy01"/>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Suspicions arise over Entropy">
+Entropy引起了公众的疑心
+
+在当今的网络世界中, 黑客组织Entropy因长期提供大量可靠的资源信息而出名. 然而, 该组织最近采购了一些可疑的信息之后, 就关闭了他们的公共信息终端. 这样的行为引起了同行们的疑心. 
+虽然这个组织长时间以来因信息开源而在公众间享有良好的名誉, 但如果该组织真的做出不正当行为的话, 相关人士就必须采取措施了. 
+我们将跟踪报道事态的发展. 
+记者 : Tom Wilkins
+  </posting>
+  <email>
+    <sender>Tom Wilkins</sender>
+    <subject>我们必须阻止Entropy</subject>
+    <body>
+摧毁Entropy的数据库
+    </body>
+    <attachments>
+      <link comp="entropy01" />
+    </attachments>
+  </email>
+</mission>

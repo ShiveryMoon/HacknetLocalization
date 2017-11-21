@@ -1,0 +1,21 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="psTrial04" name="北极星  -  专注之试炼" ip="103.31.7.211" security="5">
+
+  <ports>22, 25, 21</ports>
+  <proxy time="2" />
+  <portsForCrack val="3" />
+  <firewall level="1" solution="MALICE" additionalTime="1.0"/>
+  <trace time="85" />
+
+  <file path="home" name="Talismin.ttgl">//AA N UD SH  JAIJ  YYAL P
+#BINARY##BINARY##BINARY#</file>
+
+  <file path="home" name="Reward of Focus.txt">
+
+
+    162
+
+
+  </file>
+
+</Computer>

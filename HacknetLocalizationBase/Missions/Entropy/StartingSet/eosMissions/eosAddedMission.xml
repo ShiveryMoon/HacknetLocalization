@@ -1,0 +1,25 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="eosAdded1">
+  <goals>
+    <goal type="getString" target="warsix22"/>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="粉碎N的攫取">
+我们的一位客户需要获取他同事手机上的一些信息. 
+  </posting>
+  <email>
+    <sender>Entropy Mailbot</sender>
+    <subject>粉碎N的攫取</subject>
+    <body>
+各位黑客, 
+该任务需要一位精通eOS设备及其安全系统领域方面的黑客. 我们的一位客户想获取他同事手机上的一些信息 -- 确切来说, 是一个密码, 需要把它提取出来. 根据我们的要求, 客户提供了同步到这台移动设备的电脑的ip地址. 
+IP地址我已经贴在附件里了. 记得你要找的是一个密码, 如果你不知道哪一个是真的, 就把所有你觉得可疑的密码都回复给我 -- 我们的分类机器人会自己试出来. 
+祝你好运, 
+-Entropy 管理员
+    </body>
+    <attachments>
+      <link comp="eosAdded1Comp" />
+    </attachments>
+  </email>
+</mission>

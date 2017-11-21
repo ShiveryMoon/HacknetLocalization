@@ -1,0 +1,67 @@
+contract
+任务
+
+decrypt
+解码
+
+**** asset server
+某某某资源服务器
+
+**** crossroads server
+交互服务器？
+负载均衡服务
+同意负载均衡——Venique
+
+**** Drop server
+共享服务器
+
+trace
+我觉得trace有些情况下不用翻译，因为游戏里面左下角红色的trace制作组又不会改成汉语。
+同意——Venique
+
+dump
+dump本身是文件的扩展名（.dmp），百度上查到是“进程的内存镜像”
+Venique:dump作为计算机领域术语，感觉不需要翻译，本身就叫做dump文件。
+
+relay
+中继节点
+
+virtualbox
+虚拟机
+
+version control repositories（VC solution）
+版本控制库（版本控制方案）
+
+attached
+邮件的附件（酌情翻译）
+
+bring down
+（动词）瘫痪 或者 搞垮
+
+eOS
+EOS嵌入式操作系统（Embedded Operation System，EOS）
+(此处作者不想提及IOS，个人认为Eos实际上也是相当于CFC一类的Eastern egg)
+
+os
+操作系统(Operation System)
+
+Hacknet OS
+Hacknet OS
+
+tracer
+追踪器
+
+wrapper
+封装（视情况而定，计算机术语）
+
+command
+命令
+
+SSH
+SSH（保持不变，计算机术语）
+
+NDA
+保密协议(Non-disclosure agreement)
+
+Hacker
+(征求意见)是保留Hacker还是翻译为黑客

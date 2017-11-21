@@ -1,0 +1,33 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="pressdemoMission03">
+  <goals>
+    <goal type="FileDownload" target="bitStashDemo" file="SQL_MemCorrupt.exe" path="bin" />
+    <goal type="FileDownload" target="bitStashDemo" file="SMTPOverflow.exe" path="bin" />
+    <goal type="FileDownload" target="bitStashDemo" file="Sequencer.exe" path="bin" />
+  </goals>
+  <nextMission>Demo/PressBuild/DemoMission04.xml</nextMission>
+  <email>
+    <sender>Bit</sender>
+    <subject>准备工作</subject>
+    <body>做得漂亮, 
+谢谢你的帮助. 我觉得这证明了我选择你是正确的. 我会帮助你, 做接下来这个难度更大的事. 
+
+附件中有一个我的下载服务器的链接, 包含管理员口令. 在/bin/文件夹中你会找到一些新的工具. 
+它们不是网上随意传播的工具, 你证明了你的能力, 我不得不把这些东西交给你. 
+
+在你拿到这些工具之前, 其中最重要的工具是"Sequencer", 它是我很久以前编写的, 它匿名帮助了许多黑客来协调多个事件. 但是我交给你的这个版本是重新编译过的. 
+当你拿到所有的工具并做好准备的时候, 我会给你解释的. 
+
+另外两个是端口破解器 - SMTPOverflow 是对SMTP(邮件服务器)端口(默认端口为#25)进行泛洪攻击的工具. 
+SQL_MemCorrupt是对SQL服务器(默认端口是1433)进行注入攻击的工具. 
+
+确保你取得了所有的工具
+--Bit
+0
+    </body>
+    <attachments>
+      <link comp="bitStashDemo" />
+      <account comp="bitStashDemo" user="admin" pass="traxxex12" />
+    </attachments>
+  </email>
+</mission>

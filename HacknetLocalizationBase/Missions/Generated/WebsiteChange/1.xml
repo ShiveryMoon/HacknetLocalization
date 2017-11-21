@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="generatedWebVandal01">
+  <generationKeys Data="Content/Web/BaseCorporateRecruiterPage.html"/>
+  <goals>
+    <goal type="FileChange" target="#COMP#" file="#FILE#" path="#PATH#" keyword="#LC_CLIENT#@jmail.com" />
+  </goals>
+  <missionEnd val="5">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="协助#CLIENT#的招聘活动">
+#CLIENT#公司目前在招聘方面遇到了难题, 他们希望用作弊手段将投给他们敌对公司的简历发送到自己公司的邮箱里. 
+  </posting>
+  <email>
+    <sender>#CLIENT#</sender>
+    <subject>招聘活动</subject>
+    <body>
+黑客, 你好
+最近我公司在招聘员工方面遇到了难题, 主要是因为我们的竞争公司在招聘方面获得了极大的成功, 抢走了本属于我们的人. 
+为了使这场竞争更平等一些, 我希望你能暂时将投给他们的简历转移到我们手上. 
+他们的招聘网站地址我贴在附件里了, 我们希望你把他们的邮箱地址换成我们的: 
+#LC_CLIENT#@jmail.com
+
+-#CLIENT#
+    </body>
+    <attachments>
+      <link comp="#COMP#" />
+    </attachments>
+  </email>
+</mission>

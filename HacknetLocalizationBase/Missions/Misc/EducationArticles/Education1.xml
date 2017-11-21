@@ -1,0 +1,24 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="education01">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="防火墙的分析和破解">
+使用防火墙来维护计算机安全的手段已经历史悠久了, 曾经它不是用来专门针对黑客的攻击, 而是用来防止自动的外部网络访问的. 
+然而, 现代防火墙可以阻挡所有触发安全警报的流量. 除非附加了防火墙破解指令(大部分情况下指终端用户的密码 - 尽管两者存在明显的差异). 
+
+在这种情况下, 需要提供防火墙破解指令才能破解防火墙, 否则在防火墙已经激活的状态下, 一个未经允许的用户使用任何已知的密码破解工具来尝试登陆都是无效的. 
+
+使用命令"analyze"可以分析防火墙的复杂度, 多次使用分析命令可以自动检测响应数据头中的信息, 并将非防火墙破解指令信息排除. 一旦发现潜在的破解指令, 就可以使用命令"solve [破解指令]"来尝试破解. 
+  </posting>
+  <email>
+    <sender>ERROR</sender>
+    <subject>ERROR</subject>
+    <body>
+如果你收到这封邮件, 说明发生了一项未知错误. 
+请加以注意! 
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

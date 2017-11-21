@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="GenMission">
+  <generationKeys File="GameFile_Source_Pak.zip" Path="home/code"/>
+  <goals>
+    <goal type="FileDeletion" target="#COMP#" file="#FILE#" path="#PATH#" />
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="非法克隆的#CLIENT#产品">
+有不法分子将该公司的一项产品原封不动的克隆下来放在市场上去售卖, 这群人盗取了本不属于他们的利益. 
+小心那些可能会攻击你的人. 
+  </posting>
+  <email>
+    <sender>#CLIENT#</sender>
+    <subject>#CLIENT# - 我们的产品是独一无二的</subject>
+    <body>
+黑客你好, 
+我#CLIENT#公司最近在应用商店里发布了一项新产品, 刚开始几天销量很稳定, 然而最近销量显著下降. 我们发现原因是市场上有人在卖和我们一模一样的产品, 还比我们便宜. 
+商业竞争我不反对, 但是那根本就是我们的产品! 他们用的是我们的辛苦劳动在赚取钱和声誉! 必须阻止他们. 
+我们非常感激你能帮我们"处理掉"这个问题. 
+"处理", 也就是说, 我们希望你毫不留情地毁掉他们服务器上的所有数据. IP地址我已经贴在附件里了. 
+谢谢你, 
+-#CLIENT#
+    </body>
+    <attachments>
+      <link comp="#COMP#" />
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,25 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="bit02_Phase3" activeCheck="true">
+  <goals>
+    <goal type="getAdmin" target="EnTechPrometheus"/>
+  </goals>
+  <missionStart val="11" suppress="true">changeSong</missionStart>
+  <nextMission>BitPath/BitAdv_Intro04.xml</nextMission>
+  <email>
+    <sender> V </sender>
+    <subject>Bit -- 调查</subject>
+    <body>嗯......
+我多多少少也算是一个见过世面的人了, 然而这种东西我还从来没有见过. 现在就下结论说它不可攻破还太早了, 但是....这玩意和我以前所见到的都不一样, 嗯......
+EnTech是吧? 他们这是在开发什么, 一款强大的防入侵软件? 如果他们真把这款产品放进市场, 那将会赚一大笔钱. 
+对了, 你看, 他们的网络前端可没安装这层防护. 我要从他们的网络服务器开始调查, 去瞧瞧这软件的最初形态. 看上去他们把这些信息藏得很深, 这里面肯定有点猫腻. 
+这软件从外表上看起来坚不可摧 -- 那些公司就喜欢这种高逼格. 我不懂那些公司为什么不明白, 新的产品往往是华而不实, 漏洞百出的. 
+这一点看起来真的很可疑. 
+你去调查一下这个服务器吧, 看看你能走多远 -- 我不知道是不是只有我这么想, 但直觉告诉我, 调查这个服务器将会有意料之外的收获. 
+当你觉得调查得足够多了就联系我. 记得调查得要彻底一点. 
+-V 
+    </body>
+    <attachments>
+      <link comp="EnTechWeb" />
+    </attachments>
+  </email>
+</mission>

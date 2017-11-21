@@ -1,0 +1,9 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="nortronMainframe" name="Nortron 中央服务器" security="5">
+  <firewall level="17" solution="123456789ABC" additionalTime="0.22"/>
+  <admin type="fast" />
+  <dlink target="nortronWebServer" />
+  <dlink target="nortronMail" />
+  <dlink target="nortronInternalServices" />
+  
+</Computer>

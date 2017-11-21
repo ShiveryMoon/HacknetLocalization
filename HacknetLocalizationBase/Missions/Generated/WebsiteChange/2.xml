@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="generatedWebVandal02">
+  <generationKeys Data="Content/Web/BaseCorporateRecruiterPage.html"/>
+  <goals>
+    <goal type="FileChange" removal="true" target="#COMP#" file="#FILE#" path="#PATH#" keyword="@jmail.com" />
+  </goals>
+  <missionEnd val="5">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="破坏某公司的招聘网站">
+#CLIENT#希望暂时中断他们竞争对手的招聘计划. 
+  </posting>
+  <email>
+    <sender>#CLIENT#</sender>
+    <subject>破坏招聘</subject>
+    <body>
+你好, 
+我们公司正在进行一项新的人员编制以招聘新人才. 然而我们的竞争对手也在做同样的事, 因此我公司希望能在这场竞争中取得优势. 
+我们只需要你暂时把他们招聘网站的详细联系方式改成我们的, 这样就能保证那些有意向的求职者能够第一时间联系到我们. 
+我们希望你修改的网站的网址我贴在附件里了. 
+谢谢你, 
+-#CLIENT#
+    </body>
+    <attachments>
+      <link comp="#COMP#" />
+    </attachments>
+  </email>
+</mission>

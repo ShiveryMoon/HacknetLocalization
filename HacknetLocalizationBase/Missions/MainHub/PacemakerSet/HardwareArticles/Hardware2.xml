@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="pacemakerHWArticle02">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="本服务器使用说明">
+本参考服务器使用了Kellis独有的识别技术, 它能够识别你已经注册激活的产品, 并提供对应的参考指南. 
+你登录本服务器所使用的IP地址很重要, 我们的系统靠它来辨别用户身份, 别搞丢了! 
+  </posting>
+    <email>
+    <sender>ERROR</sender>
+    <subject>ERROR</subject>
+    <body>
+如果你收到这封邮件, 说明发生了一项未知错误. 
+请加以注意! 
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

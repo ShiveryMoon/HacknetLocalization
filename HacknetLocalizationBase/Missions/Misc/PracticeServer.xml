@@ -1,0 +1,6 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="practiceServer" name="练习" security="4">
+  
+  <ports>80, 22, 21, 25, 1433, 3724</ports>
+  
+</Computer>

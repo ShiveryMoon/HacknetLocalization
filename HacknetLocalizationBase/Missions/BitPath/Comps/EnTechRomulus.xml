@@ -1,0 +1,84 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="EnTechRomulus" name="En_Romulus" security="5" ip="156.151.1.12">
+
+  <admin type="basic" resetPassword="false"/>
+
+  <adminPass pass="h7ggNKl2" />
+  
+  <ports>80, 22, 1433, 25, 21</ports>
+  <portsForCrack val="9999999" />
+  <trace time="500" />
+
+  <positionNear target="EnTechMainframe" position="4" total="6" />
+
+  <file path="STORE/Contractors/Bit" name="Hacknet_Project_BitReport04.txt">
+我不确定你想要这个报告有多长, 因此我会尽可能的让它简短一点. 
+进展不错 - 我负责的部分的进展和预期一致 - 即它运行良好, 并且通过了你给的大部分测试样例(除了#86 - 那是什么? 暗示? )
+然而我也碰到了一些小问题, 需要去中心化来解决 - 新的版本需要与"Heart"服务器通讯, 这样能分析并得到通过那些耍小技巧的测试样例的解决方法, 使得服务器能被主动ping几秒钟. 我想这能够给我更多的选择来回避, 比如白名单服务器. 
+我已经开始着手这件事了, Heart Link原型版也上传到这儿了. 
+你给了我相当大的自由, 因此我想这应该没啥大事, 如果有什么问题请告知我. 
+
+--Bit
+1
+  </file>
+  <encryptedFile path="STORE/Contractors/Bit" name="hn_repo_archive.dec" ip="156.151.59.35" header="EnTech(tm) Repository Backup" pass="ax229msjA">#BINARY#</encryptedFile>
+  <encryptedFile path="STORE/Contractors/Bit" name="hn_PH_LinkPrototype.dec" ip="23.236.62.147" header="Porthack heart link prototype" pass="ax229msjA">#BINARY#</encryptedFile>
+
+  <file path="STORE/Contractors/Deonyx" name="Hacknet_Project_DeonyxReport4.txt">
+更新报告
+---------------
+
+好消息 - 我们超前计划了. 
+
+基于标准Unix的程序运行正常 - 跨发行版问题比我想的还要简单, 毕竟我们有内核访问权 - 我可以虚构一些事情然后给剩下的写封装, 我不认为那些会成为问题. 
+
+其他的操作系统仍然是个问题, 在我们的框架下我们简直没能力运行任何东西, 但是基于WINE的解决方法, 我已经成功破解了一些东西使之能够运行终端应用 - .NET 和 C# 都运行良好 (感谢 mono 项目), C++的运行取决于一些运行库和编译器选项. 
+
+Flat C带给我最多的问题, 但是既然我已经知道我应该期待什么了(更多的网络访问权限? )它会被解决的. 
+
+总而言之, 希望很大, 我们不久后应该有一个通用的能够跨平台运行的可执行文件了. 我会完成它, 并且让它运行起来的. 
+
+_Deonyx
+  </file>
+  <encryptedFile path="STORE/Contractors/Deonyx" name="Hacknet_Codelink_v1.dec" ip="xxx.xxx.xxx.xxx" header="deonyx server has almost all programs on it for testing" pass="84833mmn1">#BINARY#</encryptedFile>
+
+  <file path="STORE/Contractors/teja" name="04Report_Hacknet_Project_teja.txt">
+Hacknet项目 报告04: 
+
+--附加任务本周已经完成
+SecurityTracer.exe已经上传到这儿并且应该和所有的新的Hacknet发布版打包在一起了, 作为整个项目进行时的临时措施. 这是个临时措施, 但是它应该可以自动激活, 在拷贝启动并运行一段时间后, 会禁用掉用户的拷贝并且发送它的地址(IP和地理位置)到你的中央服务器. 
+
+--深度整合计划, 隐藏的SecurityTracer稍后发布
+进展暂停, 协助TracerTracker在下一个milestone之前完成. 
+
+--Trace Tracker v0.93 发布
+最终版本的候选. 成功的通过了所有的92个被提供的测试样例, 通过了22/25个我提供的样例. 
+它成功地跟踪和评估了ping返回包, 并且对被自动应急程序发现的剩余时间, 提供了一个(相对而言)比较准确的估算. 
+
+我想利用这个机会重申这个技术的威力, 即使没有升级, 它也是极其有用的工具, 并且我建议利用我提供的工具对其进行限制. 我会检查各个版本来确保这一点. 
+
+谢了, 
+teja
+  </file>
+  <encryptedFile path="STORE/Contractors/teja" name="HacknetSecurityTracer.dec" extension=".exe" ip="xxx.xxx.xxx.xxx" header="teja server has loads fo copies of security tracer" pass="84833mmn1">#SECURITYTRACER_PROGRAM#</encryptedFile>
+
+
+  <file path="STORE/Contractors" name="IMPORTANT_ContractorUploadGuide.doc">每个承包商最近的工作和报告应该在这里保存为二进制版本.
+  
+  警告 - 不要重命名这些文件
+  
+生成脚本是通过引用文件名来编译完整版本和报告的.
+  </file>
+  
+  <file path="STORE/Contractors" name="Contractor_Server.doc">这个仓库仅存储已经外包的开发完的版本(也打算包含已开发完的EnTech内部代码)
+有关更多更新, 未测试的版本, 请前往承包商中继服务器: 
+
+156.151.59.35
+
+---------------------------------
+
+修改: 由于许许多多的邮件 *一直不停的* 问我这件事, 查看上传文件的密码是"ax889msjA" - 和你第一次拿到访问授权的复制件中写的一样. 
+
+  </file>
+
+</Computer>

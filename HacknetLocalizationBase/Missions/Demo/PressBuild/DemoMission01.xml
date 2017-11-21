@@ -1,0 +1,46 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="pressdemoMission01">
+  <goals>
+    <goal type="FileDeletion" target="pointclickerDemo" file="Bit.pcsav" path="PointClicker/Saves" />
+  </goals>
+  <nextMission>Demo/PressBuild/DemoMission02.xml</nextMission>
+  <email>
+    <sender>Bit</sender>
+    <subject>初试牛刀</subject>
+    <body>首先祝贺你! 
+说实话...  .你这样回复我, 也不知道你到底成功了没, 不过既然你正在读这封邮件意味着你至少发现了一些东西, 我先假定你找到的那程序是有用的. 
+
+我给你准备了一个小游戏, 让你试试你找到的新工具. 说实话, 我做这游戏可花了不少时间  -  -  我差点以为我要把这游戏带进坟墓里了. 
+
+这个服务器的安全性对你来说应该不是太高, 我想让你黑进去, 找到我的帐号, 然后删掉它. 
+
+你可能会需要使用你的新工具. 你可以通过输入"程序名 端口号"来调用它, 就像这样: 
+
+>SSHCrack 22
+ ^文件名   ^端口号
+    
+黑掉你找到的端口. 
+
+对了, 给你提醒一下, 当你输入"ssh"然后按下Tab键就会自动补全命令, 这适用于所有的命令. 
+
+祝你好运! 
+
+--Bit
+0
+      
+    </body>
+    <attachments>
+      <note title="任务概要">连接到 Point Clicker 服务器. 
+使用命令"Probe"分析开放端口
+使用对应端口的程序, 黑掉它
+例: "SSHCrack 22"
+    ^文件名   ^端口号
+    
+破解足够多的端口, 使得目标可以用"porthack"工具入侵服务器. 
+使用命令"ls"列出所有的文件和文件
+删除用户"Bit"的存档文件
+      </note>
+      <link comp="pointclickerDemo" />
+    </attachments>
+  </email>
+</mission>

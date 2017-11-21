@@ -1,0 +1,32 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="pacemakerHWArticle04">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="#0E0015 - 心脏起搏器v2.44安全与许可">
+此文将详细介绍2.44版本心脏起搏器的安全功能. 如需咨询一般操作, 请参考纸质说明书, 或者联系support@kellisBio.com获取说明书. 
+---------------------------------------------
+
+关闭安全功能然后使用从软件开发商那里获得的已签名数据包进行固件升级需要以下几个步骤. 
+第一, 使用病人的参考IP地址连接到心脏起搏器芯片. 
+
+以管理员身份登录, 每个客户的使用细节都是单一分配的. 此操作由Kellis专用微端保护系统提供保护(端口号6652). 
+
+到这个阶段, 远程监控将可使用, 用户可以查看到实时ECG数据. 
+
+如要进行固件升级, 需使用授权的软件制造商认证代码进行二次软件登录验证. 
+
+两种登录都成功后, 更新包便可以上传到芯片并启用. 此过程中芯片将热重启(对病人无危险), 然后启用新的代码. 
+
+  </posting>
+    <email>
+    <sender>ERROR</sender>
+    <subject>ERROR</subject>
+    <body>
+如果你收到这封邮件, 说明发生了一项未知错误. 
+请加以注意! 
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

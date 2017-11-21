@@ -1,0 +1,37 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="bitMissionIntro">
+  <goals>
+    <goal type="FileDeletion" target="playerComp" file="SecurityTracer.exe" path="bin" />
+  </goals>
+  <nextMission>SSHCrackMission.xml</nextMission>
+  <branchMissions>
+    <branch>BitMission2.xml</branch>
+  </branchMissions>
+  <email>
+    <sender>Bit</sender>
+    <subject>初次联系</subject>
+    <body>Hi. 
+我不认识你, 而且很遗憾的是我也没机会再认识你了, 但是如果你读到这封邮件, 那就意味着你还有机会来挽救这一切. 
+我现在深陷危机, 留给我的时间已经不多了. 有件事我想求你帮我. 
+但在这之前, 还有件更重要的事情需要你尽快处理, 越快越好. 
+现在这个状态的Hacknet操作系统并不应该发布出去...  ..你的电脑里马上就会有一个追踪软件自动激活, 赶快删掉它. 
+连接到你自己的节点(在网络图中的绿色节点), 然后找到并删除"SecurityTracer.exe". 
+当你完成时, 回复这个邮件就行. 
+快快快! 
+
+-Bit
+0
+    </body>
+    <attachments>
+      <note title="Hacknet操作指南">操作指南
+						     
+使用图形界面, 或输入命令"cd [文件夹名]"和"cat [文件名]"来浏览并阅读文件. 
+
+使用"rm [文件名]"以删除文件
+
+你可以使用键盘上的Tab键来自动补全命令或文件名. 
+
+      </note>
+    </attachments>
+  </email>
+</mission>

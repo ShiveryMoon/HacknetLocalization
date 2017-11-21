@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="lelzSec2" activeCheck="true">
+  <goals>
+  </goals>
+  <missionStart>assignPlayerToLelzSec</missionStart>
+  <nextMission>lelzSec/CompletedPathMission.xml</nextMission>
+  <email>
+    <sender>Naix</sender>
+    <subject>一个重要的链接</subject>
+    <body>
+好吧, 我之前真的是小瞧你了, 向你致歉. 这波干得漂亮. 
+你确实用实力证明了你自己. 经过我和其他人的讨论后, 我们一致同意你入伙. 
+你的IP地址已经被我们列入白名单了(所以暂时不要去ISP上面改IP了), 这样你进入我们的服务器就不会受阻. 
+欢迎你的加入. 
+-Naix
+    </body>
+    <attachments>
+      <link comp="lelzSecHub" />
+    </attachments>
+  </email>
+</mission>

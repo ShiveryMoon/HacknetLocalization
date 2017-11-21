@@ -1,0 +1,26 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="alphaCredits">
+  <goals>
+  </goals>
+  <missionStart val="5">changeSong</missionStart>
+  <nextMission>NONE</nextMission>
+  <email>
+    <sender>Matt Trobbiani</sender>
+    <subject>结局</subject>
+    <body>
+恭喜! 
+你通关了! 
+最初的时候, 我把这个游戏当做小项目来制作,供朋友们娱乐, 然而他们很喜欢这个游戏, 于是我就在2012年的时候发布了这个游戏的原始版本. 
+虽然我在最初的版本的游戏结尾留下邮件说了我不会再继续开发这游戏了, 但是玩家反响非常好, 所以我想, 我不能就这么弃坑不填了. 
+我一个人闷着头继续制作这个游戏, 最终(整整两年半! )这个游戏变成你现在看到的样子. 
+Thanks for playing! 如果你喜欢这个游戏(或不喜欢), 希望你能把你的想法发送到我的邮箱"matt@hacknet-os.com", 欢迎你们的建议! 
+如果你对我其他的作品感兴趣, 或者想缠着我继续开发这个游戏或其他什么的, 你可以关注我的推特号 @Orann. 
+谢谢, 
+-Matt
+P.S: 附件里的IP地址里有关于这个游戏的彩蛋 -- 去看看吧! 
+    </body>
+    <attachments>
+      <link comp="creditsComp" />
+    </attachments>
+  </email>
+</mission>

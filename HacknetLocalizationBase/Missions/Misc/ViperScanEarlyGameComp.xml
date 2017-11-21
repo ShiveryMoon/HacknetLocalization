@@ -1,0 +1,9 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="viperScanEarlyGame" name="Entropy 资源缓存" security="1">
+
+  <firewall solution="time" additionalTime="0.0"/>
+
+  <file path="bin" name="HexClock.exe">#HEXCLOCK_EXE#</file>
+  
+</Computer>
+

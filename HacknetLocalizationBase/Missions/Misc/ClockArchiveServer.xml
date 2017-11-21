@@ -1,0 +1,11 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="clockServer" ip="24.43.69.78" name="Timekeeper的宝藏" security="5" type="3">
+  
+  <ports>80, 22, 21, 25, 1433, 3724</ports>
+
+  <trace time="70" />
+  <admin type="fast" />
+
+  <encryptedFile path="VAULT" name="Clock.dec" ip="24.43.69.78" header="Thou art a wise man" extension=".exe" pass="yuna">#CLOCK_PROGRAM#</encryptedFile>
+  
+</Computer>

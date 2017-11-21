@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="finalNodeDemo" name="EnTech 网络服务器" security="5" type="4">
+
+  <ports>80, 22, 21, 25, 1433</ports>
+  <portsForCrack val="3" />
+  <proxy time="-1" />
+  <firewall level="-1" />
+  <trace time="-1" />
+
+  <addWebServer name="www.EnTech.com" url="Content/Web/Presets/EnTech/EnTechPublicPage.html" />
+
+  <dlink target="EnWS01" />
+  <dlink target="EnWS02" />
+  <dlink target="EnWS03" />
+  <dlink target="EnWS04" />
+  <dlink target="EnWS05" />
+  <positionNear target="EnTechWSCore" position="5" total="7" />
+
+  <file path="log" name="@19002_logarchive">EXPORT ERROR : NO LOGS STORED</file>
+  <file path="log" name="@19002_185.11.124.4_Disconnected">185.11.124.4 Disconnected from system</file>
+  
+</Computer>

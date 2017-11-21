@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="bitHubSet01" activeCheck="true">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Error">
+    
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>Re: 甲虫计划</subject>
+    <body>
+我们完全能理解. 
+感谢你抽出宝贵的时间. 
+让你在这件事上慎重考虑了那么久, 真是麻烦你了. 
+-CSEC 管理员
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

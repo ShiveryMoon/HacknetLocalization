@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="entRep01" activeCheck="true">
+  <goals>
+    <goal type="delay" time="2.5"/>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="ERROR">
+未知错误
+  </posting>
+  <email>
+    <sender>Entropy Mailbot</sender>
+    <subject>Re: 重回学校</subject>
+    <body>
+你确定? 
+*******... . 我不知道想出这种密码的人是天才还是白痴, 还是说两者都是? 
+妈的, 我是说, 当初我也找到了这个密码, 而且我的核验脚本显示这个密码的正确的, 然而我还在继续独自破解那些星号! 
+这就他妈的尴尬了... .这你叫我怎么去跟学校的头头们解释? 
+不论怎么说... 问题解决了, 你做的不错. 
+-管理员
+    </body>
+    <attachments></attachments>
+  </email>
+</mission>

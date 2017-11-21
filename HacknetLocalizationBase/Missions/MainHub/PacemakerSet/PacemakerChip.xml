@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="pacemaker01"
+          ip="202.6.141.219"
+          name="KBT-PM 2.44 REG#10811" 
+          security="1"
+          icon="chip"
+          type="4" > <!-- 1=  corporate, 2 = Home, 3 = server, 4= empty -->
+  <!-- Security Stuff -->
+  <trace time="-1" />
+  <ports>104</ports>
+
+  <HeartMonitor patient="E_Whit"/>
+  
+  <file path="KBT_Pacemaker" name="readme.txt">所有放置在本文件夹下的文件都会被心脏起搏器软件检测到, 只要文件的数字签名正确, 就会在用户界面中以固件补丁的形式列出来. 
+如果你想远程操控, 给芯片添加补丁, 就用该指令将文件上传到这个文件夹: "upload [LOCAL FILE PATH]"(LOCAL FILE PATH是本地文件路径)
+  </file>
+  
+</Computer>

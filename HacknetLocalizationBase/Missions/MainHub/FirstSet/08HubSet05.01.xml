@@ -1,0 +1,32 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="FileUpload" target="hubCrossroads" file="FOF_Screenplay.doc" path="home" destTarget="producerComp" destPath="home/scripts" />
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="帮助一位有志作家" reqs="dechead,decypher">
+一位志向远大的作家希望我们把他的剧本转交给一位制片人. 
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>一份有说服力的申请</subject>
+    <body>
+一位作家希望把他最新的剧本交给某位制片人, 但是那位制片人的秘书将他拒之门外. 
+他希望我们进入制片人的电脑, 偷偷地把他的剧本放进制片人的审核文件夹中, 这样制片人就可以看到了. 
+他的剧本, "FOF_Screenply.doc"已经上传至交互服务器. 
+同时, 他提供给我们一份他的竞争者的加密剧本, 我们可以用它来追查IP. 
+该文件也在交互服务器上, 名为"T2_Screenply.dec"
+将他的剧本上传到目标设备的文稿文件夹中. 
+像往常一样, 记得使用tab键 -- 输入"upload bin/"后按tab可以查看本地文件列表, 选中并自动上传文件. 
+祝你好运, 
+-CSEC
+    </body>
+    <attachments>
+      <link comp="hubCrossroads" />
+      <note title="任务细节">下载FOF_Screenply.doc
+用T2_Screenplay.dec追查IP
+将剧本FOF_Screenply.doc上传至目标文件夹. </note>
+    </attachments>
+  </email>
+</mission>

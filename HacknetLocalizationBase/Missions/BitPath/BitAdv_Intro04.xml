@@ -1,0 +1,17 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="bit02_Phase4" activeCheck="true">
+  <goals>
+    <goal type="delay" time="12.5"/>
+  </goals>
+  <nextMission IsSilent="true">BitPath/BitAdv_Intro05.xml</nextMission>
+  <email>
+    <sender> V </sender>
+    <subject>RE: Bit -- 调查</subject>
+    <body>
+      ...     
+    </body>
+    <attachments>
+      <link comp="EnTechWeb" />
+    </attachments>
+  </email>
+</mission>

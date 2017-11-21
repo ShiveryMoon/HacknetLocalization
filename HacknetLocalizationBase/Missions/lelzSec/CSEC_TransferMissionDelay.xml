@@ -1,0 +1,21 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="lelzSec4" activeCheck="true">
+  <goals>
+    <goal type="delay" time="3.50"/>
+  </goals>
+  <missionEnd>lelzSecVictory</missionEnd>
+  <nextMission IsSilent="true">lelzSec/CSEC_TransferMission.xml</nextMission>
+  
+  <email>
+    <sender>Polar Star</sender>
+    <subject>一次胜利, 一次可能成为转折点的胜利! </subject>
+    <body>
+你成功引起了我们的注意. 你刚才所展示的能力和成就绝非无足轻重. 
+你有资格加入更高层次的组织. 马上就会有人联系你. 
+      
+再次祝贺! 
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

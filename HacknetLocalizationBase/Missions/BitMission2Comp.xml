@@ -1,0 +1,39 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="bitMission02" name="Entropy 测试服务器" ip="199.59.149.230" security="1" type="4">
+  
+  <file path="home" name="Entropy_Induction_Test">
+  祝贺你, 
+  下载此文件以完成您的入组测试. 
+  Entropy马上就会联系你. 
+  </file>
+  <file path="bin" name="e_admins_are_lazy.txt">没人记得清理bin文件夹. 这是一个测试服务器, 它是专门设计给人入侵的! 至少整理一下! </file>
+  
+  <file path="bin/zer0cool" name="hack_the_planet.txt">你个愚蠢的家伙快给老子跪下! 我得到了技能狂奖杯! </file> 
+  
+  <file path="bin/zer0cool" name="retort.txt">如果你还知道什么叫顶嘴的话, 那就让我来教训教训你, 你不过就是个会清理log的小屁孩罢了. 
+也许破解代理服务器就能花费你一整周的时间吧? 我打赌你估计就12岁, 还幻想着从你妈那台386上来"入侵全世界"吧. 行了孩子, 让开, 让专家来处理这件事. </file>
+
+  <file path="bin/OP_Stormwind" name="need_help.txt"> 那些住在暴风城的白痴最新发布的拍卖行补丁完全破坏了Shaytan 3的平衡. 自从96年初版Shaytan发布以来我就一直是他们的粉丝, 一直等着直到他们出拍卖行系统. 现在拍卖行出现了巨大的bug. 如果你想刷金, 上传一个txt文件到本文件夹, 我会联系你的. </file>
+
+  <file path="bin/OP_Stormwind" name="Wo_lai_bang.txt">
+暴风城在线 快帮我刷400金. 
+</file>
+
+  <file path="bin/OP_Stormwind" name="lulz.txt">
+slaggedfire, 管理员对你很生气 - 因为你, 昨晚大量中国用户访问我们服务器说是要金子, 差点导致服务器瘫痪. 
+</file>
+
+  <file path="bin" name="SOgold.txt">
+你是否厌倦了整天跑任务的无聊生活? 你是否还在为没钱买坐骑而苦恼? 你是否连个银鳞胸甲也买不起? 那就来找我们SOgold吧, 专为暴风城玩家准备的终极刷金服务. 把你的账号交给我, 我们保证给你刷出足够多的金, 你想拿去刷光拍卖行都没问题. 不要998, 只要29.99$, 给我们你的暴风城账号密码, 从此史诗坐骑身下垮. 
+</file>
+
+<file path="bin" name="BIT_PLZ_READ.txt">
+Bit, 别躲藏在阴影里了, 出来见见我吧, 我有事要跟你谈. 
+Vap0r不会放过我的, 我觉得有点儿不对劲--她肯定有什么事瞒着我, 可以告诉我吗? 
+-T
+</file>
+  
+  <proxy time="0.3" />
+
+</Computer>
+

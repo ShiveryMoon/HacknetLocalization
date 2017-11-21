@@ -1,0 +1,30 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet08">
+  <goals>
+    <sendemail recipient="gila" subject="MedicalRecord - Sandburg_Jonas" />
+  </goals>
+  <nextMission>MainHub/Continuations/FirstSet08_Reply.xml</nextMission>
+  <posting title="调查一份医疗记录">
+获取某人的医疗记录, 以解决一场网络互喷事件. 
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>医神之杖</subject>
+    <body>
+你好, 
+是这样, 我跟一个人在网上撕逼, 结果那个人居然把一张我的清晰照片放到网上, 还把那张照片给P成....
+呃, 其实P成什么样不重要. 我需要那个人的一份合法的医疗记录, 这样我能出其不意地摆他一道. 我本来想自己去搞一份来的, 不过...  我知道规矩, 这种事情CSEC的成员最拿手了. 
+总之, 你能帮助我吗? 他的名字是Jonas Sandburg, 医疗数据库有一个发送某条到个人邮箱的功能, 你能将他的记录复制一份并发送到gila@jmail.com么? 
+非常感谢.
+-G
+    </body>
+    <attachments>
+      <link comp="medical" />
+      <note title="Notes and stuff">我需要这个人的记录: 
+"Jonas Sandburg"
+把记录发送至: 
+"gila@jmail.com"
+</note>
+    </attachments>
+  </email>
+</mission>

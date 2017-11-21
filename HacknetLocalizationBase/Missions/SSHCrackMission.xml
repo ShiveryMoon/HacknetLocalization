@@ -1,0 +1,47 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="sshcrack01">
+  <goals>
+    <goal type="FileDownload" target="portcrack01" file="SSHcrack.exe" path="bin" />
+  </goals>
+  <missionEnd val="0">transitionToBitMissions</missionEnd>
+  <nextMission>NONE</nextMission>
+  <email>
+    <sender>Bit</sender>
+    <subject>让我们来一起获取一些工具</subject>
+    <body>
+很好 - 你现在应该安全了! 至少在你的电脑上...  
+
+在我们开始之前, 你需要获取一些工具 - 只使用porthack是无法侵入你将来发现的大部分电脑的...  至少你入侵不了那些你感兴趣的东西. 
+      
+你应该从调查我朋友的服务器开始 - 他自称自己是"Viper(毒蛇)" - 听起来很可怕是吧? 老实说...  他干这行水平不怎么样, 但他总是有一些实用的代码. 
+
+入侵他的电脑对你来说应该不是问题 - 问题在于能否找到有用的文件. 
+
+在大多数情况下, 你可以忽略掉一些关于登陆记录, 程序的存储文件, IRC日志等等的这种"普通"文件. 像这种后缀为".exe"的文件才是你所寻找的. 
+
+你可以使用命令"scp"下载任何文件. 
+
+祝你好运 - 完成之后给我回信! 
+      
+--Bit
+0
+      
+    </body>
+    <attachments>
+      <link comp="portcrack01" />
+      <note title="Hacknet快速参考指南">快速参考指南
+
+使用命令"probe"分析安全系统. 
+
+使用命令"porthack"破解已激活的安全系统. 
+
+使用命令"scan"扫描周围可用节点. 
+
+在"/log"目录下使用命令"rm [文件名]"或"rm *"来删除日志. 
+
+使用命令"scp [文件名]"下载文件. 
+
+      </note>
+    </attachments>
+  </email>
+</mission>

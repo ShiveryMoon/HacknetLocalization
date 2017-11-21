@@ -1,0 +1,85 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="eosIntroComp" name="Jason's PowerBook Plus" security="2" icon="laptop">
+
+<file path="home/documents" name="Kelly.txt">
+[valley] 要我回去的时候帮你带点什么吗? 
+[kittyhat22] 你烦不烦啊? 
+[valley] 拜托, 你还没完没了啦? 
+[kittyhat22] 什么没完没了? 
+[valley] 所有的这些无意义的争吵. 
+[kittyhat22] 你永远都不在家, 就算你在家你也不愿和我说话. 
+[valley] 也许你可以换个角度考虑, 我每天这么忙的工作还不是为了还清我们的负债然后离开这个地方? 
+[vallenx] 你在家每天干什么呢?  
+[kittyhat22] 别给我扯开话题.  
+[kittyhat22] 你知道我最近在找工作. 你看, 我至少还努力去了解你最近在干什么, 然而你对我的生活毫不关心. 
+[valley] 随你怎么说. 到家见. 
+</file>
+  
+<file path="home/documents" name="lmao.txt">
+[dirtweed] 这周末过的咋样? 
+[willow] 本来还不错, 然而我被人从酒吧里扔出来了. 
+[dirtweed] 啊哈哈哈哈哈红红火火恍恍惚惚
+[dirtweed] 你被人从酒吧里扔出来了? ! 你犯了什么事儿? ! 
+[willow] 额. . . 基本上我当时有点喝大了, 然后保安发现我倒在地上
+[dirtweed] 2333333
+[willow] 所以当他们在把我拖出去的时候我抗议道: "我根本就没喝醉"
+[willow] 然后就晕在了一个保安身上. . . 在30个排队等待进入酒吧的人的面前. . . 
+[dirtweed] 卧槽. . . . . . 
+[willow] 我要睡了, 看来还是有点醉. 晚安. 
+</file>
+  
+<file path="home/documents" name="lmao.txt" EduSafe="false">
+[budzyyy] 怎么了哥们? 
+[heller] 你TM到底在哪?  
+[budzyyy] 我也不太清楚
+[budzyyy] 我醒来的时候发现自己裸着上身倒在灌木丛里. 
+[heller] 我们找了你好几个小时了. 
+[heller] 上次我见到你的时候你嗑药嗑High了, 而且还在追一辆冰激凌车
+[budzyyy] 就我们这小破地方还有冰激凌车? 
+[heller] 没啊, 但是你当时觉得那就是冰激凌车
+[budzyyy] 妈的, 我真的再也不要干这种事了. . . . 
+</file>
+  
+  <eosDevice name="Jason's ePhone 4S" id="eosIntroPhone">
+    <note>叉烧包
+  ----------------------
+
+  1.5汤匙砂糖
+  250毫升温水
+  1.5茶匙酵母
+  1汤匙蔬菜油
+  1.5 汤匙发酵粉
+  400克花
+
+  ----------------------
+  
+  向碗里加入糖和水, 溶解, 加入酵母, 盖上盖子等待10分钟. 
+  
+  筛入剩下的东西, 混合并揉面团使之光滑而有弹性后, 盖上毛巾等待一小时. 
+  
+  分开做成丸子, 加入你想要的馅, 蒸20分钟
+
+ 
+    </note>
+    <note>玉米饼
+----------------------
+
+2杯面粉
+1/2茶匙盐
+1茶匙发酵粉
+1汤匙猪油
+3/4杯水
+
+----------------------
+
+将面粉和猪油混合. 加入水揉成面团, 揉至光滑. 
+
+擀薄, 使用平底锅煮, 直至金黄. </note>
+
+
+    <mail username="jjstacks@jmail.com" pass="tintin7" />
+  </eosDevice>
+  
+  <account username="admin" password="tintin7" />
+  
+</Computer>

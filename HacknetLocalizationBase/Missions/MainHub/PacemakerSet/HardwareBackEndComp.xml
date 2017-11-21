@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="kellisHW_BE"
+          ip="66.96.148.1"
+          name="Kellis生物科技产品资源服务器" 
+          security="4"
+          icon="kellis"
+          type="1" > <!-- 1=  corporate, 2 = Home, 3 = server -->
+  <!-- Security Stuff -->
+  <dlink target="kellisHW" />
+  <ports>80, 22, 1443, 25, 21, 104</ports>
+  <trace time="260" /> 
+  <firewall level="6" solution="BIOGEL"/>
+
+  <file path="home/Production/Output" name="Catalyst_Driver.dll">#BINARY#</file>
+  <file path="home/Production/Output" name="KBT_PortTest.exe">#MEDICAL_PROGRAM#</file>
+  <file path="home/Production/Output" name="README_Port_Tester.txt">
+Kellis生物科技端口测试软件(KBPT)
+--  --  --  --  --  --  --  -- --  --
+KBPT 是一项用于检测和过载Kellis医学标准端口(#104)的多用途测试软件. 这个工具可以部署在一个符合要求的硬件包里, 在审核下完成对设备的测试. 它能够对104端口发送大量的数据包(有些来自外部资源, 有些是该程序自己调用的)使目标设备超负荷. 所以很明显, 不要在已启用的设备上进行该测试. 虽然每样设备在出厂的时候已经测试完毕了, 但是对设备的组件和代码进行没必要的加压过载是非常不负责任的(虽然KBPT设计出来就是干这个的). 
+控制好该程序在市面上的数量. 我们投放在市场里的该软件都是老版本, 同时进行了追踪部署. 本文档将会附在每份软件里. 
+  </file>
+
+  <file path="home/Production" name="KellisMediaPack_v2RevisedFinal3LAST_v2">#BINARY##BINARY#</file>
+  
+  
+</Computer>

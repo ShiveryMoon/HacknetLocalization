@@ -1,0 +1,24 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="entropyNews04">
+  <goals>
+    <goal type="getAdmin" target="entropy01"/>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Is your data at risk?">
+你的数据有风险吗?
+
+最近有一个恶意黑客组织非常活跃, 它致力于损害各种形式的网络社区媒体. 著名的网络交友社区FriendHole就是最近一次的受害者. 
+对于网警来说这个组织的身份和位置仍然是个谜. 不过他们组织传达的信息很明确: "在我们面前, 没有什么是安全的". 
+FaceSpace的CEO炸克伯格今天尝试安抚紧张的用户群, 他解释说, FaceSpace的安全措施是无懈可击的, 能查看用户个人信息的只有用户自己或用户指定的人, 还有FaceSpace 12000个值得信任的广告合作商. 
+  </posting>
+  <email>
+    <sender>Tom Wilkins</sender>
+    <subject>我们必须阻止Entropy</subject>
+    <body>
+摧毁Entropy的数据库
+    </body>
+    <attachments>
+      <link comp="entropy01" />
+    </attachments>
+  </email>
+</mission>

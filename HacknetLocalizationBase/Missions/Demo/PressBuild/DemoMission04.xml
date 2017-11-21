@@ -1,0 +1,44 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="pressdemoMission04" activeCheck="true">
+  <goals>
+    <goal type="FileDeletion" target="finalNodeDemo" file="@19002_185.11.124.4_Disconnected" path="log" />
+    <goal type="FileDeletion" target="finalNodeDemo" file="@19002_logarchive" path="log" />
+    <goal type="FileDeletion" target="finalNodeDemo" file="x-server.sys" path="sys" />
+    <goal type="FileDeletion" target="finalNodeDemo" file="netcfgx.dll" path="sys" />
+  </goals>
+  <missionStart>demoFinalMissionStart</missionStart>
+  <missionEnd>demoFinalMissionEnd</missionEnd>
+  <nextMission>NONE</nextMission>
+  <email>
+    <sender>Bit</sender>
+    <subject>证明自己</subject>
+    <body>我们做好准备了. 
+
+我需要你去做一个清除工作. 正如你想象的那样, 此前我一直让你加快成长的速度就是在为现在做准备的. 真正的挑战马上就要开始了. 
+当你运行"Sequencer"时, 我已经离开了我拥有的一个服务器. 正在激活了一个脚本, 它将带你进入一个网页服务器. 我希望你黑掉这个服务器, 删除/sys/文件夹下所有的东西, 让它停止运行. 
+
+这不是从前那样隐藏服务器的原因, 它会成为追踪的一大途径. Sequencer会帮助你保持最大时间的连接, 还为给你一个修改UI和你所用时间的指南. 确保你已经运行了它. 
+
+如往常一样, 任务细节已经帮你写下了. 
+从现在起, 暂时意味着无论哪个版本, 这都是我发给你的最后一封邮件, 
+
+祝你好运. 
+加油. 
+--Bit
+0
+    </body>
+    <attachments>
+      <note title="任务概要">在任务开始之前, 请记住这些东西, 你需要使用你所有的系统资源, 在你离开之前清除他们. 
+运行 Sequencer
+连接到 EnTech
+分析系统开放端口
+运行你的端口破解器
+使用 Porthack 工具进行破解
+移动到 /sys/ 文件夹
+使用命令"rm *"删除所有东西
+移动到 /log/ 文件夹, 删除所有日志
+断开连接
+      </note>
+    </attachments>
+  </email>
+</mission>

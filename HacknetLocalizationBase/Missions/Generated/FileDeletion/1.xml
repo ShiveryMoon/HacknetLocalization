@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="GenMission">
+  <goals>
+    <goal type="FileDeletion" target="#COMP#" file="#FILE#" path="#PATH#" />
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="#CLIENT# - 恐吓手段">
+我们的一位重要客户的同事最近有点过于嚣张, 去给他们提个醒. 
+摧毁他们最近创建的服务器备份. 
+  </posting>
+  <email>
+    <sender>#CLIENT#</sender>
+    <subject>恐吓手段</subject>
+    <body>
+各位黑客你好, 
+我们的同事最近的行为有点越界了, 过于嚣张. 我们需要给他们提个醒. 
+根据我们的消息, 他们最近刚备份了整个公司的信息并把它储存在了一个独立的服务器上. 我们不需要删除他们目前的工作档案, 只要删除他们的备份, 就足以给他们一个警告了. 
+附件里我已经贴上了目标的信息. 
+-#CLIENT#
+    </body>
+    <attachments>
+      <link comp="#COMP#" />
+    </attachments>
+  </email>
+</mission>

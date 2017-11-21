@@ -1,0 +1,27 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="bitRelay01" 
+          name="Bitwise 中继 01" 
+          security="2"
+          allowsDefaultBootModule="false"
+          type="2" > <!-- 1=  corporate, 2 = Home, 3 = server -->
+  <!-- Accounts -->
+  <account username="bittest" password="test" type="1" />
+
+  <!-- Security Stuff -->
+  <ports>1433, 22, 21, 80</ports>
+  <portsForCrack val="4" /> <!-- Number of ports to be open to allow porthack to run -->
+  <trace time="-1" /> <!-- Adds a trace timer - set to -1 to remove -->
+  <admin type="basic" />
+  
+  <!-- Files -->
+  <file path="home" name="Home_Base.txt">如果你读到此信息, 表明你已进入(或入侵了)我的一个中继服务器. 
+如果出于某种原因你想联系我, 可以将文件上传到我的共享服务器, 我偶尔会查看的. 
+108.160.165.139
+
+</file>
+
+  
+  <file path="sys" name="x-server.sys">#WHITE_THEME#</file>
+  
+  
+</Computer>

@@ -1,0 +1,52 @@
+Achievement
+
+Quickdraw
+速通
+Complete the tutorial earlier than normal
+比正常情况更快地完成教程
+
+Rude
+无礼
+That's just impolite
+有本事你再来啊！
+
+Hacknet
+Complete Bit's final request
+完成Bit的最后请求
+
+CSEC
+Be granted an account within CSEC
+被CSEC授予账号
+
+Entropy
+Be granted an account within Entropy
+被Entropy授予账号
+
+PointClicker
+Purchase the final PointClicker upgrade
+购买PointClicker的最后一项升级
+
+You better not have clicked for those...
+你最好不要这么无聊...
+Have a truly absurd number of pointclicker points
+真正获得超级多的pointclicker点数
+
+TRUE ULTIMATE POWER
+你根本不知道什么才是力量！
+Run Clock.exe
+运行Clock.exe
+
+Makeover!
+大变样！
+Run ThemeSwitcher
+运行ThemeSwitcher
+
+To the Wire
+迫在眉睫
+Disconnect from a traced system with less than half a second to spare
+在被追踪系统发现前半秒断开连接
+
+/el Sec Champion
+/el社区领袖
+Master of /el's friendly community
+完成/el社区的所有任务

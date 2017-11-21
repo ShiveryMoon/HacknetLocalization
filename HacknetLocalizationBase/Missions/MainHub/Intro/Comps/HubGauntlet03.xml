@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="hubTestComp03" name="CSEC 中继 03" security="3">
+  
+  <firewall solution="KUNKKA"/>
+  <proxy time="2" />
+  <file path="home/Test" name="Invitation_Passswords">
+#PLAYERNAME# : ABX07cc9
+Kayin : 088818ddY
+tijit : dDfu66Ras
+G : llP37GA0
+</file>
+  <file path="home/Gift" name="WebServerWorm.exe">#WEB_CRACK#</file>
+  <account username="admin" password="victory" />
+  <trace time="100" />
+  
+</Computer>

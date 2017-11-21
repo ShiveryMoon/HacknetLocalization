@@ -1,0 +1,45 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="kfcMainframe" name="啃得鸡合作主页" security="5" type="4">
+
+  <trace time="320" />
+  <proxy time="0" />
+  <firewall level="0" />
+  <dlink target="kfcWebServer" />
+  <dlink target="kfcRecordsRepo" />
+  <admin type="fast" resetPassword="true"/>
+
+  <file path="home/training_files" name="New_Employee_Welcome_Email.txt">
+    %NAME%,
+
+    欢迎来到啃得鸡的大家庭! 
+    啃得鸡将会给您提供辉煌的职业生涯, 激动人心的工作和友善的团队小组. 我们希望能与您共同度过一段美好的时光! 
+    作为我们的团队成员, 你有权使用我们的员工专用12%折扣卡, 我已经附在这封信里了  -  好好享受吧! 
+    等到你上班的第一天, 你将收到我们品牌的正式简介并开始实习. 再次欢迎你! 
+    -管理层敬上
+  </file>
+
+  <file path="home/training_files" name="11_Secret_Herbs_And_Spices.txt">
+    很多新员工出于好奇或是想成为公司内部人员, 都会询问公司的秘密配方. 不幸的是, 我们公司的配方非常重要, 并不能告知每位员工(尤其考虑到最近公司的员工存留率), 所以我们将配方保护了起来. 
+    我们将调料配方混合起来装进无标志的白色塑料袋中, 定期送至各个门店, 并且在监管下将配方直接混入正在油炸的食物中. 
+    即便是管理层也没有权利得到配方. 事实上, 在同一时间内世上只能有两个人手中握有配方(而且这两个人出行时禁止乘坐同一辆交通工具). 
+    同时, 我们的配方在制作的时候也需要严密保护, 这样才能确保我们的产品强大的竞争力. 
+  </file>
+  <file path="home/training_files" name="Order_Records_Guide.txt">
+    每个门店需要在本地记录下配方的配送记录, 并且定时将记录上传到啃得鸡中心档案数据库. 
+    采购记录也需要保存在同一个数据库中, 这些记录只有在紧急情况下才允许调出查看(通常用于调查食物中毒问题), 并且按照规定使用打印格式. 
+    啃得鸡记录数据库 :  202.7.177.65
+  </file>
+
+
+  <file path="home/Media" name="Logo.png">#BINARY#</file>
+  <file path="home/Media" name="Logo_Small.png">#BINARY#</file>
+  <file path="home/Media" name="MediaKit_2011.zip">#BINARY##BINARY#</file>
+  <file path="home/Media" name="Guide.txt">
+    在啃得鸡, 我们的目标只有一个: 给人们提供世界上最好吃的鸡. 
+    所以, 我们只选用上等的香料, 精选最新鲜的鸡肉. 
+    之后, 搭配上我们纯手工制作的新鲜汉堡胚, 加入啃得鸡独家秘制香料, 再由啃得鸡官方认证厨师来为您新鲜制作. 
+    太麻烦了? 不. 只有当你尝一口, 你才能体会到我们每一分额外努力的价值. 
+    新鲜的才是更好的. 马上行动, 快去你身边的啃得鸡尝尝吧. 
+  </file>
+
+</Computer>

@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="themeHackEndMission" activeCheck="true">
+  <goals>
+    <goal type="FileDeletion" target="naixGateway" file="x-server.sys" path="sys" />
+  </goals>
+  <nextMission>lelzSec/IntroTestMission.xml</nextMission>
+  <email>
+    <sender>Entropy</sender>
+    <subject>ERROR</subject>
+    <body>
+      Connect-Responder.exe 检测到一个从你的ip到173.194.35.163的异常连接. 
+      本设备禁止外部连接, 如果你错误地连接到本设备, 请寻求你的系统管理员的协助. 
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

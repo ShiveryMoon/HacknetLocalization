@@ -1,0 +1,10 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="polarSnake" name="北极星之圣所" ip="103.31.7.34" security="0">
+
+  <file path="home" name="Talismin.ttgl">//AA J UU SH  ANNA  YYAL P
+#BINARY##BINARY##BINARY#</file>
+
+  <addWebServer name="Shrine"
+                url="Content/Web/Presets/lelzSec/ShrineOfThePolarSnake.html" />
+  
+</Computer>
